@@ -1,35 +1,60 @@
+*** General points
+
+* Work involved shouldn't be too onerous
+* Implementation work to be done in advance of the event
+* Emphasise applications other than 1980s internet protocols. For
+  example: games. Ornela suggested EasyChair.
+
 *** Basic structure of event
 
 ** Idea #1
 
 * We define 1 or more "challenge" problems, ranging from easy to hard
-* We issue the challenge problems say 1 month before the event
-* Each participating team solves what they can of the challenge problems
+* Issue the challenge problems 1 month before the event
+* Each participating team solves what they can of the challenges
 * Presentation discusses what was easy, what was hard
+
+Con: will get boring quickly, if we have 15 presentations of solutions
+to the same problem.
 
 ** Idea #2
 
-* Every participating team presents one or more example applications
-* Presentation showcases advantage of their system, but also discusses weaknesses
+* Every participating team presents one or more example applications of
+  their own choosing
+* Presentation showcases advantages of their system, but also discusses
+  weaknesses
+
+Con: inherently less comparative.
 
 ** Idea #3 (somewhere between #1 and #2)
 
-* Solicit challenge problems from the participants
-* As organisers, curate the submitted problems into a representative set
-* Announce these 1 month in advance of the event
-* Each participating team then solves what they can of the challenge problems
+* Solicit challenge problems from the participants, providing several of our own too
+* Curate the submitted problems into a coherent set
+* Then proceed as #1
 
-General points:
+Con: similar weakness to #1, possibly somewhat mitigated by having lots
+of challenge problems.
 
-* Work involved shouldn't be too burdensome
-* Implementation work all done in advance of the event
-* Emphasise applications other than 1980s internet protocols. For
-  example: games. Ornela suggested EasyChair.
+*** What we want to accomplish
+
+Make these clear from the outset. We'd like to discover:
+
+* What's easy/hard with particular languages/approaches?
+* How might dependent types fit in? (cf. Agda/Idris)
+* Something about static vs. dynamic typing?
+* What are the main obstacles to having session types in real world languages?
+* Do session types suggest new kinds of language?
+
+More specific issues:
+
+* Practical issues relating to expressivity (sync vs. async, binary vs. multiparty)
+* Interaction with other language features, e.g. exceptions
+* Inference vs. type checking
+* Global type synthesis vs. projection
 
 *** Details to work out
 
 * Name for event
-* What we want to accomplish
 * How to keep barrier to entry low (less scientific, more fun)
 * How long each presentation? (CoCo was 10-15 min; maybe 30 min inc. discussion)
 * Can we fill all the presentation slots (potentially 18)
