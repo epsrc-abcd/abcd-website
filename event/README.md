@@ -1,7 +1,11 @@
 Introduction
 ======
 
-**TODO**
+* Session types have the potential to transform how we build interactive systems
+* Lots of interesting theoretical work has been done, and several research languages implemented
+* Mainstream adoption remains neglible to zero
+* Now would be a good time to take stock of where we are in terms of
+  adding session types to practical languages
 
 General points
 ======
