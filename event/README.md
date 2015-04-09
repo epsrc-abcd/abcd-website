@@ -81,21 +81,21 @@ When  | What
 ---   | ---
 08:30 | _Room available_
 10:00 | Welcome refreshments (late start to allow people to travel from elsewhere in Scotland)
-10:15 | Introduction (who?)
+10:15 | Introduction (TBD)
 10:30 | Presentation #1
 11:00 | Presentation #2
-11:30 | Short break
+11:30 | _Short break_
 11:45 | Presentation #3
 12:15 | Presentation #4
-12:45 | Lunch
+12:45 | _Lunch_
 13:45 | Presentation #5
 14:15 | Presentation #6
 14:45 | Presentation #7
-15:15 | Short break
+15:15 | _Short break_
 15:30 | Presentation #8
 16:00 | Presentation #9
 16:30 | Discussion (gather points for discussion during the day)
-17:30 | Finish
+17:30 | _Finish_
 18:00 | Pub
 19:00 | Dinner
 
