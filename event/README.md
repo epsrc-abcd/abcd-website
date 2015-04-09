@@ -1,13 +1,15 @@
-*** General points
+General points
+======
 
 * Work involved shouldn't be too onerous
 * Implementation work to be done in advance of the event
 * Emphasise applications other than 1980s internet protocols. For
   example: games. Ornela suggested EasyChair.
 
-*** Basic structure of event
+Basic structure of event
+======
 
-** Idea #1
+**Idea #1
 
 * We define 1 or more "challenge" problems, ranging from easy to hard
 * Issue the challenge problems 1 month before the event
@@ -17,7 +19,7 @@
 Con: will get boring quickly, if we have 15 presentations of solutions
 to the same problem.
 
-** Idea #2
+**Idea #2
 
 * Every participating team presents one or more example applications of
   their own choosing
@@ -26,7 +28,7 @@ to the same problem.
 
 Con: inherently less comparative.
 
-** Idea #3 (somewhere between #1 and #2)
+**Idea #3 (somewhere between #1 and #2)
 
 * Solicit challenge problems from the participants, providing several of our own too
 * Curate the submitted problems into a coherent set
@@ -35,7 +37,8 @@ Con: inherently less comparative.
 Con: similar weakness to #1, possibly somewhat mitigated by having lots
 of challenge problems.
 
-*** What we want to accomplish
+What we want to accomplish
+======
 
 Make these clear from the outset. We'd like to discover:
 
@@ -52,7 +55,8 @@ More specific issues:
 * Inference vs. type checking
 * Global type synthesis vs. projection
 
-*** Details to work out
+Details to work out
+======
 
 * Name for event
 * How to keep barrier to entry low (less scientific, more fun)
@@ -65,7 +69,8 @@ More specific issues:
 * Aim to have a provisional plan in place by ABCD meeting on 19 April
 * Contact https://www.rgu.ac.uk/dmstaff/mccall-john re. SICSA assistance
 
-*** Tentative Schedule
+Tentative Schedule
+======
 
   * room from 08.30
   * 10:00 start to allow people to travel from elsewhere in Scotland
@@ -83,25 +88,26 @@ More specific issues:
   * 19:00 dinner
   * two 30 min breaks
 
-*** Event name
+Event name
+======
 
 Words available for use in acronym:
 
-Session
+Applied
+Aspects
 Behavioural
-Types
+Communication
+Concurrency
+Distribution
+Implementation
 Languages
 Practical
 Practice
 Programming
-Applied
-Aspects
-Concurrency
-Communication
-Distribution
-Implementation
+Session
+Types
 
-Acronym ideas:
+Corny acronym ideas:
 
 PSST (Practical Systems for Session Types)
 STIPL (Session Types in Practical Languages)
