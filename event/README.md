@@ -77,9 +77,9 @@ Details to work out
 Tentative Schedule
 ======
 
-08:30 Room available
-10:00 Welcome refreshments (late start to allow people to travel from elsewhere in Scotland)
-10:15 Introduction (who?)
+08:30 | Room available
+10:00 | Welcome refreshments (late start to allow people to travel from elsewhere in Scotland)
+10:15 | Introduction (who?)
 10:30 Presentation #1
 11:00 Presentation #2
 11:30 Short break
