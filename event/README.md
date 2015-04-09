@@ -104,8 +104,8 @@ Similar for day 2. Possibly more discussion time if we don't have enough present
 Event name
 ======
 
-Words available for use:
-------
+Assuming we want to follow the usual convention of using a 3-6 letter
+acronym for the event, here's a set of words we might like to choose from:
 
 *A*pplied
 *A*spects
@@ -121,8 +121,7 @@ Words available for use:
 *S*ession
 *T*ypes
 
-Acronym ideas:
-------
+Some ideas:
 
 Corny idea | Short for
 ---        | ---
