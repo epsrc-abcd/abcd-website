@@ -77,6 +77,7 @@ Details to work out
 Tentative Schedule
 ======
 
+When  | What
 ---   | ---
 08:30 | _Room available_
 10:00 | Welcome refreshments (late start to allow people to travel from elsewhere in Scotland)
