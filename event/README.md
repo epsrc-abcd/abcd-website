@@ -4,7 +4,7 @@ Introduction
 * Session types have the potential to transform how we build
   distributed, concurrent systems
 * Lots of interesting theoretical work has been done, and several research languages implemented
-* Mainstream adoption remains neglible
+* Mainstream adoption remains negligible to zero
 * Now would be a good time to take stock of where we are in terms of
   adding session types to practical languages
 
