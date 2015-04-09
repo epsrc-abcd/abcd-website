@@ -45,8 +45,7 @@ problems (less overlap on the day).
 What we want to accomplish
 ======
 
-We should be clear from the outset about what we want to learn from this
-exercise. For example:
+What is the point of the exercise? Let's be clear about this from the outset. For example:
 
 * What's easy (or hard) with particular languages/approaches?
 * What is the state of the art in static (and dynamic) protocol-checking?
@@ -58,20 +57,19 @@ More specific issues:
 * How might dependent types fit in?
 * Practical issues relating to expressivity (sync vs. async, binary vs. multiparty)
 * Interaction with specific language features, e.g. exceptions
-* Inference vs. type checking
-* Global type synthesis vs. projection
+* Inference vs. type checking; global type synthesis vs. projection
 
 Details to work out
 ======
 
 * Name for event
-* How long each presentation? (CoCo was 10-15 min; maybe 30 min inc. discussion)
+* How long each presentation? (Maybe 30 min with discussion; CoCo was 10-15 min)
 * Can we fill all the presentation slots (potentially 18)
 * What could we fill the time with otherwise?
 * Are there any potential research outputs?
 * Run initial plan past Sam for feedback
 * Get basic plan in place _before_ discussing with Simon/Phil in London
-* Give an outline of the event at ABCD meeting on 19 April
+* Outline the event at ABCD meeting on 19 April
 * Contact https://www.rgu.ac.uk/dmstaff/mccall-john re. SICSA assistance
 
 Tentative Schedule
@@ -107,9 +105,19 @@ Event name
 Assuming we want to follow the usual convention of using a 3-6 letter
 acronym for the event, here's a set of words we might like to choose from:
 
->> *A*pplied *A*spects *B*ehavioural *C*ommunication *C*oncurrency
-    *D*istribution *I*mplementation *L*anguages *P*ractical *P*ractice
-    *P*rogramming *S*ession *T*ypes
+>> *A*pplied
+>> *A*spects
+>> *B*ehavioural
+>> *C*ommunication
+>> *C*oncurrency
+>> *D*istribution
+>> *I*mplementation
+>> *L*anguages
+>> *P*ractical
+>> *P*ractice
+>> *P*rogramming
+>> *S*ession
+>> *T*ypes
 
 Some ideas:
 
