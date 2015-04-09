@@ -1,13 +1,18 @@
+Introduction
+======
+
+**TODO**
+
 General points
 ======
 
-* Effort to participate shouldn't be too onerous
+* Effort to participate should not be too onerous
 * Implementation work to be done in advance of the event
 * De-emphasise 1980s internet protocols (boring, unrepresentative).
-  Emphasise the wide variety of potential applications. For example:
+  Emphasise the wide variety of potential applications. Random example:
   games. Ornela suggested EasyChair.
-* Presentations should take the form of demos (of running applications,
-  type systems, etc)
+* Presentations should take the form of demos (running applications,
+  type systems, IDE plug-ins, ...)
 * What did the session type "world view" bring to the problem?
 * Discuss what was easy, what was hard
 
