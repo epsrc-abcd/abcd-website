@@ -3,39 +3,43 @@ General points
 
 * Work involved shouldn't be too onerous
 * Implementation work to be done in advance of the event
-* Emphasise applications other than 1980s internet protocols. For
-  example: games. Ornela suggested EasyChair.
+* De-emphasise 1980s internet protocols. Emphasis the wide variety of
+  potential applications. For example: games. Ornela suggested
+  EasyChair.
+* Presentations should
+* Presentation discusses what was easy, what was hard
 
 Basic structure of event
 ======
 
-**Idea #1
+Idea #1
+------
 
 * We define 1 or more "challenge" problems, ranging from easy to hard
 * Issue the challenge problems 1 month before the event
 * Each participating team solves what they can of the challenges
-* Presentation discusses what was easy, what was hard
 
 Con: will get boring quickly, if we have 15 presentations of solutions
 to the same problem.
 
-**Idea #2
+Idea #2
+------
 
 * Every participating team presents one or more example applications of
   their own choosing
-* Presentation showcases advantages of their system, but also discusses
-  weaknesses
 
 Con: inherently less comparative.
 
-**Idea #3 (somewhere between #1 and #2)
+Idea #3 (somewhere between #1 and #2)
+------
 
 * Solicit challenge problems from the participants, providing several of our own too
-* Curate the submitted problems into a coherent set
-* Then proceed as #1
+* Fine for people to submit problems they know they can easily solve
+* Curate the submitted problems into a uniform format
+* Then as #1
 
-Con: similar weakness to #1, possibly somewhat mitigated by having lots
-of challenge problems.
+Con: similar weakness to #1, mitigated somewhat by having more challenge
+problems (less overlap on the day).
 
 What we want to accomplish
 ======
@@ -91,7 +95,8 @@ Tentative Schedule
 Event name
 ======
 
-Words available for use in acronym:
+Presumably we will need some kind of acronym. Words available for use:
+------
 
 Applied
 Aspects
@@ -108,6 +113,7 @@ Session
 Types
 
 Corny acronym ideas:
+------
 
 PSST (Practical Systems for Session Types)
 STIPL (Session Types in Practical Languages)
