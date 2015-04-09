@@ -107,19 +107,19 @@ Event name
 Assuming we want to follow the usual convention of using a 3-6 letter
 acronym for the event, here's a set of words we might like to choose from:
 
-*A*pplied
-*A*spects
-*B*ehavioural
-*C*ommunication
-*C*oncurrency
-*D*istribution
-*I*mplementation
-*L*anguages
-*P*ractical
-*P*ractice
-*P*rogramming
-*S*ession
-*T*ypes
+>> *A*pplied
+>> *A*spects
+>> *B*ehavioural
+>> *C*ommunication
+>> *C*oncurrency
+>> *D*istribution
+>> *I*mplementation
+>> *L*anguages
+>> *P*ractical
+>> *P*ractice
+>> *P*rogramming
+>> *S*ession
+>> *T*ypes
 
 Some ideas:
 
