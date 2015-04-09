@@ -121,11 +121,11 @@ Words available for use:
 *S*ession
 *T*ypes
 
-Corny acronym ideas:
+Acronym ideas:
 ------
 
-Corny idea: |
----         | ---
-PSST        | *P*ractical *S*ystems for *S*ession *T*ypes
-STIPL       | *S*ession *T*ypes *i*n *P*ractical *L*anguages
-PAST        | *P*ractical *A*spects of *S*ession *T*ypes
+Corny idea | Short for
+---        | ---
+PSST       | *P*ractical *S*ystems for *S*ession *T*ypes
+STIPL      | *S*ession *T*ypes *i*n *P*ractical *L*anguages
+PAST       | *P*ractical *A*spects of *S*ession *T*ypes
