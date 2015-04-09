@@ -124,6 +124,7 @@ Words available for use:
 Corny acronym ideas:
 ------
 
-PSST (Practical Systems for Session Types)
-STIPL (Session Types in Practical Languages)
-PAST (Practical Aspects of Session Types)
+---   | ---
+PSST  | *P*ractical *S*ystems for *S*ession *T*ypes
+STIPL | *S*ession *T*ypes *i*n *P*ractical *L*anguages
+PAST  | *P*ractical *A*spects of *S*ession *T*ypes
