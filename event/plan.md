@@ -4,19 +4,26 @@
 
 * Name for event
 * What we want to accomplish
-* Should we fill two days just with practical demos etc?
 * How to keep barrier to entry low (less scientific, more fun)
+* How long each presentation? (CoCo was 10-15 min; maybe 30 min inc. discussion)
 * Schedule:
-  * room from 8.30
-  * 10am start to allow people to travel from elsewhere in Scotland
-  * Welcome refreshments 15 mins
-  * Introduction (15 mins)
-  * Presentations start 10.30
-  * Finish 5pm (or later to allow for closing discussion)?
-  * 6 pub
-  * 7 dinner
+  * room from 08.30
+  * 10:00 start to allow people to travel from elsewhere in Scotland
+  * Welcome refreshments till 10:15
+  * Introduction till 10:30
+  * 2 presentations till 11:30
+  * Short (15 min) break at 11.30?
+  * 2 presentations till 12:45
+  * Lunch till 13:45
+  * 3 presentations till 15:15
+  * Break till 15:30
+  * 2 presentations till 16:30
+  * Discussion till 17:30 (gather points for discussion during the day)
+  * 18:00 pub
+  * 19:00 dinner
   * two 30 min breaks
-* How many sessions do we have (introductory 15 mins + )
+* Can we fill all the presentation slots (potentially 18)
+* What could we fill the time with otherwise?
 * Are there any potential research outputs?
 
 *** Words available for use in acronym:
