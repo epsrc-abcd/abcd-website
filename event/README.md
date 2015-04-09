@@ -1,13 +1,15 @@
 General points
 ======
 
-* Work involved shouldn't be too onerous
+* Effort to participate shouldn't be too onerous
 * Implementation work to be done in advance of the event
-* De-emphasise 1980s internet protocols. Emphasis the wide variety of
-  potential applications. For example: games. Ornela suggested
-  EasyChair.
-* Presentations should
-* Presentation discusses what was easy, what was hard
+* De-emphasise 1980s internet protocols (boring, unrepresentative).
+  Emphasise the wide variety of potential applications. For example:
+  games. Ornela suggested EasyChair.
+* Presentations should take the form of demos (of running applications,
+  type systems, etc)
+* What did the session type "world view" bring to the problem?
+* Discuss what was easy, what was hard
 
 Basic structure of event
 ======
@@ -15,12 +17,11 @@ Basic structure of event
 Idea #1
 ------
 
-* We define 1 or more "challenge" problems, ranging from easy to hard
-* Issue the challenge problems 1 month before the event
+* We define several "challenge" problems, ranging from easy to hard
+* Issue challenge problems 1 month before the event
 * Each participating team solves what they can of the challenges
 
-Con: will get boring quickly, if we have 15 presentations of solutions
-to the same problem.
+Con: 15 solutions to the same problem will get boring quickly.
 
 Idea #2
 ------
@@ -34,7 +35,7 @@ Idea #3 (somewhere between #1 and #2)
 ------
 
 * Solicit challenge problems from the participants, providing several of our own too
-* Fine for people to submit problems they know they can easily solve
+* People can submit problems they know they can easily solve
 * Curate the submitted problems into a uniform format
 * Then as #1
 
@@ -44,18 +45,19 @@ problems (less overlap on the day).
 What we want to accomplish
 ======
 
-Make these clear from the outset. We'd like to discover:
+We should be clear from the outset about what we want to learn from this
+exercise. For example:
 
-* What's easy/hard with particular languages/approaches?
-* How might dependent types fit in? (cf. Agda/Idris)
-* Something about static vs. dynamic typing?
-* What are the main obstacles to having session types in real world languages?
+* What's easy (or hard) with particular languages/approaches?
+* What is the state of the art in static (and dynamic) protocol-checking?
+* What are the main obstacles to rollig out session types to real world languages?
 * Do session types suggest new kinds of language?
 
 More specific issues:
 
+* How might dependent types fit in?
 * Practical issues relating to expressivity (sync vs. async, binary vs. multiparty)
-* Interaction with other language features, e.g. exceptions
+* Interaction with specific language features, e.g. exceptions
 * Inference vs. type checking
 * Global type synthesis vs. projection
 
@@ -63,34 +65,39 @@ Details to work out
 ======
 
 * Name for event
-* How to keep barrier to entry low (less scientific, more fun)
 * How long each presentation? (CoCo was 10-15 min; maybe 30 min inc. discussion)
 * Can we fill all the presentation slots (potentially 18)
 * What could we fill the time with otherwise?
 * Are there any potential research outputs?
-* Let's run past Sam for feedback
-* Get basic setup in place _before_ discussing with Simon/Phil in London
-* Aim to have a provisional plan in place by ABCD meeting on 19 April
+* Run initial plan past Sam for feedback
+* Get basic plan in place _before_ discussing with Simon/Phil in London
+* Give an outline of the event at ABCD meeting on 19 April
 * Contact https://www.rgu.ac.uk/dmstaff/mccall-john re. SICSA assistance
 
 Tentative Schedule
 ======
 
-  * room from 08.30
-  * 10:00 start to allow people to travel from elsewhere in Scotland
-  * Welcome refreshments till 10:15
-  * Introduction till 10:30
-  * 2 presentations till 11:30
-  * Short (15 min) break at 11.30?
-  * 2 presentations till 12:45
-  * Lunch till 13:45
-  * 3 presentations till 15:15
-  * Break till 15:30
-  * 2 presentations till 16:30
-  * Discussion till 17:30 (gather points for discussion during the day)
-  * 18:00 pub
-  * 19:00 dinner
-  * two 30 min breaks
+08:30 Room available
+10:00 Welcome refreshments (late start to allow people to travel from elsewhere in Scotland)
+10:15 Introduction (who?)
+10:30 Presentation #1
+11:00 Presentation #2
+11:30 Short break
+11:45 Presentation #3
+12:15 Presentation #4
+12:45 Lunch
+13:45 Presentation #5
+14:15 Presentation #6
+14:45 Presentation #7
+15:15 Short break
+15:30 Presentation #8
+16:00 Presentation #9
+16:30 Discussion (gather points for discussion during the day)
+17:30 Finish
+18:00 Pub
+19:00 Dinner
+
+Similar for day 2. Possibly more discussion time if we don't have enough presentations.
 
 Event name
 ======
