@@ -104,22 +104,22 @@ Similar for day 2. Possibly more discussion time if we don't have enough present
 Event name
 ======
 
-Presumably we will need some kind of acronym. Words available for use:
+Words available for use:
 ------
 
-Applied
-Aspects
-Behavioural
-Communication
-Concurrency
-Distribution
-Implementation
-Languages
-Practical
-Practice
-Programming
-Session
-Types
+*A*pplied
+*A*spects
+*B*ehavioural
+*C*ommunication
+*C*oncurrency
+*D*istribution
+*I*mplementation
+*L*anguages
+*P*ractical
+*P*ractice
+*P*rogramming
+*S*ession
+*T*ypes
 
 Corny acronym ideas:
 ------
