@@ -33,22 +33,22 @@ The blockquote below contains the draft website content.
 >> systems has been minimal.
 
 >> The aim of this colloquium is to explore the interface between
->> session types and practical programming. We hope to generate insight
->> into the strengths and weaknesses of existing approaches, identify
->> obstacles to adoption, and discuss technical issues surrounding
->> integration with existing programming models and language features.
->> The primary focus on the event will be tool and compiler
->> demonstrations, but we also welcome workshop-style talks on related
->> issues.
+>> session types and practical programming. By examining the state of
+>> the art, we hope to shed light on the strengths and weaknesses of
+>> existing approaches, identify obstacles to adoption, and highlight
+>> the challenges of integrating with existing programming models and
+>> language features. The primary focus on the event will be tool and
+>> compiler demonstrations, but we also welcome workshop-style talks on
+>> related issues.
 
 >> Themes
 >> ------
 
->> We solicit demos or informal talks on any topic that fits within the
->> overall focus of the colloquium. The following topics are of
->> particular interest, but feel free to surprise us. Theoretical
->> content is welcome as long as its relevance to programming practice
->> is made clear.
+>> We solicit demos or informal talks (demos preferred) on any topic
+>> that fits within the overall focus of the colloquium. The following
+>> areas are of particular interest, but feel free to surprise us.
+>> Theoretical content is welcome as long as its relevance to
+>> programming practice is made clear.
 
 >> **Dependent session types**, including
 
@@ -58,18 +58,19 @@ The blockquote below contains the draft website content.
 >> **Dynamic vs. static typing.**
 
 >> **Unfamiliar application areas** that showcase the wide applicability
-     of behavioural types. Random ideas: computer games; online
-     knowledge-sharing engines such as StackOverflow; workflow systems
+     of behavioural types. Possible ideas include computer games; online
+     knowledge-sharing engines such as Stack Exchange; workflow systems
      such as EasyChair. Examples of common architectures or system
      designs that are not readily captured by existing behavioural type
-     systems are also welcome.
+     systems are also of interest.
 
->> **IDE and editor features** that support session types, such as
-     type-directed code completion, highlighting, and error messages.
+>> **IDE and editor features** that support languages with behavioural
+     typing, such as type-directed code completion, highlighting, and
+     error messages.
 
->> **Type inference and synthesis** approaches that check that programs
-     are consistent without requiring the programmer to write out
-     onerous types in full.
+>> **Type inference, type synthesis and type abstraction** techniques
+     that check that programs are consistent without requiring the
+     programmer to write out onerous types in full.
 
 >> **Behavioural types and objects.** Formal session calculi are often
      based on pi calculus, but real-world interactive systems are mostly
