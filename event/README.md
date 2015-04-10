@@ -92,10 +92,10 @@ Programme
 
 Schedule question: How long should periods be?
 
-* ICFP - 50 minutes, 2 x 25 minute sessions
-* Everything else - 90 minutes, 3 x 30 minute sessions
-* ESOP - 120 minutes, 4 x 30 minute sessions
-* CoCo - 75 minutes, 5 x 15 minute sessions
+* ICFP - 50 minutes (2 x 25 min)
+* ESOP - 120 minutes (4 x 30 min)
+* CoCo - 75 minutes (5 x 15 min)
+* Typical conference - 90 minutes (3 x 30 min)
 
 Should 'demos' and 'talks' have the same amount of time?
 
@@ -108,7 +108,7 @@ When  | What
 ---   | ---
 08:30 | _Room available_
 09:45 | _Breakfast_
-10:15 | Introduction (TBD)
+10:10 | Introduction (TBD)
 10:15 | Talks about tools
 11:15 | Coffee
 11:30 | Talks about tools
