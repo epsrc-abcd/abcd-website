@@ -23,25 +23,26 @@ The blockquote below contains the draft website content.
 
 >> **8-9 June, 2015. School of Computing Science, University of Glasgow**
 
->> Session types and other forms of behavioural type system have the
->> potential to transform how we build distributed, concurrent systems.
->> Theoretical progress continues apace, but these developments have had
->> little impact thus far on real-world languages.
+>> Behavioural types have the potential to transform how we build
+>> distributed, concurrent systems. Theoretical progress continues
+>> apace, but the impact thus far on real-world languages has been
+>> minimal.
 
 >> The aim of this colloquium is to take stock of where we are in terms
 >> of adding session types to practical languages. We hope to generate
 >> insight into the strengths and weaknesses of existing approaches,
 >> identify obstacles to practical adoption, and discuss technical
->> issues surrounding integration with existing programming models. The
->> primary focus on the event will be tool or compiler demos, but we
->> also welcome workshop-style talks on related issues.
+>> issues surrounding integration with existing programming models and
+>> language features. The primary focus on the event will be tool or
+>> compiler demos, but we also welcome workshop-style talks on related
+>> issues.
 
 >> Themes
 >> ------
 
->> We invite tool or compiler demos and workshop-style talks on any of
->> the following topics:. Theoretical content is welcome but should be
->> relevant to the overall focus of the colloquium.
+>> We invite demos or informal talks on any of the following topics.
+>> Theoretical content is welcome, but should be relevant to the overall
+>> focus of the colloquium.
 
 >> **Dependent session types**
 >> -----
