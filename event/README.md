@@ -13,7 +13,7 @@ Organisers
 
 Garrett Morris (garrett.morris@ed.ac.uk) and Roly Perera (roly.perera@glasgow.ac.uk)
 
-Blurb for website
+Event goals
 ======
 
 The blockquote below contains the draft website content.
@@ -25,21 +25,23 @@ The blockquote below contains the draft website content.
 
 >> Session types and other forms of behavioural type system have the
 >> potential to transform how we build distributed, concurrent systems.
->> Theoretical progress continues apace, but adoption in real-world
->> languages remains negligible. The aim of this colloquium is to take
->> stock of where we are in terms of adding session types to practical
->> languages. We also welcome workshop-style talks on related issues.
+>> Theoretical progress continues apace, but these developments have had
+>> little impact thus far on real-world languages.
 
->> We hope to achieve shared insight into the strengths and weaknesses
->> of existing approaches, obstacles to practical adoption, and the
->> technical issues surrounding integration with existing programming
->> models.
+>> The aim of this colloquium is to take stock of where we are in terms
+>> of adding session types to practical languages. We hope to generate
+>> insight into the strengths and weaknesses of existing approaches,
+>> identify obstacles to practical adoption, and discuss technical
+>> issues surrounding integration with existing programming models. The
+>> primary focus on the event will be tool or compiler demos, but we
+>> also welcome workshop-style talks on related issues.
 
 >> Themes
 >> ------
 
->> We invite tool or compiler demos and workshop-style talks on any of the
->> following topics:. Theoretical content is welcome but
+>> We invite tool or compiler demos and workshop-style talks on any of
+>> the following topics:. Theoretical content is welcome but should be
+>> relevant to the overall focus of the colloquium.
 
 >> **Dependent session types**
 >> -----
@@ -57,11 +59,11 @@ a fair amount of coordination prior to the event.
 Another variant we considered (slightly closer to the current plan) was
 to solicit challenge problems from the participants, providing several
 of our own too. This would somewhat mitigate the problem of potential
-repetition, since people would be able toñ submit problems that
-showcased their particular tool or language. Still, this requires a
-certain amount of coordination and lead-time prior to the event to
-curate the submitted problems into a uniform format. Moreover we don't
-want to the effort involved in participating to be too onerous.
+repetition, since people would be able to submit problems that showcased
+their particular tool or language. Still, this requires a certain amount
+of coordination and lead-time prior to the event to curate the submitted
+problems into a uniform format. Moreover we don't want to the effort
+involved in participating to be too onerous.
 
 In summary, we figured one step at a time: first an event emphasising
 practical and programming issues, and if that is a success, then we can
@@ -84,9 +86,6 @@ Idea #3 (somewhere between #1 and #2)
 What we want to accomplish
 ======
 
-What is the point of the exercise? Let's be clear about this from the outset. For example:
-
-* What's easy (or hard) with particular languages/approaches?
 * What is the state of the art in static (and dynamic) protocol-checking?
 * What are the main obstacles to rolling out session types to real world languages?
 * Do session types suggest new kinds of language?
