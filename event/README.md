@@ -24,8 +24,8 @@ The blockquote below contains the draft website content.
 
 >> Behavioural types, such as session types, have the potential to
 >> transform how we build distributed, concurrent systems. Theoretical
->> progress continues apace, but the impact thus far on real-world
->> systems has been minimal.
+>> progress continues apace, but the impact on real-world systems has
+>> thus far been minimal.
 
 >> The aim of this colloquium is to explore the nascent frontier where
 >> session types meet practical programming. By examining the state of
