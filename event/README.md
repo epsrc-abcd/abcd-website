@@ -18,7 +18,7 @@ Blurb for website
 
 The blockquote below contains the draft website content.
 
->> [Title TBD]
+>> CoCoPoP
 >> ======
 
 >> **8-9 June, 2015. School of Computing Science, University of Glasgow**
