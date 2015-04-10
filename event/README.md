@@ -12,11 +12,6 @@ Other potential invitees
 
 * Susan Eichenbach (s.eisenbach@imperial.ac.uk)
 
-Organisers
-======
-
-Garrett Morris (garrett.morris@ed.ac.uk) and Roly Perera (roly.perera@glasgow.ac.uk)
-
 Event goals
 ======
 
@@ -50,23 +45,29 @@ The blockquote below contains the draft website content.
 >> Theoretical content is welcome as long as its relevance to
 >> programming practice is made clear.
 
->> **Dependent session types**, including
+>> **Dependent session types**. Value-dependency in protocols is common:
+     an SMTP session for example starts with a negotiation of buffer
+     sizes and features supported by the server. Relatedly, what kind of
+     protocols is it possible to encode in advanced type systems like
+     those of Agda or Haskell? How expressive are Idris protocols,
+     compared to session types?
 
 >> **Interaction with specific language features**, such as exceptions,
->>  transactions, and algebraic effects.
+     transactions, and other effects.
 
->> **Dynamic vs. static typing.**
+>> **Dynamic vs. static typing.** Gradual and dynamic session typing.
 
 >> **Unfamiliar application areas** that showcase the wide applicability
      of behavioural types. Possible ideas include computer games; online
      knowledge-sharing engines such as Stack Exchange; workflow systems
      such as EasyChair. Examples of common architectures or system
-     designs that are not readily captured by existing behavioural type
+     designs that are not easily captured by existing behavioural type
      systems are also of interest.
 
->> **IDE and editor features** that support languages with behavioural
-     typing, such as type-directed code completion, highlighting, and
-     error messages.
+>> **IDE and editor features** specific to languages with behavioural
+     typing, such as type-directed code completion and syntax
+     highlighting; meaningful error messages; and debugging and runtime
+     monitoring.
 
 >> **Type inference, type synthesis and type abstraction** techniques
      that check that programs are consistent without requiring the
@@ -75,6 +76,9 @@ The blockquote below contains the draft website content.
 >> **Behavioural types and objects.** Formal session calculi are often
      based on pi calculus, but real-world interactive systems are mostly
      object-oriented.
+
+>> For more information, please contact Garrett Morris
+   (garrett.morris@ed.ac.uk) or Roly Perera (roly.perera@glasgow.ac.uk)
 
 Discarded ideas
 ------
@@ -96,23 +100,25 @@ comparative) structure.
 What we want to accomplish
 ======
 
-* What is the state of the art in static (and dynamic) protocol-checking?
+Other specific issues:
 
-More specific issues:
-
-* Practical issues relating to expressivity (sync vs. async, binary vs. multiparty)
+* sync vs. async
+* binary vs. multiparty
 
 Programme
 ======
 
-Schedule question: How long should periods be?
+Schedule questions:
+
+* How long should each session be?
+* Should 'demos' and 'talks' have the same amount of time?
+
+Some reference points:
 
 * ICFP - 50 minutes (2 x 25 min)
 * ESOP - 120 minutes (4 x 30 min)
 * CoCo - 75 minutes (5 x 15 min)
 * Typical conference - 90 minutes (3 x 30 min)
-
-Should 'demos' and 'talks' have the same amount of time?
 
 Tentative schedule
 ------
