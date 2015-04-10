@@ -180,7 +180,9 @@ acronym for the event, here's a set of words we might like to choose from:
 >> *P*ractical
 >> *P*ractice
 >> *P*rogramming
+>> *S*eminar
 >> *S*ession
+>> *S*ystems
 >> *T*ypes
 
 Some ideas:
@@ -191,3 +193,4 @@ PSST          | *P*ractical *S*ystems for *S*ession *T*ypes
 STIPL         | *S*ession *T*ypes *i*n *P*ractical *L*anguages
 PAST          | *P*ractical *A*spects of *S*ession *T*ypes
 C<sup>7</sup> | *C*aledonian *C*olloquium on *C*oncrete *C*oncerns in *C*ommunication and *C*oncurrent *C*omputation
+CoCo:PoPS     | *C*ommunication-based *C*omputation: *P*racticalities of *P*rogramming *S*eminar
