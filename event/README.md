@@ -21,9 +21,7 @@ The blockquote below contains the draft website content.
 >> [Title TBD]
 >> ======
 
->> **8-9 June, 2015**
-
->> **School of Computing Science, University of Glasgow**
+>> **8-9 June, 2015. School of Computing Science, University of Glasgow**
 
 >> Session types and other forms of behavioural type system have the
 >> potential to transform how we build distributed, concurrent systems.
