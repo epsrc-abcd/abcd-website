@@ -77,6 +77,12 @@ The blockquote below contains the draft website content.
 >> For more information, please contact Garrett Morris
    (garrett.morris@ed.ac.uk) or Roly Perera (roly.perera@glasgow.ac.uk)
 
+Other items we might want to incorporate into the above:
+------
+
+* sync vs. async
+* binary vs. multiparty
+
 Discarded ideas
 ------
 
@@ -93,14 +99,6 @@ Better to take things one step at a time: first an event emphasising
 programming over theory. If that is a success, we can think about a
 follow-up event with a less conventional (and more explicitly
 comparative) structure.
-
-What we want to accomplish
-======
-
-Other specific issues:
-
-* sync vs. async
-* binary vs. multiparty
 
 Programme
 ======
