@@ -3,6 +3,12 @@ Action Items
 
 * Garrett to start website.
 
+Other potential invitees
+------
+
+Susan Eichenbach (s.eisenbach@imperial.ac.uk)
+
+
 Organisers
 ======
 
@@ -23,11 +29,11 @@ Practical Aspects of Session Types
 >> technical issues surrounding integration with existing programming
 >> models.
 
-Themes
-------
+>> Themes
+>> ------
 
-We invite tool or compiler demos and workshop-style talks on any of the
-following topics:. Theoretical content is welcome but
+>> We invite tool or compiler demos and workshop-style talks on any of the
+>> following topics:. Theoretical content is welcome but
 
 **Dependent session types**
 -----
