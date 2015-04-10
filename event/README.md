@@ -67,17 +67,25 @@ The blockquote below contains the draft website content.
 >> **IDE and editor features** that support session types, such as
      type-directed code completion, highlighting, and error messages.
 
+>> **Type inference and synthesis** approaches that check that programs
+     are consistent without requiring the programmer to write out
+     onerous types in full.
+
+>> **Behavioural types and objects.** Formal session calculi are often
+     based on pi calculus, but real-world interactive systems are mostly
+     object-oriented.
+
 Discarded ideas
 ------
 
-We considered posing "challenge" problems and inviting each
-participating team to present solutions to one or more of these. This
-would probably lead to repetition on the day, and require a fair amount
-of coordination prior to the event. Allowing the participants to propose
-the challenge problems would mitigate the problem of potential
-repetition, but require even more coordination and lead-time prior to
-the event. Moreover the effort involved in participating should not be
-onerous.
+An earlier idea was to pose "challenge" problems and invite each
+participating team to present solutions to several of these. This would
+probably lead to repetition on the day; it would also require some
+lead-time and coordination prior to the event. Allowing the participants
+to propose the challenge problems would mitigate the problem of
+potential repetition, but require even more lead-time and coordination
+ahead of the event. Either variant also involves additional work for
+participants, which might discourage submissions.
 
 Better to take things one step at a time: first an event emphasising
 programming over theory. If that is a success, we can think about a
@@ -92,7 +100,6 @@ What we want to accomplish
 More specific issues:
 
 * Practical issues relating to expressivity (sync vs. async, binary vs. multiparty)
-* Inference vs. type checking; global type synthesis vs. projection
 
 Programme
 ======
