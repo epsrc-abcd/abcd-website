@@ -23,66 +23,62 @@ The blockquote below contains the draft website content.
 
 >> **8-9 June, 2015. School of Computing Science, University of Glasgow**
 
->> Behavioural types have the potential to transform how we build
->> distributed, concurrent systems. Theoretical progress continues
->> apace, but the impact thus far on real-world languages has been
->> minimal.
+>> Behavioural types, such as session types, have the potential to
+>> transform how we build distributed, concurrent systems. Theoretical
+>> progress continues apace, but the impact thus far on real-world
+>> systems has been minimal.
 
->> The aim of this colloquium is to take stock of where we are in terms
->> of adding session types to practical languages. We hope to generate
->> insight into the strengths and weaknesses of existing approaches,
->> identify obstacles to practical adoption, and discuss technical
->> issues surrounding integration with existing programming models and
->> language features. The primary focus on the event will be tool or
->> compiler demos, but we also welcome workshop-style talks on related
+>> The aim of this colloquium is to explore the interface between
+>> session types and practical programming. We hope to generate insight
+>> into the strengths and weaknesses of existing approaches, identify
+>> obstacles to practical adoption, and discuss technical issues
+>> surrounding integration with existing programming models and language
+>> features. The primary focus on the event will be tool and compiler
+>> demonstrations, but we also welcome workshop-style talks on related
 >> issues.
 
 >> Themes
 >> ------
 
->> We invite demos or informal talks on any of the following topics.
->> Theoretical content is welcome, but should be relevant to the overall
->> focus of the colloquium.
+>> We solicit demos or informal talks on any topic that fits within the
+>> overall focus of the colloquium. The following topics are of
+>> particular interest, but feel free to surprise us. Theoretical
+>> content is welcome as long as its relevance to programming practice
+>> is made clear.
 
->> **Dependent session types**
->> -----
+>> **Dependent session types**, including
 
->> **Interaction with specific language features**, such as exceptions and
->>  algebraic effects.
+>> **Interaction with specific language features**, such as exceptions,
+>>  transactions, and algebraic effects.
 
 >> **Dynamic vs. static typing.**
 
-We originally considered posing "challenge" problems and inviting each
-participating team to solve what they could of the challenges. We
-decided this would lead to repetition on the day, and would also require
-a fair amount of coordination prior to the event.
+>> **Unfamiliar application areas** that showcase the wide applicability
+     of behavioural types. Random ideas: computer games; online
+     knowledge-sharing engines such as StackOverflow; workflow systems
+     such as EasyChair. Examples of common architectures or system
+     designs that are not readily captured by existing behavioural type
+     systems are also welcome.
 
-Another variant we considered (slightly closer to the current plan) was
-to solicit challenge problems from the participants, providing several
-of our own too. This would somewhat mitigate the problem of potential
-repetition, since people would be able to submit problems that showcased
-their particular tool or language. Still, this requires a certain amount
-of coordination and lead-time prior to the event to curate the submitted
-problems into a uniform format. Moreover we don't want to the effort
-involved in participating to be too onerous.
+>> **IDE and editor features** that support session types, such as
+     type-directed code completion, highlighting, and error messages.
 
-In summary, we figured one step at a time: first an event emphasising
-practical and programming issues, and if that is a success, then we can
-think about another event with a less conventional (and more explicitly
-comparative) structure.
-
-General points
-======
-
-* De-emphasise 1980s internet protocols (boring, unrepresentative).
-  Emphasise the wide variety of potential applications. Random example:
-  games. Ornela suggested EasyChair.
-* Presentations should take the form of demos (running applications,
-  type systems, IDE plug-ins, ...)
-* What did the session type "world view" bring to the problem?
-
-Idea #3 (somewhere between #1 and #2)
+Discarded ideas
 ------
+
+We considered posing "challenge" problems and inviting each
+participating team to present solutions to one or more of these. This
+would probably lead to repetition on the day, and require a fair amount
+of coordination prior to the event. Allowing the participants to propose
+the challenge problems would mitigate the problem of potential
+repetition, but require even more coordination and lead-time prior to
+the event. Moreover the effort involved in participating should not be
+onerous.
+
+We decided to take things one step at a time: first an event emphasising
+practices and programming. If that is a success, we can think about a
+follow-up event with a less conventional (and more explicitly
+comparative) structure.
 
 What we want to accomplish
 ======
