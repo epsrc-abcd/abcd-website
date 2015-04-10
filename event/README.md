@@ -87,7 +87,7 @@ Details to work out
 * Outline the event at ABCD meeting on 19 April
 * Contact https://www.rgu.ac.uk/dmstaff/mccall-john re. SICSA assistance
 
-Tentative Schedule
+Programme
 ======
 
 Schedule question: How long should periods be?
@@ -99,11 +99,10 @@ Schedule question: How long should periods be?
 
 Should 'demos' and 'talks' have the same amount of time?
 
-Different Schedule
-=====
+Tentative schedule
+------
 
-Day 1
------
+### Day 1
 
 When  | What
 ---   | ---
@@ -124,8 +123,7 @@ When  | What
 18:00 | Pub
 19:00 | Dinner
 
-Day 2
------
+### Day 2
 
 When  | What
 ---   | ---
