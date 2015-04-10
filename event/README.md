@@ -23,26 +23,27 @@ The blockquote below contains the draft website content.
 >> **8-9 June, 2015. School of Computing Science, University of Glasgow**
 
 >> Behavioural types, such as session types, have the potential to
->> transform how we build distributed, concurrent systems. Theoretical
->> progress continues apace, but the impact on real-world systems has
->> thus far been minimal.
+   transform how we build distributed, concurrent systems. Theoretical
+   progress continues apace, but the impact on real-world systems has
+   thus far been minimal.
 
 >> The aim of this colloquium is to explore the nascent frontier where
->> session types meet practical programming. By examining the state of
->> the art, we hope to shed light on the strengths and weaknesses of
->> existing approaches, identify obstacles to adoption, and explore the
->> challenges of integrating with existing programming models. The
->> primary focus on the event will be tool and compiler demonstrations,
->> but we also welcome workshop-style talks on related issues.
+   session types meet practical programming. By examining the state of
+   the art, we hope to shed light on the strengths and weaknesses of
+   existing approaches, identify obstacles to adoption, and explore the
+   challenges of integration with existing programming models. We are
+   particularly eager for submissions of tool and compiler
+   demonstrations, but also welcome workshop-style talks on related
+   issues.
 
 >> Themes
 >> ------
 
->> We solicit demos or informal talks (demos preferred) on any topic
->> that fits within the overall focus of the colloquium. The following
->> areas are of particular interest, but feel free to surprise us.
->> Theoretical content is welcome as long as its relevance to
->> programming practice is made clear.
+>> We solicit demos and talks on any topic that fits within the overall
+   focus of the colloquium. The following areas are of particular
+   interest, but feel free to surprise us.  Theoretical content is
+   welcome as long as its relevance to programming practice is made
+   clear.
 
 >> **Dynamic vs. static typing.** Languages with gradual or dynamic
      behavioural typing. Application domains where static typing is
@@ -56,7 +57,15 @@ The blockquote below contains the draft website content.
      those of Agda or Haskell? How expressive are Idris protocols,
      compared to session types?
 
->> **Interaction with specific language features**, such as exceptions,
+>> **Binary and multiparty session types**. Multiparty session types
+     provide safety and termination guarantees that cannot be expressed
+     by a web of binary sessions. However, work on logical foundations
+     for session types, as well as some implementations, have focused
+     exclusively on the binary case.  Can these approaches be adopted
+     multiparty session types?  Do multiparty session types have a
+     logical interpretation?
+
+>> **Interaction with other language features**, such as exceptions,
      and other effects; transactions and error recovery; concurrency
      features like actors and futures.
 
@@ -81,7 +90,6 @@ Other items we might want to incorporate into the above:
 ------
 
 * sync vs. async
-* binary vs. multiparty
 
 Discarded ideas
 ------
@@ -126,27 +134,27 @@ When  | What
 09:45 | _Breakfast_
 10:10 | Introduction (TBD)
 10:15 | Talks about tools
-11:15 | Coffee
+11:15 | _Coffee_
 11:30 | Talks about tools
 12:30 | _Lunch_
 13:30 | Demos
-14:30 | Coffee
+14:30 | _Coffee_
 14:45 | Demos
-15:45 | Coffee
+15:45 | _Coffee_
 16:00 | Demos
 16:45 | Roundtable/moderated discussion
 17:30 | _Finish_
-18:00 | Pub
-19:00 | Dinner
+18:00 | _Pub_
+19:00 | _Dinner_
 
 ### Day 2
 
 When  | What
 ---   | ---
 9:45  | _Breakfast_
-10:15 | Talks about tools
-11:15 | Coffee
-11:30 | Talks about tools
+10:15 | General talks
+11:15 | _Coffee_
+11:30 | General talks
 12:30 | _Lunch_
 13:30 | Demos
 14:30 | _Early finish TBD_
