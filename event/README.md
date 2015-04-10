@@ -12,18 +12,19 @@ Garrett Morris (garrett.morris@ed.ac.uk) and Roly Perera (roly.perera@glasgow.ac
 Introduction
 ======
 
-* Session types have the potential to transform how we build
-  distributed, concurrent systems
-* Lots of interesting theoretical work has been done, and several research languages implemented
-* Mainstream adoption remains negligible to zero
+Session types and other forms of behavioural type system have the
+potential to transform how we build distributed, concurrent systems.
+Theoretical progress continues apace, but adoption of behavioural typing
+into real-world languages remains negligible.
+
+With this colloquium, we aim to bring together researchers working in
+the broad area of behavioural types, focusing on with a
 * Now would be a good time to take stock of where we are in terms of
   adding session types to practical languages
 
 General points
 ======
 
-* Effort to participate should not be too onerous
-* Implementation work to be done in advance of the event
 * De-emphasise 1980s internet protocols (boring, unrepresentative).
   Emphasise the wide variety of potential applications. Random example:
   games. Ornela suggested EasyChair.
