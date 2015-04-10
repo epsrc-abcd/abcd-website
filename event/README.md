@@ -91,36 +91,13 @@ Tentative Schedule
 ======
 
 Schedule question: How long should periods be?
+
 * ICFP - 50 minutes, 2 x 25 minute sessions
 * Everything else - 90 minutes, 3 x 30 minute sessions
 * ESOP - 120 minutes, 4 x 30 minute sessions
 * CoCo - 75 minutes, 5 x 15 minute sessions
 
 Should 'demos' and 'talks' have the same amount of time?
-
-When  | What
----   | ---
-08:30 | _Room available_
-10:00 | Welcome refreshments (late start to allow people to travel from elsewhere in Scotland)
-10:15 | Introduction (TBD)
-10:30 | Presentation #1
-11:00 | Presentation #2
-11:30 | _Short break_
-11:45 | Presentation #3
-12:15 | Presentation #4
-12:45 | _Lunch_
-13:45 | Presentation #5
-14:15 | Presentation #6
-14:45 | Presentation #7
-15:15 | _Short break_
-15:30 | Presentation #8
-16:00 | Presentation #9
-16:30 | Discussion (gather points for discussion during the day)
-17:30 | _Finish_
-18:00 | Pub
-19:00 | Dinner
-
-Similar for day 2. Possibly more discussion time if we don't have enough presentations.
 
 Different Schedule
 =====
@@ -130,7 +107,9 @@ Day 1
 
 When  | What
 ---   | ---
-9:45  | _Breakfast_
+08:30 | _Room available_
+09:45 | _Breakfast_
+10:15 | Introduction (TBD)
 10:15 | Talks about tools
 11:15 | Coffee
 11:30 | Talks about tools
@@ -142,6 +121,8 @@ When  | What
 16:00 | Demos
 16:45 | Roundtable/moderated discussion
 17:30 | _Finish_
+18:00 | Pub
+19:00 | Dinner
 
 Day 2
 -----
@@ -153,7 +134,8 @@ When  | What
 11:15 | Coffee
 11:30 | Talks about tools
 12:30 | _Lunch_
-13:30 |
+13:30 | Demos
+14:30 | _Early finish TBD_
 
 
 Event name
