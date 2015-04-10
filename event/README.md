@@ -45,6 +45,11 @@ The blockquote below contains the draft website content.
 >> Theoretical content is welcome as long as its relevance to
 >> programming practice is made clear.
 
+>> **Dynamic vs. static typing.** Languages with gradual or dynamic
+     behavioural typing. Application domains where static typing is
+     impractical or where parts of the protocol are hard to enforce
+     statically.
+
 >> **Dependent session types**. Value-dependency in protocols is common:
      an SMTP session for example starts with a negotiation of buffer
      sizes and features supported by the server. Relatedly, what kind of
@@ -53,16 +58,15 @@ The blockquote below contains the draft website content.
      compared to session types?
 
 >> **Interaction with specific language features**, such as exceptions,
-     transactions, and other effects.
-
->> **Dynamic vs. static typing.** Gradual and dynamic session typing.
+     and other effects; transactions and error recovery; concurrency
+     features like actors or futures.
 
 >> **Unfamiliar application areas** that showcase the wide applicability
      of behavioural types. Possible ideas include computer games; online
      knowledge-sharing engines such as Stack Exchange; workflow systems
-     such as EasyChair. Examples of common architectures or system
-     designs that are not easily captured by existing behavioural type
-     systems are also of interest.
+     such as EasyChair. Examples of architectures or system designs that
+     are not easily captured by existing behavioural type systems are
+     also of interest.
 
 >> **IDE and editor features** specific to languages with behavioural
      typing, such as type-directed code completion and syntax
@@ -72,10 +76,6 @@ The blockquote below contains the draft website content.
 >> **Type inference, type synthesis and type abstraction** techniques
      that check that programs are consistent without requiring the
      programmer to write out onerous types in full.
-
->> **Behavioural types and objects.** Formal session calculi are often
-     based on pi calculus, but real-world interactive systems are mostly
-     object-oriented.
 
 >> For more information, please contact Garrett Morris
    (garrett.morris@ed.ac.uk) or Roly Perera (roly.perera@glasgow.ac.uk)
