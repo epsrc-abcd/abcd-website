@@ -6,8 +6,7 @@ Action Items
 Other potential invitees
 ------
 
-Susan Eichenbach (s.eisenbach@imperial.ac.uk)
-
+* Susan Eichenbach (s.eisenbach@imperial.ac.uk)
 
 Organisers
 ======
@@ -21,6 +20,9 @@ The blockquote below contains the draft website content.
 
 >> Practical Aspects of Session Types
 >> ======
+
+>> **8-9 June, 2015**
+>> **School of Computing Science, University of Glasgow**
 
 >> Session types and other forms of behavioural type system have the
 >> potential to transform how we build distributed, concurrent systems.
@@ -50,8 +52,22 @@ The blockquote below contains the draft website content.
 
 We originally considered posing "challenge" problems and inviting each
 participating team to solve what they could of the challenges. We
-decided this would lead to repetition on the day, and would require a
-fair amount of coordination prior to the event.
+decided this would lead to repetition on the day, and would also require
+a fair amount of coordination prior to the event.
+
+Another variant we considered (slightly closer to the current plan) was
+to solicit challenge problems from the participants, providing several
+of our own too. This would somewhat mitigate the problem of potential
+repetition, since people would be able toñ submit problems that
+showcased their particular tool or language. Still, this requires a
+certain amount of coordination/lead-time prior to the event to curate
+the submitted problems into a uniform format.
+* Then as #1
+
+Con: similar weakness to #1, mitigated somewhat by having more challenge
+problems (less overlap on the day).
+
+
 
 General points
 ======
@@ -66,14 +82,6 @@ General points
 
 Idea #3 (somewhere between #1 and #2)
 ------
-
-* Solicit challenge problems from the participants, providing several of our own too
-* People can submit problems they know they can easily solve
-* Curate the submitted problems into a uniform format
-* Then as #1
-
-Con: similar weakness to #1, mitigated somewhat by having more challenge
-problems (less overlap on the day).
 
 What we want to accomplish
 ======
