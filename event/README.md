@@ -14,8 +14,13 @@ Organisers
 
 Garrett Morris (garrett.morris@ed.ac.uk) and Roly Perera (roly.perera@glasgow.ac.uk)
 
-Practical Aspects of Session Types
+Blurb for website
 ======
+
+The blockquote below contains the draft website content.
+
+>> Practical Aspects of Session Types
+>> ======
 
 >> Session types and other forms of behavioural type system have the
 >> potential to transform how we build distributed, concurrent systems.
@@ -35,15 +40,15 @@ Practical Aspects of Session Types
 >> We invite tool or compiler demos and workshop-style talks on any of the
 >> following topics:. Theoretical content is welcome but
 
-**Dependent session types**
------
+>> **Dependent session types**
+>> -----
 
-**Interaction with specific language features**, such as exceptions and
-  algebraic effects.
+>> **Interaction with specific language features**, such as exceptions and
+>>  algebraic effects.
 
-**Dynamic vs. static typing.**
+>> **Dynamic vs. static typing.**
 
-We originaly considered posing "challenge" problems and inviting each
+We originally considered posing "challenge" problems and inviting each
 participating team to solve what they could of the challenges. We
 decided this would lead to repetition on the day, and would require a
 fair amount of coordination prior to the event.
