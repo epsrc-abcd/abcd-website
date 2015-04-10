@@ -82,11 +82,6 @@ More specific issues:
 Details to work out
 ======
 
-* Name for event
-* How long each presentation? (Maybe 30 min with discussion; CoCo was 10-15 min)
-* Can we fill all the presentation slots (potentially 18)
-* What could we fill the time with otherwise?
-* Are there any potential research outputs?
 * Run initial plan past Sam for feedback
 * Get basic plan in place _before_ discussing with Simon/Phil in London
 * Outline the event at ABCD meeting on 19 April
@@ -99,7 +94,8 @@ Schedule question: How long should periods be?
 * ICFP - 50 minutes, 2 x 25 minute sessions
 * Everything else - 90 minutes, 3 x 30 minute sessions
 * ESOP - 120 minutes, 4 x 30 minute sessions
-* CoCo - x 10
+* CoCo - 75 minutes, 5 x 15 minute sessions
+
 Should 'demos' and 'talks' have the same amount of time?
 
 When  | What
