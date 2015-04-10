@@ -13,13 +13,15 @@ Practical Aspects of Session Types
 
 Session types and other forms of behavioural type system have the
 potential to transform how we build distributed, concurrent systems.
-Theoretical progress continues apace, but adoption of behavioural typing
-into real-world languages remains negligible. The aim of this colloquium
-is to bring together researchers working in the broad area of
-behavioural types, focusing on with a
-* Now would be a good time to take stock of where we are in terms of
-  adding session types to practical languages. We also welcome
-  workshop-style talks on related issues.
+Theoretical progress continues apace, but adoption in real-world
+languages remains negligible. The aim of this colloquium is to take
+stock of where we are, through tool and compiler demos that
+
+ in terms of adding session types to practical languages. We also
+welcome workshop-style talks on related issues. The outcome should be
+shared understanding of the strengths and weaknesses of existing
+approaches, obstacles to practical adoption, and the technical issues
+surrounding integration with existing programming models.
 
 Themes
 ------
@@ -161,8 +163,8 @@ When  | What
 Event name
 ======
 
-Assuming we want to follow the usual convention of using a 3-6 letter
-acronym for the event, here's a set of words we might like to choose from:
+We will follow the usual if predictable convention of using a 3-7 letter
+acronym for the event. Here's a set of suitable words:
 
 >> *A*pplied
 >> *A*spects
@@ -185,7 +187,7 @@ acronym for the event, here's a set of words we might like to choose from:
 >> *S*ystems
 >> *T*ypes
 
-Some ideas:
+Some possibilities:
 
 Corny idea    | Short for
 ---           | ---
