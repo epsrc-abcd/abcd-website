@@ -1,7 +1,11 @@
 Action Items
 ======
 
-* Garrett to start website.
+* Garrett: start website
+* Roly: solicit feedback from various people (e.g. Sam, Edwin Brady)
+* Garrett \& Roly: discuss with Simon/Phil in London
+* Garrett \& Roly: outline the event at ABCD meeting on 19 April
+* Garrett: contact https://www.rgu.ac.uk/dmstaff/mccall-john re. SICSA assistance
 
 Other potential invitees
 ------
@@ -31,9 +35,9 @@ The blockquote below contains the draft website content.
 >> The aim of this colloquium is to explore the interface between
 >> session types and practical programming. We hope to generate insight
 >> into the strengths and weaknesses of existing approaches, identify
->> obstacles to practical adoption, and discuss technical issues
->> surrounding integration with existing programming models and language
->> features. The primary focus on the event will be tool and compiler
+>> obstacles to adoption, and discuss technical issues surrounding
+>> integration with existing programming models and language features.
+>> The primary focus on the event will be tool and compiler
 >> demonstrations, but we also welcome workshop-style talks on related
 >> issues.
 
@@ -84,21 +88,12 @@ What we want to accomplish
 ======
 
 * What is the state of the art in static (and dynamic) protocol-checking?
-* What are the main obstacles to rolling out session types to real world languages?
 * Do session types suggest new kinds of language?
 
 More specific issues:
 
 * Practical issues relating to expressivity (sync vs. async, binary vs. multiparty)
 * Inference vs. type checking; global type synthesis vs. projection
-
-Details to work out
-======
-
-* Run initial plan past Sam for feedback
-* Get basic plan in place _before_ discussing with Simon/Phil in London
-* Outline the event at ABCD meeting on 19 April
-* Contact https://www.rgu.ac.uk/dmstaff/mccall-john re. SICSA assistance
 
 Programme
 ======
