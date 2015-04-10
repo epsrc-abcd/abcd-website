@@ -1,7 +1,6 @@
 Action Items
 ======
 
-* Roly to update README with themes.
 * Garrett to start website.
 
 Organisers
@@ -9,35 +8,24 @@ Organisers
 
 Garrett Morris (garrett.morris@ed.ac.uk) and Roly Perera (roly.perera@glasgow.ac.uk)
 
-Introduction
+Practical Aspects of Session Types
 ======
 
 Session types and other forms of behavioural type system have the
 potential to transform how we build distributed, concurrent systems.
 Theoretical progress continues apace, but adoption of behavioural typing
-into real-world languages remains negligible.
-
-With this colloquium, we aim to bring together researchers working in
-the broad area of behavioural types, focusing on with a
+into real-world languages remains negligible. The aim of this colloquium
+is to bring together researchers working in the broad area of
+behavioural types, focusing on with a
 * Now would be a good time to take stock of where we are in terms of
-  adding session types to practical languages
-
-General points
-======
-
-* De-emphasise 1980s internet protocols (boring, unrepresentative).
-  Emphasise the wide variety of potential applications. Random example:
-  games. Ornela suggested EasyChair.
-* Presentations should take the form of demos (running applications,
-  type systems, IDE plug-ins, ...)
-* What did the session type "world view" bring to the problem?
-* Discuss what was easy, what was hard
+  adding session types to practical languages. We also welcome
+  workshop-style talks on related issues.
 
 Themes
-======
+------
 
 We invite tool or compiler demos and workshop-style talks on any of the
-following topics:
+following topics:. Theoretical content is welcome but
 
 **Dependent session types**
 -----
@@ -51,6 +39,17 @@ We originaly considered posing "challenge" problems and inviting each
 participating team to solve what they could of the challenges. We
 decided this would lead to repetition on the day, and would require a
 fair amount of coordination prior to the event.
+
+General points
+======
+
+* De-emphasise 1980s internet protocols (boring, unrepresentative).
+  Emphasise the wide variety of potential applications. Random example:
+  games. Ornela suggested EasyChair.
+* Presentations should take the form of demos (running applications,
+  type systems, IDE plug-ins, ...)
+* What did the session type "world view" bring to the problem?
+* Discuss what was easy, what was hard
 
 Idea #3 (somewhere between #1 and #2)
 ------
