@@ -18,7 +18,7 @@ Blurb for website
 
 The blockquote below contains the draft website content.
 
->> Practical Aspects of Session Types
+>> [Title TBD]
 >> ======
 
 >> **8-9 June, 2015**
