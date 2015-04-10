@@ -11,17 +11,17 @@ Garrett Morris (garrett.morris@ed.ac.uk) and Roly Perera (roly.perera@glasgow.ac
 Practical Aspects of Session Types
 ======
 
-Session types and other forms of behavioural type system have the
-potential to transform how we build distributed, concurrent systems.
-Theoretical progress continues apace, but adoption in real-world
-languages remains negligible. The aim of this colloquium is to take
-stock of where we are, through tool and compiler demos that
+>> Session types and other forms of behavioural type system have the
+>> potential to transform how we build distributed, concurrent systems.
+>> Theoretical progress continues apace, but adoption in real-world
+>> languages remains negligible. The aim of this colloquium is to take
+>> stock of where we are in terms of adding session types to practical
+>> languages. We also welcome workshop-style talks on related issues.
 
- in terms of adding session types to practical languages. We also
-welcome workshop-style talks on related issues. The outcome should be
-shared understanding of the strengths and weaknesses of existing
-approaches, obstacles to practical adoption, and the technical issues
-surrounding integration with existing programming models.
+>> We hope to achieve shared insight into the strengths and weaknesses
+>> of existing approaches, obstacles to practical adoption, and the
+>> technical issues surrounding integration with existing programming
+>> models.
 
 Themes
 ------
