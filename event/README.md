@@ -27,14 +27,13 @@ The blockquote below contains the draft website content.
 >> progress continues apace, but the impact thus far on real-world
 >> systems has been minimal.
 
->> The aim of this colloquium is to explore the interface between
->> session types and practical programming. By examining the state of
+>> The aim of this colloquium is to explore the nascent frontier where
+>> session types meet practical programming. By examining the state of
 >> the art, we hope to shed light on the strengths and weaknesses of
->> existing approaches, identify obstacles to adoption, and highlight
->> the challenges of integrating with existing programming models and
->> language features. The primary focus on the event will be tool and
->> compiler demonstrations, but we also welcome workshop-style talks on
->> related issues.
+>> existing approaches, identify obstacles to adoption, and explore the
+>> challenges of integrating with existing programming models. The
+>> primary focus on the event will be tool and compiler demonstrations,
+>> but we also welcome workshop-style talks on related issues.
 
 >> Themes
 >> ------
@@ -59,19 +58,17 @@ The blockquote below contains the draft website content.
 
 >> **Interaction with specific language features**, such as exceptions,
      and other effects; transactions and error recovery; concurrency
-     features like actors or futures.
+     features like actors and futures.
 
 >> **Unfamiliar application areas** that showcase the wide applicability
      of behavioural types. Possible ideas include computer games; online
      knowledge-sharing engines such as Stack Exchange; workflow systems
-     such as EasyChair. Examples of architectures or system designs that
-     are not easily captured by existing behavioural type systems are
-     also of interest.
+     such as EasyChair. Systems not easily captured by existing
+     behavioural type systems are also of interest.
 
->> **IDE and editor features** specific to languages with behavioural
-     typing, such as type-directed code completion and syntax
-     highlighting; meaningful error messages; and debugging and runtime
-     monitoring.
+>> **IDE and editor features** specific to behavioural typing, such as
+     type-directed code completion and syntax highlighting; meaningful
+     error messages; debugging and runtime monitoring.
 
 >> **Type inference, type synthesis and type abstraction** techniques
      that check that programs are consistent without requiring the
