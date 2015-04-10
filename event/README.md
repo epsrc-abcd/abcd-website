@@ -22,6 +22,7 @@ The blockquote below contains the draft website content.
 >> ======
 
 >> **8-9 June, 2015**
+
 >> **School of Computing Science, University of Glasgow**
 
 >> Session types and other forms of behavioural type system have the
@@ -60,14 +61,14 @@ to solicit challenge problems from the participants, providing several
 of our own too. This would somewhat mitigate the problem of potential
 repetition, since people would be able toñ submit problems that
 showcased their particular tool or language. Still, this requires a
-certain amount of coordination/lead-time prior to the event to curate
-the submitted problems into a uniform format.
-* Then as #1
+certain amount of coordination and lead-time prior to the event to
+curate the submitted problems into a uniform format. Moreover we don't
+want to the effort involved in participating to be too onerous.
 
-Con: similar weakness to #1, mitigated somewhat by having more challenge
-problems (less overlap on the day).
-
-
+In summary, we figured one step at a time: first an event emphasising
+practical and programming issues, and if that is a success, then we can
+think about another event with a less conventional (and more explicitly
+comparative) structure.
 
 General points
 ======
@@ -78,7 +79,6 @@ General points
 * Presentations should take the form of demos (running applications,
   type systems, IDE plug-ins, ...)
 * What did the session type "world view" bring to the problem?
-* Discuss what was easy, what was hard
 
 Idea #3 (somewhere between #1 and #2)
 ------
