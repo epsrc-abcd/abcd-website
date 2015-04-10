@@ -1,8 +1,13 @@
 Action Items
 ======
 
-Roly to update README with themes.
-Garrett to start website.
+* Roly to update README with themes.
+* Garrett to start website.
+
+Organisers
+======
+
+Garrett Morris (garrett.morris@ed.ac.uk) and Roly Perera (roly.perera@glasgow.ac.uk)
 
 Introduction
 ======
@@ -27,25 +32,24 @@ General points
 * What did the session type "world view" bring to the problem?
 * Discuss what was easy, what was hard
 
-Basic structure of event
+Themes
 ======
 
-Idea #1
-------
+We invite tool or compiler demos and workshop-style talks on any of the
+following topics:
 
-* We define several "challenge" problems, ranging from easy to hard
-* Issue challenge problems 1 month before the event
-* Each participating team solves what they can of the challenges
+**Dependent session types**
+-----
 
-Con: 15 solutions to the same problem will get boring quickly.
+**Interaction with specific language features**, such as exceptions and
+  algebraic effects.
 
-Idea #2
-------
+**Dynamic vs. static typing.**
 
-* Every participating team presents one or more example applications of
-  their own choosing
-
-Con: inherently less comparative.
+We originaly considered posing "challenge" problems and inviting each
+participating team to solve what they could of the challenges. We
+decided this would lead to repetition on the day, and would require a
+fair amount of coordination prior to the event.
 
 Idea #3 (somewhere between #1 and #2)
 ------
@@ -65,14 +69,12 @@ What is the point of the exercise? Let's be clear about this from the outset. Fo
 
 * What's easy (or hard) with particular languages/approaches?
 * What is the state of the art in static (and dynamic) protocol-checking?
-* What are the main obstacles to rollig out session types to real world languages?
+* What are the main obstacles to rolling out session types to real world languages?
 * Do session types suggest new kinds of language?
 
 More specific issues:
 
-* How might dependent types fit in?
 * Practical issues relating to expressivity (sync vs. async, binary vs. multiparty)
-* Interaction with specific language features, e.g. exceptions
 * Inference vs. type checking; global type synthesis vs. projection
 
 Details to work out
@@ -92,9 +94,10 @@ Tentative Schedule
 ======
 
 Schedule question: How long should periods be?
-* ICFP - 50 minutes, 2 25 minute sessions
-* Everything else - 90 minutes, 3 30 minute sessions
-* ESOP - 120 minutes, 4 30 minute sessions
+* ICFP - 50 minutes, 2 x 25 minute sessions
+* Everything else - 90 minutes, 3 x 30 minute sessions
+* ESOP - 120 minutes, 4 x 30 minute sessions
+* CoCo - x 10
 Should 'demos' and 'talks' have the same amount of time?
 
 When  | What
@@ -164,7 +167,12 @@ acronym for the event, here's a set of words we might like to choose from:
 >> *A*pplied
 >> *A*spects
 >> *B*ehavioural
+>> *C*aledonian
+>> *C*olloquium
 >> *C*ommunication
+>> *C*omputation
+>> *C*oncrete
+>> *C*oncerns
 >> *C*oncurrency
 >> *D*istribution
 >> *I*mplementation
@@ -177,8 +185,9 @@ acronym for the event, here's a set of words we might like to choose from:
 
 Some ideas:
 
-Corny idea | Short for
----        | ---
-PSST       | *P*ractical *S*ystems for *S*ession *T*ypes
-STIPL      | *S*ession *T*ypes *i*n *P*ractical *L*anguages
-PAST       | *P*ractical *A*spects of *S*ession *T*ypes
+Corny idea    | Short for
+---           | ---
+PSST          | *P*ractical *S*ystems for *S*ession *T*ypes
+STIPL         | *S*ession *T*ypes *i*n *P*ractical *L*anguages
+PAST          | *P*ractical *A*spects of *S*ession *T*ypes
+C<sup>7</sup> | *C*aledonian *C*olloquium on *C*oncrete *C*oncerns in *C*ommunication and *C*oncurrent *C*omputation
