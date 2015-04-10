@@ -79,8 +79,8 @@ repetition, but require even more coordination and lead-time prior to
 the event. Moreover the effort involved in participating should not be
 onerous.
 
-We decided to take things one step at a time: first an event emphasising
-practices and programming. If that is a success, we can think about a
+Better to take things one step at a time: first an event emphasising
+programming over theory. If that is a success, we can think about a
 follow-up event with a less conventional (and more explicitly
 comparative) structure.
 
@@ -88,7 +88,6 @@ What we want to accomplish
 ======
 
 * What is the state of the art in static (and dynamic) protocol-checking?
-* Do session types suggest new kinds of language?
 
 More specific issues:
 
@@ -147,8 +146,8 @@ When  | What
 Event name
 ======
 
-We will follow the usual if predictable convention of using a 3-7 letter
-acronym for the event. Here's a set of suitable words:
+We will follow the familiar, if predictable, convention of using a 3-7
+letter acronym for the event. Here's a set of suitable words:
 
 >> *A*pplied
 >> *A*spects
