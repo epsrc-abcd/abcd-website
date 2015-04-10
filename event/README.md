@@ -51,11 +51,11 @@ The blockquote below contains the draft website content.
      statically.
 
 >> **Dependent session types**. Value-dependency in protocols is common:
-     an SMTP session for example starts with a negotiation of buffer
-     sizes and features supported by the server. Relatedly, what kind of
-     protocols is it possible to encode in advanced type systems like
-     those of Agda or Haskell? How expressive are Idris protocols,
-     compared to session types?
+     an SMTP session, for example, starts with a negotiation of buffer
+     sizes and features supported by the server.  How do advanced type
+     systems, like those of Agda or Haskell, improve the expressivity of
+     session types.  How expressive are Idris protocols, compared to
+     session types?
 
 >> **Binary and multiparty session types**. Multiparty session types
      provide safety and termination guarantees that cannot be expressed
