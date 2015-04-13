@@ -196,3 +196,4 @@ STIPL         | *S*ession *T*ypes *i*n *P*ractical *L*anguages
 PAST          | *P*ractical *A*spects of *S*ession *T*ypes
 C<sup>7</sup> | *C*aledonian *C*olloquium on *C*oncrete *C*oncerns in *C*ommunication and *C*oncurrent *C*omputation
 CoCoPoP       | *C*ommunication-based *C*omputation: *P*racticalities of *P*rogramming
+CoCoNUT       | *C*ommunication-based *C*omputation: *N*ew *U*ses for *T*ypes
