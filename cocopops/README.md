@@ -2,7 +2,6 @@ Action Items
 ======
 
 * Garrett: start website
-* Roly: solicit feedback from various people (e.g. Sam, Edwin Brady)
 * Garrett \& Roly: discuss with Simon/Phil in London
 * Garrett \& Roly: outline the event at ABCD meeting on 19 April
 * Garrett: contact https://www.rgu.ac.uk/dmstaff/mccall-john re. SICSA assistance
@@ -12,81 +11,7 @@ Other potential invitees
 
 * Susan Eichenbach (s.eisenbach@imperial.ac.uk)
 
-Event goals
-======
-
-The blockquote below contains the draft website content.
-
->> CoCoPoP
->> ======
-
->> **8-9 June, 2015. School of Computing Science, University of Glasgow**
-
->> Behavioural types, such as session types, have the potential to
-   transform how we build distributed, concurrent systems. Theoretical
-   progress continues apace, but the impact on real-world systems has
-   thus far been minimal.
-
->> The aim of this colloquium is to explore the nascent frontier where
-   session types meet practical programming. By examining the state of
-   the art, we hope to shed light on the strengths and weaknesses of
-   existing approaches, identify obstacles to adoption, and explore the
-   challenges of integration with existing programming models. We are
-   particularly eager for submissions of tool and compiler
-   demonstrations, but also welcome workshop-style talks on related
-   issues.
-
->> Themes
->> ------
-
->> We solicit demos and talks on any topic that fits within the overall
-   focus of the colloquium. The following areas are of particular
-   interest, but feel free to surprise us.  Theoretical content is
-   welcome as long as its relevance to programming practice is made
-   clear.
-
->> **Dynamic vs. static typing.** Languages with gradual or dynamic
-     behavioural typing. Application domains where static typing is
-     impractical or where parts of the protocol are hard to enforce
-     statically.
-
->> **Dependent session types**. Value-dependency in protocols is common:
-     an SMTP session, for example, starts with a negotiation of buffer
-     sizes and features supported by the server.  How do advanced type
-     systems, like those of Agda or Haskell, improve the expressivity of
-     session types.  How expressive are Idris protocols, compared to
-     session types?
-
->> **Binary and multiparty session types**. Multiparty session types
-     provide safety and termination guarantees that cannot be expressed
-     by a web of binary sessions. However, work on logical foundations
-     for session types, as well as some implementations, have focused
-     exclusively on the binary case.  Can these approaches be adopted
-     multiparty session types?  Do multiparty session types have a
-     logical interpretation?
-
->> **Interaction with other language features**, such as exceptions,
-     and other effects; transactions and error recovery; concurrency
-     features like actors and futures.
-
->> **Unfamiliar application areas** that showcase the wide applicability
-     of behavioural types. Possible ideas include computer games; online
-     knowledge-sharing engines such as Stack Exchange; workflow systems
-     such as EasyChair. Systems not easily captured by existing
-     behavioural type systems are also of interest.
-
->> **IDE and editor features** specific to behavioural typing, such as
-     type-directed code completion and syntax highlighting; meaningful
-     error messages; debugging and runtime monitoring.
-
->> **Type inference, type synthesis and type abstraction** techniques
-     that check that programs are consistent without requiring the
-     programmer to write out onerous types in full.
-
->> For more information, please contact Garrett Morris
-   (garrett.morris@ed.ac.uk) or Roly Perera (roly.perera@glasgow.ac.uk)
-
-Other items we might want to incorporate into the above:
+Other items we might want to incorporate into the event themes:
 ------
 
 * sync vs. async
