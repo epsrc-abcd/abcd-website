@@ -11,11 +11,6 @@ Other potential invitees
 
 * Susan Eichenbach (s.eisenbach@imperial.ac.uk)
 
-Other items we might want to incorporate into the event themes:
-------
-
-* sync vs. async
-
 Discarded ideas
 ------
 
