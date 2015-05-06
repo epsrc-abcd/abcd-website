@@ -1,10 +1,8 @@
 Action Items
 ======
 
-* Garrett: start website
-* Garrett \& Roly: discuss with Simon/Phil in London
-* Garrett \& Roly: outline the event at ABCD meeting on 19 April
-* Garrett: contact https://www.rgu.ac.uk/dmstaff/mccall-john re. SICSA assistance
+* Dimitris: organise catering.
+* Roly & Garrett: compile list of additional invitees.
 
 Other potential invitees
 ------
@@ -27,6 +25,11 @@ Better to take things one step at a time: first an event emphasising
 programming over theory. If that is a success, we can think about a
 follow-up event with a less conventional (and more explicitly
 comparative) structure.
+
+Catering notes
+======
+
+[TBD]
 
 Programme
 ======
