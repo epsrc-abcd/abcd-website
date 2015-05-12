@@ -23,12 +23,13 @@ Rob Stewart	      | r.stewart@hw.ac.uk
 Craig McLaughlin      | 1002524M@student.gla.ac.uk
 Simon Fowler	      | simon.fowler@ed.ac.uk
 Philip Wadler	      | wadler@inf.ed.ac.uk
----                   | ---
+                      |
 Conor McBride	      | conor.mcbride@cis.strath.ac.uk
 Martin Berger	      | m.f.berger@sussex.ac.uk
 Bob Atkey	      | bob.atkey@ed.ac.uk
 Dimitris Kouzapas     |	dimitris.kouzapas@googlemail.com
 Ornela Dardha	      | ornela.dardha@glasgow.ac.uk
+                      |
 Sam Lindley	      | sam.lindley@ed.ac.uk
 Edwin Brady	      | ecb10@st-andrews.ac.uk
 Simon Gay	      | simon.gay@glasgow.ac.uk
