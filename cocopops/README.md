@@ -7,8 +7,10 @@ Action Items
 Talk proposals
 ======
 
-Simon Fowler, Edinburgh
------
+Name                             | Title                                                                          | Abstract?
+---                              | ---                                                                            | ---
+Simon Fowler, Edinburgh          | Monitoring Distributed Erlang/OTP Applications with Multiparty Session Types   | Yes
+Conor McBride, Strathclyde       | Traffic-Dependent Session Types (TBC)                                          | No
 
 Edwin Brady, St. Andrews
 -----
@@ -57,6 +59,7 @@ Some reference points:
 * ICFP - 50 minutes (2 x 25 min)
 * ESOP - 120 minutes (4 x 30 min)
 * CoCo - 75 minutes (5 x 15 min)
+* WG 2.16 - 45 minutes (1 x 45 min)
 * Typical conference - 90 minutes (3 x 30 min)
 
 Tentative schedule
