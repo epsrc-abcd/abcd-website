@@ -39,7 +39,7 @@ Dennis Griffith       | dgriffi3@illinois.edu
 Other potential invitees
 =====
 
-* Susan Eichenbach (s.eisenbach@imperial.ac.uk)
+* Andrew Birkett (andrew@nobugs.com)
 
 Catering notes
 ======

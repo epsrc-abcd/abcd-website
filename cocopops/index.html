@@ -98,10 +98,9 @@
       practice is made clear.
 
     <ul>
-      <li> <b>Dynamic vs. static typing.</b> Languages with gradual or
-        dynamic behavioural typing. Application domains where static
-        typing is impractical or where parts of the protocol are hard to
-        enforce statically.
+      <li><b>Interaction with other language features,</b> such as
+        exceptions, and other effects; transactions and error recovery;
+        concurrency paradigms like actors and futures.
 
       <li> <b>Dependent session types.</b> Value-dependency in protocols
         is common: an SMTP session, for example, starts with a
@@ -109,18 +108,6 @@
         server. How do advanced type systems, like those of Agda or
         Haskell, improve the expressivity of session types? How do Idris
         protocols compare to session types?
-
-      <li> <b>Binary and multiparty session types.</b> Multiparty
-        session types provide safety and termination guarantees that
-        cannot be expressed by a web of binary sessions. Despite this
-        additional expressivity, work on logical foundations for session
-        types, as well as some implementations, have focused exclusively
-        on the binary case. Can these approaches be adapted to the
-        multiparty case?
-
-      <li><b>Interaction with other language features,</b> such as
-        exceptions, and other effects; transactions and error recovery;
-        concurrency paradigms like actors and futures.
 
       <li><b>Interesting application areas</b> that showcase the wide
         applicability of behavioural types. Possible ideas include
@@ -133,7 +120,7 @@
         meaningful error messages; debugging and runtime monitoring.
 
       <li><b>Type inference, type synthesis and type abstraction</b>
-        techniques that check that programs are consistent without
+        features that check that programs are consistent without
         requiring the programmer to write out onerous types in full.
     </ul>
 
