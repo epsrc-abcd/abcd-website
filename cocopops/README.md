@@ -36,7 +36,7 @@ Edwin Brady	      | ecb10@st-andrews.ac.uk
 Simon Gay	      | simon.gay@glasgow.ac.uk
 Wim Vanderbauwhede    | wim.vanderbauwhede@glasgow.ac.uk
 Dennis Griffith       | dgriffi3@illinois.edu
-
+                      |
 Raymond Hu            | raymond.hu05@imperial.ac.uk
 
 TOTAL 16
