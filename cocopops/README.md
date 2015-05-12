@@ -2,7 +2,7 @@ Action Items
 ======
 
 * Dimitris: organise catering.
-* Roly & Garrett: compile list of additional invitees.
+* Roly: compile list of additional invitees.
 
 Talk proposals
 ======
@@ -12,6 +12,7 @@ Name                             | Title                                        
 Simon Fowler, Edinburgh          | Monitoring Distributed Erlang/OTP Applications with Multiparty Session Types   | Yes
 Conor McBride, Strathclyde       | Traffic-Dependent Session Types (TBC)                                          | No
 Edwin Brady, St. Andrews         | (TBC)                                                                          | No
+Raymond Hu, Imperial             | (TBC)                                                                          | No
 
 Confirmed attendees
 =====
@@ -35,6 +36,10 @@ Edwin Brady	      | ecb10@st-andrews.ac.uk
 Simon Gay	      | simon.gay@glasgow.ac.uk
 Wim Vanderbauwhede    | wim.vanderbauwhede@glasgow.ac.uk
 Dennis Griffith       | dgriffi3@illinois.edu
+
+Raymond Hu            | raymond.hu05@imperial.ac.uk
+
+TOTAL 16
 
 Other potential invitees
 =====
