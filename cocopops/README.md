@@ -11,9 +11,7 @@ Name                             | Title                                        
 ---                              | ---                                                                            | ---
 Simon Fowler, Edinburgh          | Monitoring Distributed Erlang/OTP Applications with Multiparty Session Types   | Yes
 Conor McBride, Strathclyde       | Traffic-Dependent Session Types (TBC)                                          | No
-
 Edwin Brady, St. Andrews
------
 
 Confirmed attendees
 =====
@@ -25,6 +23,7 @@ Rob Stewart	      | r.stewart@hw.ac.uk
 Craig McLaughlin      | 1002524M@student.gla.ac.uk
 Simon Fowler	      | simon.fowler@ed.ac.uk
 Philip Wadler	      | wadler@inf.ed.ac.uk
+---                   | ---
 Conor McBride	      | conor.mcbride@cis.strath.ac.uk
 Martin Berger	      | m.f.berger@sussex.ac.uk
 Bob Atkey	      | bob.atkey@ed.ac.uk
