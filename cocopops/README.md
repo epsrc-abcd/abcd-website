@@ -16,9 +16,8 @@ Edwin Brady, St. Andrews
 Confirmed attendees
 =====
 
-Name          | Email
----           | ---
-
+Name                  | Email
+---                   | ---
 Roly Perera           | roly.perera@glasgow.ac.uk
 Rob Stewart	      | r.stewart@hw.ac.uk
 Craig McLaughlin      | 1002524M@student.gla.ac.uk
