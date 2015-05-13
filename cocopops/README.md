@@ -3,6 +3,7 @@ Action Items
 
 * Dimitris: organise catering.
 * Roly: compile list of additional invitees.
+* Roly: email all invitees for final confirmation of attendance.
 
 Talk proposals
 ======
@@ -13,9 +14,13 @@ Simon Fowler, Edinburgh          | Monitoring Distributed Erlang/OTP Application
 Conor McBride, Strathclyde       | Traffic-Dependent Session Types (TBC)                                          | No
 Edwin Brady, St. Andrews         | (TBC)                                                                          | No
 Raymond Hu, Imperial             | (TBC)                                                                          | No
+Luca Padovani, Torino            | (TBC)                                                                          | No
 
-Confirmed attendees
+Attending
 =====
+
+Confirmed or likely to attend
+-----
 
 Name                  | Email
 ---                   | ---
@@ -26,25 +31,34 @@ Simon Fowler	      | simon.fowler@ed.ac.uk
 Philip Wadler	      | wadler@inf.ed.ac.uk
                       |
 Conor McBride	      | conor.mcbride@cis.strath.ac.uk
-Martin Berger	      | m.f.berger@sussex.ac.uk
 Bob Atkey	      | bob.atkey@ed.ac.uk
 Dimitris Kouzapas     |	dimitris.kouzapas@googlemail.com
 Ornela Dardha	      | ornela.dardha@glasgow.ac.uk
-                      |
 Sam Lindley	      | sam.lindley@ed.ac.uk
+                      |
 Edwin Brady	      | ecb10@st-andrews.ac.uk
 Simon Gay	      | simon.gay@glasgow.ac.uk
 Wim Vanderbauwhede    | wim.vanderbauwhede@glasgow.ac.uk
 Dennis Griffith       | dgriffi3@illinois.edu
-                      |
 Raymond Hu            | raymond.hu05@imperial.ac.uk
+                      |
+Garrett Morris        | garrett.morris@ed.ac.uk
+Luca Padovani         | luca.padovani@di.unito.it
 
-TOTAL 16
+TOTAL 18
 
-Other potential invitees
-=====
+Not everyone on the list has confirmed that they will attend, so we will
+need to check before making the final catering arrangements.
 
-* Andrew Birkett (andrew@nobugs.com)
+Other potential attendees (awaiting response)
+-----
+
+Name                  | Email
+---                   | ---
+Andrew Birkett        | andrew@nobugs.com
+Alceste Scalas        | alceste.scalas@unica.it
+Massimo Bartoletti    | bart@unica.it
+Martin Berger	      | m.f.berger@sussex.ac.uk
 
 Catering notes
 ======
