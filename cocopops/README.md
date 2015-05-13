@@ -45,7 +45,7 @@ Raymond Hu            | raymond.hu05@imperial.ac.uk
 Garrett Morris        | garrett.morris@ed.ac.uk
 Luca Padovani         | luca.padovani@di.unito.it
 
-TOTAL 18
+TOTAL 17
 
 Not everyone on the list has confirmed that they will attend, so we will
 need to check before making the final catering arrangements.
