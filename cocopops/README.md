@@ -2,7 +2,7 @@ Action Items
 ======
 
 * Dimitris: organise catering.
-* Roly: compile list of additional invitees.
+* Roly: update website with notes on the format.
 * Roly: email all invitees for final confirmation of attendance.
 
 Talk proposals
