@@ -2,7 +2,6 @@ Action Items
 ======
 
 * Dimitris: organise catering.
-* Roly: update website with notes on the format.
 * Roly: email all invitees for final confirmation of attendance.
 
 Talk proposals
@@ -15,6 +14,8 @@ Conor McBride, Strathclyde       | Traffic-Dependent Session Types (TBC)        
 Edwin Brady, St. Andrews         | (TBC)                                                                          | No
 Raymond Hu, Imperial             | (TBC)                                                                          | No
 Luca Padovani, Torino            | (TBC)                                                                          | No
+Dennis Griffith, Illinois        | Introduction to Sill                                                           | Yes
+Massimo Bartoletti, Cagliari     | (TBC)                                                                          | No
 
 Attending
 =====
@@ -44,8 +45,9 @@ Raymond Hu            | raymond.hu05@imperial.ac.uk
                       |
 Garrett Morris        | garrett.morris@ed.ac.uk
 Luca Padovani         | luca.padovani@di.unito.it
+Massimo Bartoletti    | bart@unica.it
 
-TOTAL 17
+TOTAL 18
 
 Not everyone on the list has confirmed that they will attend, so we will
 need to check before making the final catering arrangements.
@@ -56,8 +58,6 @@ Other potential attendees (awaiting response)
 Name                  | Email
 ---                   | ---
 Andrew Birkett        | andrew@nobugs.com
-Alceste Scalas        | alceste.scalas@unica.it
-Massimo Bartoletti    | bart@unica.it
 Martin Berger	      | m.f.berger@sussex.ac.uk
 
 Catering notes
