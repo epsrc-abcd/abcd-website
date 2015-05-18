@@ -15,7 +15,9 @@ Edwin Brady, St. Andrews         | (TBC)                                        
 Raymond Hu, Imperial             | (TBC)                                                                          | No
 Luca Padovani, Torino            | (TBC)                                                                          | No
 Dennis Griffith, Illinois        | Introduction to Sill                                                           | Yes
-Massimo Bartoletti, Cagliari     | (TBC)                                                                          | No
+Massimo Bartoletti, Cagliari     | (TBC)                                                                          | Yes
+Dimitris Kouzapas                | (TBC)                                                                          | No
+Garrett Morris                   | (TBC)                                                                          | No
 
 Attending
 =====
@@ -89,18 +91,17 @@ Tentative schedule
 When  | What
 ---   | ---
 08:30 | _Room available_
-09:45 | _Breakfast_
-10:10 | Introduction (TBD)
-10:15 | Talks about tools
+09:30 | _Breakfast, welcome_
+09:45 | Talk 1
+10:30 | Talk 2
 11:15 | _Coffee_
-11:30 | Talks about tools
+11:45 | Talks about tools
 12:30 | _Lunch_
-13:30 | Demos
-14:30 | _Coffee_
-14:45 | Demos
-15:45 | _Coffee_
-16:00 | Demos
-16:45 | Roundtable/moderated discussion
+14:00 | Talk 1
+14:45 | Talk 2
+15:30 | _Coffee_
+16:00 | Talk 3
+16:45 | Discussion?
 17:30 | _Finish_
 18:00 | _Pub_
 19:00 | _Dinner_
