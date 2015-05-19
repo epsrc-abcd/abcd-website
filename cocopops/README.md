@@ -10,13 +10,13 @@ Talk proposals
 Name                             | Title                                                                          | Abstract?
 ---                              | ---                                                                            | ---
 Simon Fowler, Edinburgh          | Monitoring Distributed Erlang/OTP Applications with Multiparty Session Types   | Yes
-Conor McBride, Strathclyde       | Traffic-Dependent Session Types (TBC)                                          | No
+Conor McBride, Strathclyde       | Traffic-Dependent Session Types                                                | No
 Edwin Brady, St. Andrews         | (TBC)                                                                          | No
 Raymond Hu, Imperial             | (TBC)                                                                          | No
 Luca Padovani, Torino            | (TBC)                                                                          | No
 Dennis Griffith, Illinois        | Introduction to Sill                                                           | Yes
-Massimo Bartoletti, Cagliari     | (TBC)                                                                          | Yes
-Dimitris Kouzapas                | (TBC)                                                                          | No
+Massimo Bartoletti, Cagliari     | A contract-oriented middleware                                                 | Yes
+Dimitris Kouzapas                | (TBC
 Garrett Morris                   | (TBC)                                                                          | No
 
 Attending
@@ -59,8 +59,7 @@ Other potential attendees (awaiting response)
 
 Name                  | Email
 ---                   | ---
-Andrew Birkett        | andrew@nobugs.com
-Martin Berger	      | m.f.berger@sussex.ac.uk
+Vasco Vasconcelos     | vmvasconcelos@ciencias.ulisboa.pt
 
 Catering notes
 ======
@@ -70,19 +69,6 @@ Catering notes
 Programme
 ======
 
-Schedule questions:
-
-* How long should each session be?
-* Should 'demos' and 'talks' have the same amount of time?
-
-Some reference points:
-
-* ICFP - 50 minutes (2 x 25 min)
-* ESOP - 120 minutes (4 x 30 min)
-* CoCo - 75 minutes (5 x 15 min)
-* WG 2.16 - 45 minutes (1 x 45 min)
-* Typical conference - 90 minutes (3 x 30 min)
-
 Tentative schedule
 ------
 
@@ -91,18 +77,17 @@ Tentative schedule
 When  | What
 ---   | ---
 08:30 | _Room available_
-09:30 | _Breakfast, welcome_
-09:45 | Talk 1
-10:30 | Talk 2
+09:30 | _Welcome_
+09:45 | Morning Talk 1
+10:30 | Morning Talk 2
 11:15 | _Coffee_
-11:45 | Talks about tools
+11:45 | Morning Talk 3
 12:30 | _Lunch_
-14:00 | Talk 1
-14:45 | Talk 2
+14:00 | Afternoon Talk 1
+14:45 | Afternoon Talk 2
 15:30 | _Coffee_
-16:00 | Talk 3
-16:45 | Discussion?
-17:30 | _Finish_
+16:00 | Afternoon Talk 3
+16:45 | _Finish_
 18:00 | _Pub_
 19:00 | _Dinner_
 
@@ -110,37 +95,14 @@ When  | What
 
 When  | What
 ---   | ---
-9:45  | _Breakfast_
-10:15 | General talks
+9:30  | _Arrival_
+09:45 | Morning Talk 1
+10:30 | Morning Talk 2
 11:15 | _Coffee_
-11:30 | General talks
+11:45 | Morning Talk 3
 12:30 | _Lunch_
-13:30 | Demos
-14:30 | _Early finish (TBD)_
-
-Discarded ideas
-======
-
-An earlier idea was to pose "challenge" problems and invite each
-participating team to present solutions to several of these. This would
-probably lead to repetition on the day; it would also require some
-lead-time and coordination prior to the event. Allowing the participants
-to propose the challenge problems would mitigate the problem of
-potential repetition, but require even more lead-time and coordination
-ahead of the event. Either variant also involves additional work for
-participants, which might discourage submissions.
-
-Better to take things one step at a time: first an event emphasising
-programming over theory. If that is a success, we can think about a
-follow-up event with a less conventional (and more explicitly
-comparative) structure.
-
-Some possibilities:
-
-Corny idea    | Short for
----           | ---
-PSST          | *P*ractical *S*ystems for *S*ession *T*ypes
-STIPL         | *S*ession *T*ypes *i*n *P*ractical *L*anguages
-PAST          | *P*ractical *A*spects of *S*ession *T*ypes
-C<sup>7</sup> | *C*aledonian *C*olloquium on *C*oncrete *C*oncerns in *C*ommunication and *C*oncurrent *C*omputation
-CoCoNUT       | *C*ommunication-based *C*omputation: *N*ew *U*ses for *T*ypes
+14:00 | Afternoon Talk 1
+14:45 | Afternoon Talk 2
+15:30 | _Coffee_
+16:00 | Discussion
+16:45 | _Finish_
