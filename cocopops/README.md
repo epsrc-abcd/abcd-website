@@ -17,9 +17,9 @@ Luca Padovani, Torino            | (TBC)                                        
                                  |
 Dennis Griffith, Illinois        | Introduction to Sill                                                           | Yes
 Massimo Bartoletti, Cagliari     | A contract-oriented middleware                                                 | Yes
-Dimitris Kouzapas                | (TBC)                                                                          | No
-Garrett Morris                   | (TBC)                                                                          | No
-Nicholas Ng                      | (TBC)                                                                          | No
+Dimitris Kouzapas, Glasgow       | (TBC)                                                                          | No
+Garrett Morris, Edinburgh        | (TBC)                                                                          | No
+Nicholas Ng, Imperial            | (TBC)                                                                          | No
 
 Attending
 =====
