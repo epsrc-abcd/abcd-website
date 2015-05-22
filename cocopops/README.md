@@ -48,7 +48,6 @@ Dennis Griffith       | dgriffi3@illinois.edu
 Raymond Hu            | raymond.hu05@imperial.ac.uk
                       |
 Garrett Morris        | garrett.morris@ed.ac.uk
-Luca Padovani         | luca.padovani@di.unito.it
 Massimo Bartoletti    | bart@unica.it
 
 TOTAL 18
@@ -61,7 +60,7 @@ Other potential attendees (awaiting response)
 
 Name                  | Email
 ---                   | ---
-Vasco Vasconcelos     | vmvasconcelos@ciencias.ulisboa.pt
+Luca Padovani         | luca.padovani@di.unito.it
 
 Catering notes
 ======
