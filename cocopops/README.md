@@ -14,7 +14,7 @@ Conor McBride, Strathclyde       | Traffic-Dependent Session Types              
 Edwin Brady, St. Andrews         | (TBC)                                                                          | No
 Raymond Hu, Imperial             | (TBC)                                                                          | No
 Luca Padovani, Torino            | (TBC)                                                                          | No
-
+                                 |
 Dennis Griffith, Illinois        | Introduction to Sill                                                           | Yes
 Massimo Bartoletti, Cagliari     | A contract-oriented middleware                                                 | Yes
 Dimitris Kouzapas                | (TBC)                                                                          | No
