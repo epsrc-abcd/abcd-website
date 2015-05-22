@@ -21,6 +21,8 @@ Dimitris Kouzapas, Glasgow       | (TBC)                                        
 Garrett Morris, Edinburgh        | (TBC)                                                                          | No
 Nicholas Ng, Imperial            | (TBC)                                                                          | No
 
+TOTAL 10
+
 Attending
 =====
 
@@ -49,6 +51,7 @@ Raymond Hu            | raymond.hu05@imperial.ac.uk
                       |
 Garrett Morris        | garrett.morris@ed.ac.uk
 Massimo Bartoletti    | bart@unica.it
+Luca Padovani         | luca.padovani@di.unito.it
 
 TOTAL 18
 
@@ -58,9 +61,10 @@ need to check before making the final catering arrangements.
 Other potential attendees (awaiting response)
 -----
 
-Name                  | Email
----                   | ---
-Luca Padovani         | luca.padovani@di.unito.it
+Name                   | Email
+---                    | ---
+Shayan Najd Javadipour | sh.najd@ed.ac.uk
+Jack Williams          | s0938550@sms.ed.ac.uk
 
 Catering notes
 ======
