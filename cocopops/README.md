@@ -14,10 +14,12 @@ Conor McBride, Strathclyde       | Traffic-Dependent Session Types              
 Edwin Brady, St. Andrews         | (TBC)                                                                          | No
 Raymond Hu, Imperial             | (TBC)                                                                          | No
 Luca Padovani, Torino            | (TBC)                                                                          | No
+
 Dennis Griffith, Illinois        | Introduction to Sill                                                           | Yes
 Massimo Bartoletti, Cagliari     | A contract-oriented middleware                                                 | Yes
-Dimitris Kouzapas                | (TBC
+Dimitris Kouzapas                | (TBC)                                                                          | No
 Garrett Morris                   | (TBC)                                                                          | No
+Nicholas Ng                      | (TBC)                                                                          | No
 
 Attending
 =====
@@ -78,15 +80,15 @@ When  | What
 ---   | ---
 08:30 | _Room available_
 09:30 | _Welcome_
-09:45 | Morning Talk 1
-10:30 | Morning Talk 2
+09:45 | Talk 1
+10:30 | Talk 2
 11:15 | _Coffee_
-11:45 | Morning Talk 3
+11:45 | Talk 3
 12:30 | _Lunch_
-14:00 | Afternoon Talk 1
-14:45 | Afternoon Talk 2
+14:00 | Talk 4
+14:45 | Talk 5
 15:30 | _Coffee_
-16:00 | Afternoon Talk 3
+16:00 | Talk 6
 16:45 | _Finish_
 18:00 | _Pub_
 19:00 | _Dinner_
@@ -96,13 +98,13 @@ When  | What
 When  | What
 ---   | ---
 9:30  | _Arrival_
-09:45 | Morning Talk 1
-10:30 | Morning Talk 2
+09:45 | Talk 7
+10:30 | Talk 8
 11:15 | _Coffee_
-11:45 | Morning Talk 3
+11:45 | Talk 9
 12:30 | _Lunch_
-14:00 | Afternoon Talk 1
-14:45 | Afternoon Talk 2
+14:00 | Talk 10
+14:45 | Talk 11
 15:30 | _Coffee_
 16:00 | Discussion
 16:45 | _Finish_
