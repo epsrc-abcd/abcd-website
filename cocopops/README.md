@@ -13,7 +13,7 @@ Simon Fowler, Edinburgh          | Monitoring Distributed Erlang/OTP Application
 Conor McBride, Strathclyde       | Traffic-Dependent Session Types                                                | No
 Edwin Brady, St. Andrews         | (TBC)                                                                          | No
 Raymond Hu, Imperial             | (TBC)                                                                          | No
-Luca Padovani, Torino            | (TBC)                                                                          | No
+Luca Padovani, Torino            | Linearity and the Pi Calculus, Revisited                                       | Yes
                                  |
 Dennis Griffith, Illinois        | Introduction to Sill                                                           | Yes
 Massimo Bartoletti, Cagliari     | A contract-oriented middleware                                                 | Yes
@@ -63,7 +63,6 @@ Other potential attendees (awaiting response)
 
 Name                   | Email
 ---                    | ---
-Shayan Najd Javadipour | sh.najd@ed.ac.uk
 Jack Williams          | s0938550@sms.ed.ac.uk
 
 Catering notes
