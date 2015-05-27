@@ -20,6 +20,7 @@ Massimo Bartoletti, Cagliari     | A contract-oriented middleware               
 Dimitris Kouzapas, Glasgow       | (TBC)                                                                          | No
 Garrett Morris, Edinburgh        | (TBC)                                                                          | No
 Nicholas Ng, Imperial            | (TBC)                                                                          | No
+Phil Wadler, Edinburgh           | Extending CP to pi-calculus (TBC)                                              | No
 
 TOTAL 10
 
