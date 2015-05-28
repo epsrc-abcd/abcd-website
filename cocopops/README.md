@@ -122,7 +122,8 @@ When  | What
 Titles and abstracts
 ======
 
-### Simon Fower. Monitoring Distributed Erlang/OTP Applications with  Multiparty Session Types
+### Simon Fower, Edinburgh.
+#### Monitoring Distributed Erlang/OTP Applications with  Multiparty Session Types
 
 Just as data types encode the data used in applications, session types encode
 communication patterns, providing guarantees that protocols are safe and
@@ -197,7 +198,7 @@ types, and an integration of both synchronous and asynchronous
 communication. After an overview of the language, we will work through
 some examples demonstrating how these features play out in practice.
 
-### Massimo Bartoletti. A contract-oriented middleware
+### Massimo Bartoletti. A Contract-Oriented Middleware
 
 Developing distributed applications typically requires to integrate new
 code with preexisting third-party services, e.g., e-commerce facilities,
@@ -214,3 +215,5 @@ they interact. We exploit a theory of timed behavioural contracts to
 design and implement a message-oriented middleware where distributed
 services can be dynamically composed, and their communications monitored
 so to guarantee safe interactions.
+
+### Phil Wadler. Propositions as Sessions: An Open Question
