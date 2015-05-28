@@ -3,6 +3,7 @@ Action Items
 
 * Dimitris: organise catering.
 * Roly: email all invitees for final confirmation of attendance.
+* All: finalise programme.
 
 Talk proposals
 ======
@@ -10,19 +11,20 @@ Talk proposals
 Name                             | Title                                                                          | Abstract?
 ---                              | ---                                                                            | ---
 Simon Fowler, Edinburgh          | Monitoring Distributed Erlang/OTP Applications with Multiparty Session Types   | Yes
-Conor McBride, Strathclyde       | Traffic-Dependent Session Types                                                | No
-Edwin Brady, St. Andrews         | (TBC)                                                                          | No
-Raymond Hu, Imperial             | (TBC)                                                                          | No
+Conor McBride, Strathclyde       | Traffic-Dependent Session Types                                                | Requested
+Edwin Brady, St. Andrews         | (TBC)                                                                          | Requested
+Raymond Hu, Imperial             | (TBC)                                                                          | Requested
 Luca Padovani, Torino            | Linearity and the Pi Calculus, Revisited                                       | Yes
                                  |
 Dennis Griffith, Illinois        | Introduction to Sill                                                           | Yes
 Massimo Bartoletti, Cagliari     | A contract-oriented middleware                                                 | Yes
-Dimitris Kouzapas, Glasgow       | (TBC)                                                                          | No
-Garrett Morris, Edinburgh        | (TBC)                                                                          | No
+Dimitris Kouzapas, Glasgow       | (TBC)                                                                          | Yes
+Garrett Morris, Edinburgh        | (TBC)                                                                          | Requested
 Nicholas Ng, Imperial            | (TBC)                                                                          | No
-Phil Wadler, Edinburgh           | Extending CP to pi-calculus (TBC)                                              | No
+                                 |
+Phil Wadler, Edinburgh           | Extending CP to pi-calculus (TBC)                                              | Requested
 
-TOTAL 10
+TOTAL 11
 
 Attending
 =====
@@ -69,7 +71,12 @@ Jack Williams          | s0938550@sms.ed.ac.uk
 Catering notes
 ======
 
-[TBD]
+Need to organise:
+
+* Coffees (when, how many)
+* Fruit/snacks (buying our own?)
+* Dinner reservation for Monday night
+* Lunch orders once we have final numbers
 
 Programme
 ======
