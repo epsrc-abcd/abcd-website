@@ -11,8 +11,8 @@ Talk proposals
 Name                             | Title                                                                          | Abstract?
 ---                              | ---                                                                            | ---
 Simon Fowler, Edinburgh          | Monitoring Distributed Erlang/OTP Applications with Multiparty Session Types   | Yes
-Conor McBride, Strathclyde       | Traffic-Dependent Session Types                                                | Requested
-Edwin Brady, St. Andrews         | (TBC)                                                                          | Requested
+Conor McBride, Strathclyde       | Traffic-Dependent Session Types                                                | Yes
+Edwin Brady, St. Andrews         | (TBC)                                                                          | Yes
 Raymond Hu, Imperial             | (TBC)                                                                          | Requested
 Luca Padovani, Torino            | Linearity and the Pi Calculus, Revisited                                       | Yes
                                  |
@@ -20,7 +20,7 @@ Dennis Griffith, Illinois        | Introduction to Sill                         
 Massimo Bartoletti, Cagliari     | A contract-oriented middleware                                                 | Yes
 Dimitris Kouzapas, Glasgow       | (TBC)                                                                          | Yes
 Garrett Morris, Edinburgh        | (TBC)                                                                          | Requested
-Nicholas Ng, Imperial            | (TBC)                                                                          | No
+Nicholas Ng, Imperial            | (TBC)                                                                          | Requested
                                  |
 Phil Wadler, Edinburgh           | Extending CP to pi-calculus (TBC)                                              | Requested
 
@@ -118,3 +118,23 @@ When  | What
 15:30 | _Coffee_
 16:00 | Discussion
 16:45 | _Finish_
+
+Titles and abstracts
+======
+
+Edwin Brady.
+-----
+
+Conor McBride. Traffic-Dependent Session Types
+-----
+
+Sending and receiving in session types resonate with the dependently
+typed notions of Sigma and Pi types, respectively. However, when we try
+to build a higher-order notion of session type from Sigma and Pi, we
+find we must take care upon what exactly dependent session types can
+depend. What gets substituted for the bound variables when we
+instantiate the range of such a type? I argue that the correct answer to
+this question is not the session *participant*, but the session
+*traffic*. I show how to construct in Agda a universe of session types
+which enforce dependency only on traffic, and I offer some
+interpretations of these types as sets of participating processes.
