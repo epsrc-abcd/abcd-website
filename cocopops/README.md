@@ -122,11 +122,9 @@ When  | What
 Titles and abstracts
 ======
 
-Edwin Brady.
------
+### Edwin Brady.
 
-Conor McBride. Traffic-Dependent Session Types
------
+### Conor McBride. Traffic-Dependent Session Types
 
 Sending and receiving in session types resonate with the dependently
 typed notions of Sigma and Pi types, respectively. However, when we try
