@@ -22,7 +22,7 @@ Dimitris Kouzapas, Glasgow       | (TBC)                                        
 Garrett Morris, Edinburgh        | (TBC)                                                                          | Requested
 Nicholas Ng, Imperial            | (TBC)                                                                          | Requested
                                  |
-Phil Wadler, Edinburgh           | Extending CP to pi-calculus (TBC)                                              | Requested
+Phil Wadler, Edinburgh           | Propositions as Sessions: An Open Question                                     | N/A
 
 TOTAL 11
 
@@ -177,7 +177,7 @@ Development allows programmers to specify the game rules in a direct and
 concise style, and how it leads to an implementation, guaranteed to
 correctly follow the rules by type checking.
 
-#### Luca Padovani. Linearity and the Pi Calculus, Revisited
+### Luca Padovani. Linearity and the Pi Calculus, Revisited
 
 We discuss a type system that extends the linear pi calculus with pairs,
 disjoint sums, and regular data types. The type system adopts a
@@ -187,3 +187,30 @@ values; on the other hand, it provides stronger guarantees on the fact
 that linear channels are actually used. We demonstrate the type system
 at work on a series of examples and present a tool that implements the
 corresponding type reconstruction algorithm.
+
+### Dennis Griffith. Introduction to Sill
+
+This talk will provide an overview of the language SILL, a session typed
+language currently under development at UIUC and CMU. SILL provides
+monadic process expressions, branching subtyping, both affine and linear
+types, and an integration of both synchronous and asynchronous
+communication. After an overview of the language, we will work through
+some examples demonstrating how these features play out in practice.
+
+### Massimo Bartoletti. A contract-oriented middleware
+
+Developing distributed applications typically requires to integrate new
+code with preexisting third-party services, e.g., e-commerce facilities,
+maps, etc. These services cannot always be assumed to smoothly
+collaborate with each other; rather, they live in a “wild” environment
+where they must compete for resources, and possibly diverge from the
+intended behaviour in case they find it convenient to do so.
+
+To overcome this issue, some recent works have proposed to discipline
+the interaction of mutually distrusting services through behavioural
+contracts. The idea is a bottom-up composition, where only those
+services with compliant contracts can establish sessions through which
+they interact. We exploit a theory of timed behavioural contracts to
+design and implement a message-oriented middleware where distributed
+services can be dynamically composed, and their communications monitored
+so to guarantee safe interactions.
