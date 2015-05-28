@@ -122,7 +122,27 @@ When  | What
 Titles and abstracts
 ======
 
-### Edwin Brady. Type-driven Development for Games and Protocols.
+### Simon Fower. Monitoring Distributed Erlang/OTP Applications with
+    Multiparty Session Types
+
+Just as data types encode the data used in applications, session types encode
+communication patterns, providing guarantees that protocols are safe and
+that programs conform to their prescribed protocols. Traditionally, session
+types have been checked statically at compile time.
+
+An alternative approach is to use session types as a tool for lightweight
+runtime verification. This is especially useful in languages with
+dynamically-checked types, and in languages where session participants
+cannot always be assumed to be available.
+
+In this talk, I'll explain my work on adding dynamic monitoring of session
+types to distributed Erlang/OTP server applications. Building on the work
+on Multiparty Session Actors by Neykova and Yoshida, I'll talk about how
+session types fit into standard OTP design patterns such as supervision
+trees, how to detect and handle failures, and demonstrate some larger
+case studies such as a DNS server.
+
+### Edwin Brady. Type-driven Development for Games and Protocols
 
 Idris (http://idris-lang.org/) is a general purpose pure functional
 programming language with dependent types. In Idris, types are a first
