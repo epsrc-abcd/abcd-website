@@ -136,7 +136,7 @@ trees, how to detect and handle failures, and demonstrate some larger
 case studies such as a DNS server.
 
 #### Traffic-Dependent Session Types
-#### Conor McBride, Strathclyde.
+##### Conor McBride, Strathclyde.
 
 Sending and receiving in session types resonate with the dependently
 typed notions of Sigma and Pi types, respectively. However, when we try
@@ -150,7 +150,7 @@ which enforce dependency only on traffic, and I offer some
 interpretations of these types as sets of participating processes.
 
 #### Type-driven Development for Games and Protocols
-#### Edwin Brady, St. Andrews.
+##### Edwin Brady, St. Andrews.
 
 Idris (http://idris-lang.org/) is a general purpose pure functional
 programming language with dependent types. In Idris, types are a first
@@ -174,7 +174,7 @@ concise style, and how it leads to an implementation, guaranteed to
 correctly follow the rules by type checking.
 
 #### Linearity and the Pi Calculus, Revisited
-#### Luca Padovani, Torino.
+##### Luca Padovani, Torino.
 
 We discuss a type system that extends the linear pi calculus with pairs,
 disjoint sums, and regular data types. The type system adopts a
@@ -186,7 +186,7 @@ at work on a series of examples and present a tool that implements the
 corresponding type reconstruction algorithm.
 
 #### Introduction to Sill
-#### Dennis Griffith, Illinois.
+##### Dennis Griffith, Illinois.
 
 This talk will provide an overview of the language SILL, a session typed
 language currently under development at UIUC and CMU. SILL provides
@@ -196,7 +196,7 @@ communication. After an overview of the language, we will work through
 some examples demonstrating how these features play out in practice.
 
 #### A Contract-Oriented Middleware
-#### Massimo Bartoletti, Cagliari.
+##### Massimo Bartoletti, Cagliari.
 
 Developing distributed applications typically requires to integrate new
 code with preexisting third-party services, e.g., e-commerce facilities,
@@ -215,4 +215,4 @@ services can be dynamically composed, and their communications monitored
 so to guarantee safe interactions.
 
 #### Propositions as Sessions: An Open Question
-#### Phil Wadler, Edinburgh.
+##### Phil Wadler, Edinburgh.
