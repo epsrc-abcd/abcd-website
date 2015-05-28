@@ -122,8 +122,7 @@ When  | What
 Titles and abstracts
 ======
 
-### Simon Fower. Monitoring Distributed Erlang/OTP Applications with
-    Multiparty Session Types
+### Simon Fower. Monitoring Distributed Erlang/OTP Applications with  Multiparty Session Types
 
 Just as data types encode the data used in applications, session types encode
 communication patterns, providing guarantees that protocols are safe and
@@ -141,6 +140,19 @@ on Multiparty Session Actors by Neykova and Yoshida, I'll talk about how
 session types fit into standard OTP design patterns such as supervision
 trees, how to detect and handle failures, and demonstrate some larger
 case studies such as a DNS server.
+
+### Conor McBride. Traffic-Dependent Session Types
+
+Sending and receiving in session types resonate with the dependently
+typed notions of Sigma and Pi types, respectively. However, when we try
+to build a higher-order notion of session type from Sigma and Pi, we
+find we must take care upon what exactly dependent session types can
+depend. What gets substituted for the bound variables when we
+instantiate the range of such a type? I argue that the correct answer to
+this question is not the session *participant*, but the session
+*traffic*. I show how to construct in Agda a universe of session types
+which enforce dependency only on traffic, and I offer some
+interpretations of these types as sets of participating processes.
 
 ### Edwin Brady. Type-driven Development for Games and Protocols
 
@@ -165,15 +177,13 @@ Development allows programmers to specify the game rules in a direct and
 concise style, and how it leads to an implementation, guaranteed to
 correctly follow the rules by type checking.
 
-### Conor McBride. Traffic-Dependent Session Types
+#### Luca Padovani. Linearity and the Pi Calculus, Revisited
 
-Sending and receiving in session types resonate with the dependently
-typed notions of Sigma and Pi types, respectively. However, when we try
-to build a higher-order notion of session type from Sigma and Pi, we
-find we must take care upon what exactly dependent session types can
-depend. What gets substituted for the bound variables when we
-instantiate the range of such a type? I argue that the correct answer to
-this question is not the session *participant*, but the session
-*traffic*. I show how to construct in Agda a universe of session types
-which enforce dependency only on traffic, and I offer some
-interpretations of these types as sets of participating processes.
+We discuss a type system that extends the linear pi calculus with pairs,
+disjoint sums, and regular data types. The type system adopts a
+different approach to linearity: on the one hand, it allows parallel
+processes to simultaneously access a data structure containing linear
+values; on the other hand, it provides stronger guarantees on the fact
+that linear channels are actually used. We demonstrate the type system
+at work on a series of examples and present a tool that implements the
+corresponding type reconstruction algorithm.
