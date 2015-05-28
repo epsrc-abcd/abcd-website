@@ -8,23 +8,14 @@ Action Items
 Talk proposals
 ======
 
+Abstract/titles still required from:
+
 Name                             | Title                                                                          | Abstract?
 ---                              | ---                                                                            | ---
-Simon Fowler, Edinburgh          | Monitoring Distributed Erlang/OTP Applications with Multiparty Session Types   | Yes
-Conor McBride, Strathclyde       | Traffic-Dependent Session Types                                                | Yes
-Edwin Brady, St. Andrews         | (TBC)                                                                          | Yes
 Raymond Hu, Imperial             | (TBC)                                                                          | Requested
-Luca Padovani, Torino            | Linearity and the Pi Calculus, Revisited                                       | Yes
-                                 |
-Dennis Griffith, Illinois        | Introduction to Sill                                                           | Yes
-Massimo Bartoletti, Cagliari     | A contract-oriented middleware                                                 | Yes
-Dimitris Kouzapas, Glasgow       | (TBC)                                                                          | Yes
+Dimitris Kouzapas, Glasgow       | (TBC)                                                                          | Requested
 Garrett Morris, Edinburgh        | (TBC)                                                                          | Requested
 Nicholas Ng, Imperial            | (TBC)                                                                          | Requested
-                                 |
-Phil Wadler, Edinburgh           | Propositions as Sessions: An Open Question                                     | N/A
-
-TOTAL 11
 
 Attending
 =====
@@ -122,8 +113,10 @@ When  | What
 Titles and abstracts
 ======
 
-### Simon Fower, Edinburgh.
+7 TOTAL + 4 PENDING
+
 #### Monitoring Distributed Erlang/OTP Applications with  Multiparty Session Types
+#### Simon Fower, Edinburgh.
 
 Just as data types encode the data used in applications, session types encode
 communication patterns, providing guarantees that protocols are safe and
@@ -142,7 +135,8 @@ session types fit into standard OTP design patterns such as supervision
 trees, how to detect and handle failures, and demonstrate some larger
 case studies such as a DNS server.
 
-### Conor McBride. Traffic-Dependent Session Types
+#### Traffic-Dependent Session Types
+#### Conor McBride, Strathclyde.
 
 Sending and receiving in session types resonate with the dependently
 typed notions of Sigma and Pi types, respectively. However, when we try
@@ -155,7 +149,8 @@ this question is not the session *participant*, but the session
 which enforce dependency only on traffic, and I offer some
 interpretations of these types as sets of participating processes.
 
-### Edwin Brady. Type-driven Development for Games and Protocols
+#### Type-driven Development for Games and Protocols
+#### Edwin Brady, St. Andrews.
 
 Idris (http://idris-lang.org/) is a general purpose pure functional
 programming language with dependent types. In Idris, types are a first
@@ -178,7 +173,8 @@ Development allows programmers to specify the game rules in a direct and
 concise style, and how it leads to an implementation, guaranteed to
 correctly follow the rules by type checking.
 
-### Luca Padovani. Linearity and the Pi Calculus, Revisited
+#### Linearity and the Pi Calculus, Revisited
+#### Luca Padovani, Torino.
 
 We discuss a type system that extends the linear pi calculus with pairs,
 disjoint sums, and regular data types. The type system adopts a
@@ -189,7 +185,8 @@ that linear channels are actually used. We demonstrate the type system
 at work on a series of examples and present a tool that implements the
 corresponding type reconstruction algorithm.
 
-### Dennis Griffith. Introduction to Sill
+#### Introduction to Sill
+#### Dennis Griffith, Illinois.
 
 This talk will provide an overview of the language SILL, a session typed
 language currently under development at UIUC and CMU. SILL provides
@@ -198,7 +195,8 @@ types, and an integration of both synchronous and asynchronous
 communication. After an overview of the language, we will work through
 some examples demonstrating how these features play out in practice.
 
-### Massimo Bartoletti. A Contract-Oriented Middleware
+#### A Contract-Oriented Middleware
+#### Massimo Bartoletti, Cagliari.
 
 Developing distributed applications typically requires to integrate new
 code with preexisting third-party services, e.g., e-commerce facilities,
@@ -216,4 +214,5 @@ design and implement a message-oriented middleware where distributed
 services can be dynamically composed, and their communications monitored
 so to guarantee safe interactions.
 
-### Phil Wadler. Propositions as Sessions: An Open Question
+#### Propositions as Sessions: An Open Question
+#### Phil Wadler, Edinburgh.
