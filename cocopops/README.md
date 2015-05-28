@@ -116,7 +116,7 @@ Titles and abstracts
 7 TOTAL + 4 PENDING
 
 #### Monitoring Distributed Erlang/OTP Applications with  Multiparty Session Types
-#### Simon Fower, Edinburgh.
+##### Simon Fower, Edinburgh.
 
 Just as data types encode the data used in applications, session types encode
 communication patterns, providing guarantees that protocols are safe and
