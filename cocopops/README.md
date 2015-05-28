@@ -10,12 +10,12 @@ Talk proposals
 
 Abstract/titles still required from:
 
-Name                             | Title                                                                          | Abstract?
----                              | ---                                                                            | ---
-Raymond Hu, Imperial             | (TBC)                                                                          | Requested
-Dimitris Kouzapas, Glasgow       | (TBC)                                                                          | Requested
-Garrett Morris, Edinburgh        | (TBC)                                                                          | Requested
-Nicholas Ng, Imperial            | (TBC)                                                                          | Requested
+Name                             |
+---                              |
+Raymond Hu, Imperial             |
+Dimitris Kouzapas, Glasgow       |
+Garrett Morris, Edinburgh        |
+Nicholas Ng, Imperial            |
 
 Attending
 =====
