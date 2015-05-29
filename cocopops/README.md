@@ -12,10 +12,8 @@ Abstract/titles still required from:
 
 Name                             |
 ---                              |
-Raymond Hu, Imperial             |
 Dimitris Kouzapas, Glasgow       |
 Garrett Morris, Edinburgh        |
-Nicholas Ng, Imperial            |
 
 Attending
 =====
@@ -214,5 +212,33 @@ design and implement a message-oriented middleware where distributed
 services can be dynamically composed, and their communications monitored
 so to guarantee safe interactions.
 
-#### Propositions as Sessions: An Open Question
-##### Phil Wadler, Edinburgh.
+#### Generating endpoint APIs from multiparty session types
+##### Raymond Hu, Imperial
+
+We will demonstrate a work-in-progress tool for generating Java endpoint
+APIs from multiparty session types written in Scribble. The aim is to
+automatically produce APIs similar to those used in current practices,
+to minimise restrictions on endpoint implementation or integration with
+other development facilities, while promoting session type safety via
+the native type system of the target language. As much of the static
+session typing constraints for the source protocol is captured in the
+native Java API as possible, with the remainder of the session safety
+aspects handled by lightweight run-time checks built into the generated
+API.
+
+#### Protocols by Default: Safe MPI Code Generation based on Session Types
+##### Nicholas Ng, Imperial
+
+In this talk I will present a code generation framework for type-safe
+and deadlock-free Message Passing Interface (MPI) programs. The code
+generation process starts with the definition of a global topology using
+Pabble, a protocol specification language based on parameterised
+multiparty session types (MPST). An MPI parallel program backbone is
+automatically generated from the global specification. The backbone code
+can then be merged with the sequential code describing the application
+behaviour, resulting in a complete MPI program. This merging process is
+fully automated through the use of an aspect-oriented compilation
+approach. In this way, programmers only need to supply the intended
+communication protocol and provide sequential code to automatically
+obtain parallelised programs that are guaranteed free from communication
+mismatch, type errors or deadlocks.
