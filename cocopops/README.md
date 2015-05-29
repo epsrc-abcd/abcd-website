@@ -213,7 +213,7 @@ services can be dynamically composed, and their communications monitored
 so to guarantee safe interactions.
 
 #### Generating endpoint APIs from multiparty session types
-##### Raymond Hu, Imperial
+##### Raymond Hu, Imperial.
 
 We will demonstrate a work-in-progress tool for generating Java endpoint
 APIs from multiparty session types written in Scribble. The aim is to
@@ -227,7 +227,7 @@ aspects handled by lightweight run-time checks built into the generated
 API.
 
 #### Protocols by Default: Safe MPI Code Generation based on Session Types
-##### Nicholas Ng, Imperial
+##### Nicholas Ng, Imperial.
 
 In this talk I will present a code generation framework for type-safe
 and deadlock-free Message Passing Interface (MPI) programs. The code
