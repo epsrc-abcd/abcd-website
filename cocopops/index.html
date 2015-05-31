@@ -24,6 +24,10 @@
 
   <meta http-equiv="PRAGMA" content="NO-CACHE">
   <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+
+  <style type="text/css">
+    td { vertical-align: top };
+  </style>
 </head>
 
 <body data-spy="scroll" data-target="#navbar">
@@ -133,6 +137,236 @@
     minutes are up, we will take a short break before the next speaker.
     We will ask laptops to be put away during the talks to encourage as
     much participation as possible.
+
+    <h2>Program</h2>
+
+    <table>
+      <tr>
+        <td colspan=3><h3>Monday, 8 June</h3></td>
+      </tr>
+      <tr>
+        <td width="10%">9:30 &ndash; 9:45</td>
+        <td width="15%"></td>
+        <td width="75%"><i>Welcome</i></td>
+      </tr>
+      <tr>
+        <td>9:45 &ndash; 10:30</td>
+        <td>Raymond Hu</td>
+        <td>
+          <p><i>Generating endpoint APIs from multiparty session types</i>
+
+          <p>We will demonstrate a work-in-progress tool for generating Java endpoint
+          APIs from multiparty session types written in Scribble. The aim is to
+          automatically produce APIs similar to those used in current practices,
+          to minimise restrictions on endpoint implementation or integration with
+          other development facilities, while promoting session type safety via
+          the native type system of the target language. As much of the static
+          session typing constraints for the source protocol is captured in the
+          native Java API as possible, with the remainder of the session safety
+          aspects handled by lightweight run-time checks built into the generated
+          API.
+        </td>
+      </tr>
+      <tr>
+        <td>10:30 &ndash; 11:15</td>
+        <td>Massimo Bartoletti</td>
+        <td>
+          <p><i>A Contract-Oriented Middleware</i><br>
+
+          <p>Developing distributed applications typically requires to integrate new
+          code with preexisting third-party services, e.g., e-commerce facilities,
+          maps, etc. These services cannot always be assumed to smoothly
+          collaborate with each other; rather, they live in a "wild" environment
+          where they must compete for resources, and possibly diverge from the
+          intended behaviour in case they find it convenient to do so.
+
+          <p>To overcome this issue, some recent works have proposed to discipline
+          the interaction of mutually distrusting services through behavioural
+          contracts. The idea is a bottom-up composition, where only those
+          services with compliant contracts can establish sessions through which
+          they interact. We exploit a theory of timed behavioural contracts to
+          design and implement a message-oriented middleware where distributed
+          services can be dynamically composed, and their communications monitored
+          so to guarantee safe interactions.
+        </td>
+      </tr>
+      <tr>
+        <td>11:15 &ndash; 11:45</td>
+        <td colspan=2><i>Coffee break</i></td>
+      </tr>
+      <tr>
+        <td>11:45 &ndash; 12:30</td>
+        <td>Garrett Morris</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>12:30 &ndash; 14:00</td>
+        <td colspan=2><i>Lunch</i></td>
+      </tr>
+      <tr>
+        <td>14:00 &ndash; 14:45</td>
+        <td>Conor McBride</td>
+        <td>
+          <p><i>Traffic-Dependent Session Types</i>
+          <p>Sending and receiving in session types resonate with the dependently
+          typed notions of Sigma and Pi types, respectively. However, when we try
+          to build a higher-order notion of session type from Sigma and Pi, we
+          find we must take care upon what exactly dependent session types can
+          depend. What gets substituted for the bound variables when we
+          instantiate the range of such a type? I argue that the correct answer to
+          this question is not the session *participant*, but the session
+          *traffic*. I show how to construct in Agda a universe of session types
+          which enforce dependency only on traffic, and I offer some
+          interpretations of these types as sets of participating processes.
+        </td>
+      </tr>
+      <tr>
+        <td>14:45 &ndash; 15:30</td>
+        <td>Dennis Griffith</td>
+        <td>
+          <p><i>Introduction to Sill</i>
+          <p>
+            This talk will provide an overview of the language SILL, a session typed
+            language currently under development at UIUC and CMU. SILL provides
+            monadic process expressions, branching subtyping, both affine and linear
+            types, and an integration of both synchronous and asynchronous
+            communication. After an overview of the language, we will work through
+            some examples demonstrating how these features play out in practice.
+
+        </td>
+      </tr>
+      <tr>
+        <td>15:30 &ndash; 16:00</td>
+        <td colspan=2><i>Coffee break</i></td>
+      </tr>
+      <tr>
+        <td>16:00 &ndash; 16:45</td>
+        <td>Phil Wadler</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>18:00</td>
+        <td colspan=2><i>Pub</i></td>
+      </tr>
+      <tr>
+        <td>19:00</td>
+        <td colspan=2><i>Dinner</i></td>
+      </tr>
+      <tr>
+        <td colspan=3><h3>Tuesday, 9 June</h3></td>
+      </tr>
+      <tr>
+        <td>9:45 &ndash; 10:30</td>
+        <td>Nicholas Ng</td>
+        <td>
+          <p><i>Protocols by Default: Safe MPI Code Generation based on Session Types</i>
+          <p>
+            In this talk I will present a code generation framework for type-safe
+            and deadlock-free Message Passing Interface (MPI) programs. The code
+            generation process starts with the definition of a global topology using
+            Pabble, a protocol specification language based on parameterised
+            multiparty session types (MPST). An MPI parallel program backbone is
+            automatically generated from the global specification. The backbone code
+            can then be merged with the sequential code describing the application
+            behaviour, resulting in a complete MPI program. This merging process is
+            fully automated through the use of an aspect-oriented compilation
+            approach. In this way, programmers only need to supply the intended
+            communication protocol and provide sequential code to automatically
+            obtain parallelised programs that are guaranteed free from communication
+            mismatch, type errors or deadlocks.
+        </td>
+      </tr>
+      <tr>
+        <td>10:30 &ndash; 11:15</td>
+        <td>Luca Padovani</td>
+        <td>
+          <p><i>Linearity and the Pi Calculus, Revisited</i>
+          <p>
+            We discuss a type system that extends the linear pi calculus with pairs,
+            disjoint sums, and regular data types. The type system adopts a
+            different approach to linearity: on the one hand, it allows parallel
+            processes to simultaneously access a data structure containing linear
+            values; on the other hand, it provides stronger guarantees on the fact
+            that linear channels are actually used. We demonstrate the type system
+            at work on a series of examples and present a tool that implements the
+            corresponding type reconstruction algorithm.
+        </td>
+      </tr>
+      <tr>
+        <td>11:15 &ndash; 11:45</td>
+        <td colspan=2><i>Coffee break</i></td>
+      </tr>
+      <tr>
+        <td>11:45 &ndash; 12:30</td>
+        <td>Simon Fowler</td>
+        <td>
+          <p><i>Monitoring Distributed Erlang/OTP Applications with  Multiparty Session Types</i>
+          <p>
+            Just as data types encode the data used in applications, session types encode
+            communication patterns, providing guarantees that protocols are safe and
+            that programs conform to their prescribed protocols. Traditionally, session
+            types have been checked statically at compile time.
+          <p>
+            An alternative approach is to use session types as a tool for lightweight
+            runtime verification. This is especially useful in languages with
+            dynamically-checked types, and in languages where session participants
+            cannot always be assumed to be available.
+          <p>
+            In this talk, I'll explain my work on adding dynamic monitoring of session
+            types to distributed Erlang/OTP server applications. Building on the work
+            on Multiparty Session Actors by Neykova and Yoshida, I'll talk about how
+            session types fit into standard OTP design patterns such as supervision
+            trees, how to detect and handle failures, and demonstrate some larger
+            case studies such as a DNS server.
+        </td>
+      </tr>
+      <tr>
+        <td>12:30 &ndash; 14:00</td>
+        <td colspan=2><i>Lunch</i></td>
+      </tr>
+      <tr>
+        <td>14:00 &ndash; 14:45</td>
+        <td>Dimitris Kouzapas</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>14:45 &ndash; 15:30</td>
+        <td>Edwin Brady</td>
+        <td>
+          <p><i>Type-driven Development for Games and Protocols</i>
+          <p>
+            <a href="http://idris-lang.org/">Idris</a> is a general purpose pure functional
+            programming language with dependent types. In Idris, types are a first
+            class language construct, meaning that they can be manipulated and
+            computed like any other language construct. It encourages a type-driven
+            style of development, in which programmers give types first and use
+            interactive editing tools to derive programs. Introductory examples
+            typically involve length preserving operations on lists, or ordering
+            invariants on sorting.
+          <p>
+            Realistically, though, programming is not so simple: programs interact
+            with users, communicate over networks, manipulate state, deal with
+            erroneous input, and so on. In this talk I will show how advanced type
+            systems allow us to express such interactions precisely, and how they
+            support verification of stateful systems as a result.
+          <p>
+            The talk will include several examples, leading to a verified
+            implementation of a word game (Hangman). I will show how Type-driven
+            Development allows programmers to specify the game rules in a direct and
+            concise style, and how it leads to an implementation, guaranteed to
+            correctly follow the rules by type checking.
+        </td>
+      </tr>
+      <tr>
+        <td>15:30 &ndash; 16:00</td>
+        <td colspan=2><i>Coffee break</i></td>
+      </tr>
+      <tr>
+        <td>16:00 &ndash; 16:45</td>
+        <td colspan=2>Discussion</td>
+      </tr>
+    </table>
+
 
     <h2>Directions and accommodation</h2>
 
