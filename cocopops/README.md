@@ -3,7 +3,7 @@ Action Items
 
 * Dimitris: organise catering.
 * Roly: email all invitees for final confirmation of attendance.
-* All: finalise programme.
+* Garrett: add programme to website.
 
 Talk proposals
 ======
