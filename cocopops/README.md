@@ -45,8 +45,9 @@ Garrett Morris        | garrett.morris@ed.ac.uk
 Massimo Bartoletti    | bart@unica.it
 Luca Padovani         | luca.padovani@di.unito.it
 Victor Dumitrescu     | s1107546@sms.ed.ac.uk
+Nicholas Ng           | nickng@imperial.ac.uk
 
-TOTAL 19
+TOTAL 20
 
 Not everyone on the list has confirmed that they will attend, so we will
 need to check before making the final catering arrangements.
@@ -90,19 +91,21 @@ When          | What
 
 ### Day 2
 
-When  | What
----   | ---
-9:30  | _Arrival_
-09:45 | Talk 7
-10:30 | Talk 8
-11:15 | _Coffee_
-11:45 | Talk 9
-12:30 | _Lunch_
-14:00 | Talk 10
-14:45 | Talk 11
-15:30 | _Coffee_
-16:00 | Discussion
-16:45 | _Finish_
+When          | What
+---           | ---
+9:30          | _Arrival_
+**Session 3** | **Chair: Garrett Morris**
+09:45         | Nicholas Ng
+10:30         | Luca Padovani
+11:15         | _Coffee_
+11:45         | Simon Fowler
+12:30         | _Lunch_
+**Session 4** | **Chair: Simon Gay**
+14:00         | Dimitris Kouzapas
+14:45         | Edwin Brady
+15:30         | _Coffee_
+16:00         | Discussion
+16:45         | _Finish_
 
 Titles and abstracts
 ======
