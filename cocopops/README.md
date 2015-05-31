@@ -51,13 +51,6 @@ TOTAL 19
 Not everyone on the list has confirmed that they will attend, so we will
 need to check before making the final catering arrangements.
 
-Other potential attendees (awaiting response)
------
-
-Name                   | Email
----                    | ---
-Jack Williams          | s0938550@sms.ed.ac.uk
-
 Catering notes
 ======
 
@@ -76,23 +69,24 @@ Tentative schedule
 
 ### Day 1
 
-When  | What
----   | ---
-08:30 | _Room available_
-09:30 | _Welcome_
-Session 1 | Chair: Dimitris Kouzapas
-09:45 | Talk 1
-10:30 | Talk 2
-11:15 | _Coffee_
-11:45 | Talk 3
-12:30 | _Lunch_
-14:00 | Talk 4
-14:45 | Talk 5
-15:30 | _Coffee_
-16:00 | Talk 6
-16:45 | _Finish_
-18:00 | _Pub_
-19:00 | _Dinner_
+When        | What
+---         | ---
+08:30       | _Room available_
+09:30       | _Welcome_
+*Session 1* | *Chair: Dimitris Kouzapas*
+09:45       | Raymond Hu
+10:30       | Massimo Bartoletti
+11:15       | _Coffee_
+11:45       | Garrett Morris
+12:30       | _Lunch_
+*Session 2* | *Chair: Roly Perera*
+14:00       | Conor McBride
+14:45       | Dennis Griffith
+15:30       | _Coffee_
+16:00       | Phil Wadler
+16:45       | _Finish_
+18:00       | _Pub_
+19:00       | _Dinner_
 
 ### Day 2
 
