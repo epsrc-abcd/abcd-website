@@ -79,6 +79,7 @@ When  | What
 ---   | ---
 08:30 | _Room available_
 09:30 | _Welcome_
+Session 1 | Chair: Dimitris Kouzapas
 09:45 | Talk 1
 10:30 | Talk 2
 11:15 | _Coffee_
@@ -111,7 +112,7 @@ When  | What
 Titles and abstracts
 ======
 
-7 TOTAL + 4 PENDING
+9 TOTAL + 2 PENDING
 
 #### Monitoring Distributed Erlang/OTP Applications with  Multiparty Session Types
 ##### Simon Fower, Edinburgh.
