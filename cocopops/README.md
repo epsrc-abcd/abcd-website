@@ -257,3 +257,14 @@ purchase the last ticket. What is the corresponding workaround?
 
 #### Lightweight Session Types in Links
 ##### Garrett Morris, Edinburgh
+
+Links is a functional programming language for _n_-tier application
+development.  This talk will demonstrate some recent work on adding
+session-typed concurrency to Links, and the corresponding changes to
+Links type system.  I will describe our approach to integrating linear
+types with an existing functional type system, based on the subkind
+mechanisms of Mazurak et al (2012).  I will also talk about Links'
+mechanism for extensible records and variants, based on row typing, and
+how a similar approach can be applied to session types to capture many of
+the traditional uses of subtyping in type system based on parametric
+polymorphism.
