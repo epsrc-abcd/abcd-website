@@ -241,3 +241,6 @@ approach. In this way, programmers only need to supply the intended
 communication protocol and provide sequential code to automatically
 obtain parallelised programs that are guaranteed free from communication
 mismatch, type errors or deadlocks.
+
+#### Propositions as Sessions: An Open Question
+##### Phil Wadler, Edinburgh.
