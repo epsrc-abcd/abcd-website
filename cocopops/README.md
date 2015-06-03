@@ -244,4 +244,28 @@ obtain parallelised programs that are guaranteed free from communication
 mismatch, type errors or deadlocks.
 
 #### Propositions as Sessions: An Open Question
-##### Phil Wadler, Edinburgh.
+##### Philip Wadler, Edinburgh.
+
+Simple types for lambda calculus guarantee that all programs
+terminate. Often this is just the property we want, but it rules out
+important cases such as general recursion. Fortunately, there is a
+workaround, in that the fixpoint combinator allows us to implement
+general recursion in a simply-typed setting. Session types for process
+calculus guarantee that all processes terminate and there are no
+races. Often this is just the property we want, but it rules out
+important cases such as a ticket system in which users may race to
+purchase the last ticket. What is the corresponding workaround?
+
+#### Lightweight Session Types in Links
+##### Garrett Morris, Edinburgh
+
+Links is a functional programming language for _n_-tier application
+development.  This talk will demonstrate some recent work on adding
+session-typed concurrency to Links, and the corresponding changes to
+Links type system.  I will describe our approach to integrating linear
+types with an existing functional type system, based on the subkind
+mechanisms of Mazurak et al (2012).  I will also talk about Links'
+mechanism for extensible records and variants, based on row typing, and
+how a similar approach can be applied to session types to capture many of
+the traditional uses of subtyping in type system based on parametric
+polymorphism.
