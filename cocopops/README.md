@@ -2,7 +2,6 @@ Action Items
 ======
 
 * Dimitris: coffee and lunch orders.
-* Roly: email Craig and Wim to check attendance.
 * Roly & Dimitris: buy snacks and drinks.
 * Dimitris: talk title & abstract.
 * Roly: badges from Simon + paper inserts.
