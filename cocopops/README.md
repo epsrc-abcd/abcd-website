@@ -2,8 +2,7 @@ Action Items
 ======
 
 * Dimitris: organise catering.
-* Roly: email all invitees for final confirmation of attendance.
-* Garrett: add programme to website.
+* Roly: Craig and Wim to check attendance.
 
 Talk proposals
 ======
@@ -21,33 +20,35 @@ Attending
 Confirmed or likely to attend
 -----
 
-Name                  | Email
----                   | ---
-Roly Perera           | roly.perera@glasgow.ac.uk
-Rob Stewart	      | r.stewart@hw.ac.uk
-Craig McLaughlin      | 1002524M@student.gla.ac.uk
-Simon Fowler	      | simon.fowler@ed.ac.uk
-Philip Wadler	      | wadler@inf.ed.ac.uk
-                      |
-Conor McBride	      | conor.mcbride@cis.strath.ac.uk
-Bob Atkey	      | bob.atkey@ed.ac.uk
-Dimitris Kouzapas     |	dimitris.kouzapas@googlemail.com
-Ornela Dardha	      | ornela.dardha@glasgow.ac.uk
-Sam Lindley	      | sam.lindley@ed.ac.uk
-                      |
-Edwin Brady	      | ecb10@st-andrews.ac.uk
-Simon Gay	      | simon.gay@glasgow.ac.uk
-Wim Vanderbauwhede    | wim.vanderbauwhede@glasgow.ac.uk
-Dennis Griffith       | dgriffi3@illinois.edu
-Raymond Hu            | raymond.hu05@imperial.ac.uk
-                      |
-Garrett Morris        | garrett.morris@ed.ac.uk
-Massimo Bartoletti    | bart@unica.it
-Luca Padovani         | luca.padovani@di.unito.it
-Victor Dumitrescu     | s1107546@sms.ed.ac.uk
-Nicholas Ng           | nickng@imperial.ac.uk
+Name                  | Email                                |
+---                   | ---                                  |
+Roly Perera           | roly.perera@glasgow.ac.uk            |
+Rob Stewart	      | r.stewart@hw.ac.uk                   |
+Craig McLaughlin      | 1002524M@student.gla.ac.uk           |
+Simon Fowler	      | simon.fowler@ed.ac.uk                |
+Philip Wadler	      | wadler@inf.ed.ac.uk                  |
+                      |                                      |
+Conor McBride	      | conor.mcbride@cis.strath.ac.uk       |
+Bob Atkey	      | bob.atkey@ed.ac.uk                   |
+Dimitris Kouzapas     |	dimitris.kouzapas@googlemail.com     |
+Ornela Dardha	      | ornela.dardha@glasgow.ac.uk          |
+Sam Lindley	      | sam.lindley@ed.ac.uk                 |
+                      |                                      |
+Edwin Brady	      | ecb10@st-andrews.ac.uk               |
+Simon Gay	      | simon.gay@glasgow.ac.uk              |
+Wim Vanderbauwhede    | wim.vanderbauwhede@glasgow.ac.uk     |
+Dennis Griffith       | dgriffi3@illinois.edu                |
+Raymond Hu            | raymond.hu05@imperial.ac.uk          |
+                      |                                      |
+Garrett Morris        | garrett.morris@ed.ac.uk              |
+Massimo Bartoletti    | bart@unica.it                        |
+Luca Padovani         | luca.padovani@di.unito.it            |
+Victor Dumitrescu     | s1107546@sms.ed.ac.uk                |
+Nicholas Ng           | nickng@imperial.ac.uk                |
+                      |                                      |
+Florian Weber         | f.weber.1@research.gla.ac.uk         |
 
-TOTAL 20
+TOTAL 21
 
 Not everyone on the list has confirmed that they will attend, so we will
 need to check before making the final catering arrangements.
