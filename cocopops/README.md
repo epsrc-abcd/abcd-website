@@ -1,8 +1,11 @@
 Action Items
 ======
 
-* Dimitris: organise catering.
-* Roly: Craig and Wim to check attendance.
+* Dimitris: coffee and lunch orders.
+* Roly: email Craig and Wim to check attendance.
+* Roly & Dimitris: buy snacks and drinks.
+* Dimitris: talk title & abstract.
+* Roly: badges from Simon + paper inserts.
 
 Talk proposals
 ======
@@ -12,7 +15,6 @@ Abstract/titles still required from:
 Name                             |
 ---                              |
 Dimitris Kouzapas, Glasgow       |
-Garrett Morris, Edinburgh        |
 
 Attending
 =====
@@ -20,11 +22,11 @@ Attending
 Confirmed or likely to attend
 -----
 
-Name                  | Email                                |
----                   | ---                                  |
+Name                  | Email                                | Dinner
+---                   | ---                                  | ---
 Roly Perera           | roly.perera@glasgow.ac.uk            |
-Rob Stewart	      | r.stewart@hw.ac.uk                   |
-Craig McLaughlin      | 1002524M@student.gla.ac.uk           |
+Rob Stewart	      | r.stewart@hw.ac.uk                   | No
+Craig McLaughlin      | 1002524M@student.gla.ac.uk           | ?
 Simon Fowler	      | simon.fowler@ed.ac.uk                |
 Philip Wadler	      | wadler@inf.ed.ac.uk                  |
                       |                                      |
@@ -36,7 +38,7 @@ Sam Lindley	      | sam.lindley@ed.ac.uk                 |
                       |                                      |
 Edwin Brady	      | ecb10@st-andrews.ac.uk               |
 Simon Gay	      | simon.gay@glasgow.ac.uk              |
-Wim Vanderbauwhede    | wim.vanderbauwhede@glasgow.ac.uk     |
+Wim Vanderbauwhede    | wim.vanderbauwhede@glasgow.ac.uk     | ?
 Dennis Griffith       | dgriffi3@illinois.edu                |
 Raymond Hu            | raymond.hu05@imperial.ac.uk          |
                       |                                      |
@@ -50,18 +52,9 @@ Florian Weber         | f.weber.1@research.gla.ac.uk         |
 
 TOTAL 21
 
-Not everyone on the list has confirmed that they will attend, so we will
-need to check before making the final catering arrangements.
-
-Catering notes
-======
-
-Need to organise:
-
-* Coffees (when, how many)
-* Fruit/snacks (buying our own?)
-* Dinner reservation for Monday night
-* Lunch orders once we have final numbers
+Still awaiting confirmation from Craig and Wim. Assume everyone is
+coming for dinner unless otherwise stated. Similar principle for dietary
+requirements.
 
 Programme
 ======
