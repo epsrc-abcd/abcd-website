@@ -3,29 +3,21 @@ Action Items
 
 * Dimitris: coffee and lunch orders.
 * Roly & Dimitris: buy snacks and drinks.
-* Dimitris: talk title & abstract.
+* Dimitris: talk title.
 * Roly: badges from Simon + paper inserts.
-
-Talk proposals
-======
-
-Abstract/titles still required from:
-
-Name                             |
----                              |
-Dimitris Kouzapas, Glasgow       |
+* Roly: print 30 copies of programme.
 
 Attending
 =====
 
-Confirmed or likely to attend
+Confirmed
 -----
 
 Name                  | Email                                | Dinner
 ---                   | ---                                  | ---
 Roly Perera           | roly.perera@glasgow.ac.uk            |
 Rob Stewart	      | r.stewart@hw.ac.uk                   | No
-Craig McLaughlin      | 1002524M@student.gla.ac.uk           | ?
+Craig McLaughlin      | 1002524M@student.gla.ac.uk           |
 Simon Fowler	      | simon.fowler@ed.ac.uk                |
 Philip Wadler	      | wadler@inf.ed.ac.uk                  |
                       |                                      |
@@ -51,8 +43,8 @@ Florian Weber         | f.weber.1@research.gla.ac.uk         |
 
 TOTAL 21
 
-Still awaiting confirmation from Craig and Wim. Assume everyone is
-coming for dinner unless otherwise stated. Similar principle for dietary
+Still awaiting confirmation from Wim. Assume everyone is coming for
+dinner unless otherwise stated. Similar principle for dietary
 requirements.
 
 Programme
@@ -261,3 +253,15 @@ mechanism for extensible records and variants, based on row typing, and
 how a similar approach can be applied to session types to capture many of
 the traditional uses of subtyping in type system based on parametric
 polymorphism.
+
+#### (TBD)
+##### Dimitris Kouzapas, Glasgow
+
+This talk will demonstrate the current status of Mungo. Mungo is a tool
+developed to statically check/enforce typestate on Java objects. Based
+on a small subset of Java 1.4 without inheritance, Mungo can statically
+track the linear usage of fields, variables and parameters of a Java
+program according to a predeclared typestate. Our demonstration examples
+include the connection between statically enforced typestate and session
+types by using the Scribble tool to write session protocols and
+translate them into Mungo protocols.
