@@ -1,10 +1,7 @@
 Action Items
 ======
 
-* Dimitris: coffee and lunch orders.
-* Roly & Dimitris: buy snacks and drinks.
-* Dimitris: talk title.
-* Roly: badges from Simon + paper inserts.
+* Dimitris: buy fruit.
 * Roly: print 30 copies of programme.
 
 Attending
