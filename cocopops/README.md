@@ -254,7 +254,7 @@ how a similar approach can be applied to session types to capture many of
 the traditional uses of subtyping in type system based on parametric
 polymorphism.
 
-#### (TBD)
+#### Typechecking Protocols with Scribble and Mungo
 ##### Dimitris Kouzapas, Glasgow
 
 This talk will demonstrate the current status of Mungo. Mungo is a tool
