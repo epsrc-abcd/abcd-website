@@ -26,7 +26,7 @@ Sam Lindley	      | sam.lindley@ed.ac.uk                 |
                       |                                      |
 Edwin Brady	      | ecb10@st-andrews.ac.uk               |
 Simon Gay	      | simon.gay@glasgow.ac.uk              |
-Wim Vanderbauwhede    | wim.vanderbauwhede@glasgow.ac.uk     | ?
+Wim Vanderbauwhede    | wim.vanderbauwhede@glasgow.ac.uk     |
 Dennis Griffith       | dgriffi3@illinois.edu                |
 Raymond Hu            | raymond.hu05@imperial.ac.uk          |
                       |                                      |
@@ -40,9 +40,8 @@ Florian Weber         | f.weber.1@research.gla.ac.uk         |
 
 TOTAL 21
 
-Still awaiting confirmation from Wim. Assume everyone is coming for
-dinner unless otherwise stated. Similar principle for dietary
-requirements.
+Assume everyone is coming for dinner unless otherwise stated. Similar
+principle for dietary requirements.
 
 Programme
 ======
