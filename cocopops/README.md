@@ -1,7 +1,7 @@
 Action Items
 ======
 
-* Dimitris: buy fruit.
+* Dimitris: buy fruit and water.
 * Roly: print 30 copies of programme.
 
 Attending
@@ -12,31 +12,31 @@ Confirmed
 
 Name                  | Email                                | Dinner
 ---                   | ---                                  | ---
-Roly Perera           | roly.perera@glasgow.ac.uk            |
-Rob Stewart	      | r.stewart@hw.ac.uk                   | No
-Craig McLaughlin      | 1002524M@student.gla.ac.uk           |
-Simon Fowler	      | simon.fowler@ed.ac.uk                |
-Philip Wadler	      | wadler@inf.ed.ac.uk                  |
+Roly Perera           | roly.perera@glasgow.ac.uk            | Simon
+Rob Stewart	      | r.stewart@hw.ac.uk                   | --
+Craig McLaughlin      | 1002524M@student.gla.ac.uk           | Simon
+Simon Fowler	      | simon.fowler@ed.ac.uk                | Phil
+Philip Wadler	      | wadler@inf.ed.ac.uk                  | Phil
                       |                                      |
-Conor McBride	      | conor.mcbride@cis.strath.ac.uk       |
-Bob Atkey	      | bob.atkey@ed.ac.uk                   |
-Dimitris Kouzapas     |	dimitris.kouzapas@googlemail.com     |
-Ornela Dardha	      | ornela.dardha@glasgow.ac.uk          |
-Sam Lindley	      | sam.lindley@ed.ac.uk                 |
+Conor McBride	      | conor.mcbride@cis.strath.ac.uk       | Simon
+Bob Atkey	      | bob.atkey@ed.ac.uk                   | ?
+Dimitris Kouzapas     |	dimitris.kouzapas@googlemail.com     | Simon
+Ornela Dardha	      | ornela.dardha@glasgow.ac.uk          | Simon
+Sam Lindley	      | sam.lindley@ed.ac.uk                 | Phil
                       |                                      |
-Edwin Brady	      | ecb10@st-andrews.ac.uk               |
-Simon Gay	      | simon.gay@glasgow.ac.uk              |
-Wim Vanderbauwhede    | wim.vanderbauwhede@glasgow.ac.uk     |
-Dennis Griffith       | dgriffi3@illinois.edu                |
-Raymond Hu            | raymond.hu05@imperial.ac.uk          |
+Edwin Brady	      | ecb10@st-andrews.ac.uk               | Simon
+Simon Gay	      | simon.gay@glasgow.ac.uk              | Simon
+Wim Vanderbauwhede    | wim.vanderbauwhede@glasgow.ac.uk     | ?
+Dennis Griffith       | dgriffi3@illinois.edu                | Simon
+Raymond Hu            | raymond.hu05@imperial.ac.uk          | Simon
                       |                                      |
-Garrett Morris        | garrett.morris@ed.ac.uk              |
-Massimo Bartoletti    | bart@unica.it                        |
-Luca Padovani         | luca.padovani@di.unito.it            |
-Victor Dumitrescu     | s1107546@sms.ed.ac.uk                |
-Nicholas Ng           | nickng@imperial.ac.uk                |
+Garrett Morris        | garrett.morris@ed.ac.uk              | Phil
+Massimo Bartoletti    | bart@unica.it                        | Simon
+Luca Padovani         | luca.padovani@di.unito.it            | Simon
+Victor Dumitrescu     | s1107546@sms.ed.ac.uk                | Phil
+Nicholas Ng           | nickng@imperial.ac.uk                | Simon
                       |                                      |
-Florian Weber         | f.weber.1@research.gla.ac.uk         |
+Florian Weber         | f.weber.1@research.gla.ac.uk         | Simon
 
 TOTAL 21
 
