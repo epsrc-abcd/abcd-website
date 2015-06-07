@@ -37,8 +37,9 @@ Victor Dumitrescu     | s1107546@sms.ed.ac.uk                | Phil
 Nicholas Ng           | nickng@imperial.ac.uk                | Simon
                       |                                      |
 Florian Weber         | f.weber.1@research.gla.ac.uk         | Simon
+Sam Elliott           | ?                                    | ?
 
-TOTAL 21
+TOTAL 22
 
 Assume everyone is coming for dinner unless otherwise stated. Similar
 principle for dietary requirements.
