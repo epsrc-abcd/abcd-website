@@ -2,7 +2,6 @@ Action Items
 ======
 
 * Dimitris: buy fruit and water.
-* Roly: print 30 copies of programme.
 
 Attending
 =====
@@ -39,10 +38,7 @@ Nicholas Ng           | nickng@imperial.ac.uk                | Simon
 Florian Weber         | f.weber.1@research.gla.ac.uk         | Simon
 Sam Elliott           | ?                                    | ?
 
-TOTAL 22
-
-Assume everyone is coming for dinner unless otherwise stated. Similar
-principle for dietary requirements.
+TOTAL 22 (dinner count 21; no special meal requests).
 
 Programme
 ======
@@ -60,13 +56,13 @@ When          | What
 09:45         | Raymond Hu
 10:30         | Massimo Bartoletti
 11:15         | _Coffee_
-11:45         | Garrett Morris
+11:45         | J. Garrett Morris
 12:30         | _Lunch_
 **Session 2** | **Chair: Roly Perera**
 14:00         | Conor McBride
 14:45         | Dennis Griffith
 15:30         | _Coffee_
-16:00         | Phil Wadler
+16:00         | Philip Wadler
 16:45         | _Finish_
 18:00         | _Pub_
 19:00         | _Dinner_
@@ -91,8 +87,6 @@ When          | What
 
 Titles and abstracts
 ======
-
-9 TOTAL + 2 PENDING
 
 #### Monitoring Distributed Erlang/OTP Applications with  Multiparty Session Types
 ##### Simon Fower, Edinburgh.
