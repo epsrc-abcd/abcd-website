@@ -1,0 +1,499 @@
+<head>
+  <title>From Data Types to Session Types: A Basis for Concurrency and Distribution</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300italic,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Kotta+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="abcd.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+
+
+  <meta http-equiv="PRAGMA" content="NO-CACHE">
+  <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+
+<!-- Navbar -->
+<div class="navbar-wrapper">
+  <div class="container">
+    <div id="navbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">ABCD</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html#about">In Brief</a></li>
+            <li><a href="index.html#people">People</a></li>
+            <li><a href="index.html#publications">Publications</a></li>
+            <li><a href="index.html#resources">Resources</a></li>
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Meetings <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="meeting-january2014/index.html">January, 2014</a></li>
+                <li><a href="meeting-september2014/index.html">September, 2014</a></li>
+                <li><a href="meeting-april2015/index.html">April, 2015</a></li>
+                <li><a href="meeting-september2015/index.html">September, 2015</a></li>
+                <li><a href="meeting-january2016/index.html">January, 2016</a></li>
+                <li><a href="meeting-january2017/index.html">January, 2017</a></li>
+              </ul>
+            <li>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="cocopops/">CoCo:PoPS</a></li>
+              </ul>
+            </li>
+            <li><a href="session-implementations.html">Implementations</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron">
+  <div class="container">
+    <h2 class="featurette-heading">Session Types in Programming Languages: A Collection of Implementations</h2>
+    <hr>
+  </div>
+</div>
+
+<div class="container marketing">
+  <div class="row featurette">
+
+<h2>Introduction</h2>
+
+<p>This page details implementations of session types. The list here is not
+restricted to tools produced by ABCD members. This list is currently maintained
+by <a href="mailto:simon.fowler@ed.ac.uk">Simon Fowler</a>. Please get in touch
+if you wish to update this list with information about your tool.</p>
+
+<p>This page was last updated on Tuesday 5th December 2017.</p>
+
+
+<h2 id="categorising-language-based-implementations-of-session-types">Categorising language-based implementations of session types</h2>
+
+<h3 id="binary-vs-multiparty">Binary vs. Multiparty</h3>
+<p>Are sessions between two participants (generally implemented as a typed
+channel with dual endpoints), or multiple?</p>
+
+<h3 id="primitive-vs-library-vs-external">Primitive vs. Library vs. External</h3>
+<p>What form do the session types take?</p>
+
+<ul>
+  <li>Primitive: Session types are implemented as language primitives, or as
+part of a compiler plugin</li>
+  <li>Library: Session types are provided using a library</li>
+  <li>External: A tool checking session types as a static analysis pass, or
+providing functionality that is not necessarily verifying conformance to
+a protocol.</li>
+</ul>
+
+<h3 id="static-vs-dynamic-vs-hybrid-verification">Static vs. Dynamic vs. Hybrid Verification</h3>
+<p>When and how is conformance to the session types checked?</p>
+
+<ul>
+  <li>Static: Conformance to session types is fully checked at compile time.
+Any error (be it sending the wrong message, not completing a session,
+or duplicating an endpoint) will be reported before a program
+compiles.</li>
+  <li>Dynamic: Conformance to session types is checked at runtime.  Session
+types are compiled into communicating finite-state machines, and
+messages are verified against these CFSMs. These approaches are very
+flexible, extending session types to dynamically-checked languages, and
+allowing things like assertions on data.</li>
+  <li>Hybrid: Sending messages in the right order is checkeed statically.
+Linearity is checkeed dynamically. This is a promising approach, with
+drop-in libraries available to be used in general-purpose languages
+today!</li>
+</ul>
+
+<h2 id="programming-languages-with-native-session-types">Programming Languages with Native Session Types</h2>
+<h3 id="ats"><a href="http://www.ats-lang.org/">ATS</a></h3>
+<p>(Static, Binary)</p>
+
+<p>ATS is a programming language that aims to combine specification and
+implementation in a single language. ATS has many features, such as
+dependent and linear types, which allows the development of verified
+software. Recent work has integrated session-typed channels with ATS.</p>
+
+<h5 id="resources">Resources</h5>
+<ul>
+  <li><a href="http://ats-lang.sourceforge.net/EXAMPLE/EFFECTIVATS/ssntyped-channels-1/main.html">Effective ATS: Session-typed Channels: A Brief
+Introduction</a>, by Hongwei Xi.</li>
+  <li><a href="https://arxiv.org/pdf/1603.03727.pdf">Session Types in a Linearly Typed Multi-Threaded Lambda Calculus</a>, by
+Hongwei Xi et al.</li>
+  <li><a href="https://arxiv.org/pdf/1604.03020.pdf">Linearly Typed Dyadic Group Sessions for Building Multiparty Sessions</a>, by Hongwei Xi and Hanwen Wu.</li>
+</ul>
+
+<h3 id="links"><a href="https://github.com/links-lang/links/tree/sessions">Links</a></h3>
+<p>(Static, Binary)</p>
+
+<p>Links is a programming language designed at the University of Edinburgh
+for developing “tierless” web applications. A recent extension of Links
+adds support for binary session types as language primitives.</p>
+
+<p>Session types are checked fully statically, using an extension of the
+type system to support linear types. The repository contains a selection
+of examples.</p>
+
+<h5 id="resources-1">Resources</h5>
+<ul>
+  <li><a href="http://homepages.inf.ed.ac.uk/slindley/papers/fst.pdf">Lightweight Functional Session Types</a>, by Sam Lindley and J. Garrett Morris. In Behavioural Types: from Theory to Tools.</li>
+  <li><a href="http://homepages.inf.ed.ac.uk/slindley/papers/fst-extended.pdf">Lightweight Functional Session Types (Extended)</a>, by Sam Lindley and J. Garrett Morris.</li>
+</ul>
+
+<h3 id="mool"><a href="http://gloss.di.fc.ul.pt/mool">MOOL</a></h3>
+<p>(Static, Object-based)</p>
+
+<p>(Description from the MOOL website)</p>
+
+<p>Mool is a mini object-oriented language in a Java-like style with
+support for concurrency, that allows programmers to specify class usage
+protocols as types. The specification formalizes (1) the available
+methods, (2) the tests clients must perform on the values returned by
+methods, and (3) the existence of aliasing and concurrency restrictions,
+all of which depend on the object’s state.  Linear and shared objects
+are handled as a single category, allowing linear objects to evolve into
+shared ones. The Mool type system verifies that methods are called only
+when available, and by a single client if so specified in the usage
+type. Mool builds upon previous works on (Modular) Session Types and
+Linear Type Systems.</p>
+
+<h5 id="resources-2">Resources</h5>
+<ul>
+  <li><a href="http://gloss.di.fc.ul.pt/sites/default/files/vasconcelos_session-types-programming.pdf">Sessions, from Types to Programming
+Languages</a>,
+by Vasco T. Vasconcelos. In Bulletin of the EATCS, 2011.</li>
+  <li><a href="http://gloss.di.fc.ul.pt/sites/default/files/campos.vasconcelos_channels-as-objects.pdf">Channels as Objects in Concurrent Object-Oriented Programming</a>,
+by Joana Campos and Vasco T. Vasconcelos. In proceedings of PLACES’10.</li>
+  <li><a href="http://gloss.di.fc.ul.pt/sites/default/files/campos-msc-thesis.pdf">Linear and Shared Objects in Concurrent Programming</a>, by Joana Campos. Master’s Thesis.</li>
+</ul>
+
+<h3 id="sepi"><a href="http://gloss.di.fc.ul.pt/sepi">SePi</a></h3>
+<p>(Static, Binary)</p>
+
+<p>(Description from the SePi website)</p>
+
+<p>SePi is a concurrent, message-passing programming language based on
+the pi-calculus. The language features synchronous, bi-directional
+channel-based communication.
+Programs use primitives to send and receive messages as well as offer
+and select choices. Channel interactions are statically verified against
+session types describing the kind and order of messages exchanged, as
+well as the number of processes that may share a channel.
+In order to facilitate a more precise control of program properties,
+SePi includes assume and assert primitives at the process level and
+refinements at the type level. Refinements are treated linearly,
+allowing a finer, resource-oriented use of predicates: each assumption
+made supports exactly one an assertion.</p>
+
+<h5 id="resources-3">Resources</h5>
+<ul>
+  <li><a href="https://www.di.fc.ul.pt/~vv/papers/franco.vasconcelos_concurrent-language-refined-session-types.pdf">A Concurrent Programming Language with Refined Session Types</a>,
+by Juliana Franco and Vasco T. Vasconcelos. In proceedings of BEAT’13.</li>
+  <li><a href="http://gloss.di.fc.ul.pt/sites/default/files/franco_concurrent-language-session-types_0.pdf">A Concurrent Programming Language with Session Types</a>, by Juliana Franco. Master’s Thesis.</li>
+  <li><a href="http://gloss.di.fc.ul.pt/sites/default/files/baltazar.mostrous.vasconcelos_linearly-refined-session-types.pdf">Linearly Refined Session Types</a>, by Pedro Baltazar, Dimitris
+Mostrous, and Vasco T. Vasconcelos. In proceedings of LINEARITY’12.</li>
+  <li><a href="https://www.di.fc.ul.pt/~vv/papers/vasconcelos_fundamental-sessions.pdf">Fundamentals of Session Types</a>,
+by Vasco T. Vasconcelos. In Information and Computation, Elsevier,
+217:52-70, 2012.</li>
+</ul>
+
+<h3 id="sill"><a href="https://github.com/ISANobody/sill">SILL</a></h3>
+<p>(Static, Binary)</p>
+
+<p>A programming language based on the intuitionistic linear logic view of
+session types.</p>
+
+<h4 id="resources-4">Resources</h4>
+<ul>
+  <li><a href="http://www.cs.cmu.edu/~fp/talks/popl15tutorial.pdf">From Linear Logic to Session-Typed Concurrent Programming</a>, by Frank Pfenning.</li>
+  <li><a href="">Polarised Substructural Session Types</a>, by Frank Pfenning and Dennis Griffith. In proceedings of FoSSaCS’15.</li>
+</ul>
+
+<h2 id="mainstream-languages-with-implementations-of-session-types">Mainstream Languages with Implementations of Session Types</h2>
+
+<h3 id="c">C</h3>
+
+<h4 id="multiparty-session-c"><a href="https://www.doc.ic.ac.uk/~cn06/sessionc/">Multiparty Session C</a></h4>
+<p>(Static, Multiparty)</p>
+
+<p>A statically-checked implementation of multiparty session types in C.
+Session communication happens using a runtime library, and type-checking
+is done via a clang plugin.</p>
+
+<h5 id="resources-5">Resources</h5>
+<ul>
+  <li>
+    <p><a href="https://www.doc.ic.ac.uk/~cn06/pub/2012/sessionc/">Multiparty Session C: Safe Parallel Programming with Message Optimisation</a> by Nicholas Ng, Nobuko Yoshida, and Kohei Honda. In proceedings of TOOLS’12.</p>
+  </li>
+  <li>
+    <p><a href="https://www.doc.ic.ac.uk/~cn06/pub/2012/heart/">Session Types: Towards safe and fast reconfigurable programming</a> by Nicholas Ng et al. In proceedings of HEART’12.</p>
+  </li>
+  <li>
+    <p><a href="https://www.doc.ic.ac.uk/~cn06/individual-project/">High performance parallel design based on session programming</a> by Nicholas Ng.</p>
+  </li>
+</ul>
+
+<h3 id="erlang">Erlang</h3>
+
+<h4 id="monitored-session-erlang"><a href="https://github.com/SimonJF/monitored-session-erlang">monitored-session-erlang</a></h4>
+<p>(Dynamic, Multiparty, Actor-based)</p>
+
+<p>An framework for monitoring Erlang/OTP applications by dynamically
+verifying communication against multiparty session types. Erlang actors
+can take part in multiple roles in multiple instances of multiple protocols.</p>
+
+<p>The tool is inspired by the Session Actor framework of Neykova &amp;
+Yoshida.</p>
+
+<h5 id="resources-6">Resources</h5>
+
+<ul>
+  <li><a href="http://www.simonjf.com/writing/ice2016.pdf">An Erlang Implementation of Multiparty Session Actors</a>, by Simon Fowler. In proceedings of ICE’16.</li>
+  <li><a href="http://www.simonjf.com/writing/msc-thesis.pdf">Monitoring Erlang/OTP Applications using Multiparty Session Types</a>, by Simon Fowler.</li>
+</ul>
+
+<h3 id="go">Go</h3>
+
+<h4 id="dingo-hunter"><a href="https://www.doc.ic.ac.uk/~cn06/pub/2016/dingo/">DinGo Hunter</a></h4>
+<p>(External tool)</p>
+
+<p>A static analyser for Go programs, which can <em>statically</em> detect
+deadlocks. The tool works by extracting CFSMs from Go programs, and
+attempting to synthesise a global graph. Should this fail, then there is
+a deadlock.</p>
+
+<h5 id="resources-7">Resources</h5>
+<ul>
+  <li><a href="https://www.doc.ic.ac.uk/~cn06/pub/2016/dingo/main.pdf">Static Deadlock Detection for Concurrent Go by Global Session Graph Synthesis</a>, by Nicholas Ng and Nobuko Yoshida. In proceedings of CC’16.</li>
+</ul>
+
+<h4 id="gong"><a href="http://mrg.doc.ic.ac.uk/tools/gong/">Gong</a></h4>
+<p>(External tool)</p>
+
+<p>A more recent static analyser for Go, building on a minimal core calculus for Go called MiGo. MiGo types can be extracted from Go programs using another tool called GoInfer.</p>
+
+<p>Given MiGo types obtained from GoInfer, Gong will check liveness and safety of communications.</p>
+
+<h5 id="resources-8">Resources</h5>
+<ul>
+  <li><a href="http://mrg.doc.ic.ac.uk/publications/fencing-off-go-liveness-and-safety-for-channel-based-programming/">Fencing off Go: Liveness and Safety for Channel-based Programming</a>, by Julien Lange, Nicholas Ng, Bernardo Toninho, and Nobuko Yoshida. In proceedings of POPL’17.</li>
+</ul>
+
+<h3 id="haskell">Haskell</h3>
+
+<h4 id="effect-sessions"><a href="https://www.doc.ic.ac.uk/~dorchard/popl16/">effect-sessions</a></h4>
+<p>(Static, Binary)</p>
+
+<p>An implementation of session types in Concurrent Haskell, through the
+observation that session types can be encoded using an effect system
+(and vice versa).</p>
+
+<h5 id="resources-9">Resources</h5>
+
+<ul>
+  <li><a href="http://dorchard.co.uk/publ/popl16-orchard-yoshida.pdf">Effects as sessions, sessions as effects</a>, by Dominic Orchard and Nobuko Yoshida. In proceedings of POPL’16.</li>
+</ul>
+
+<h4 id="simple-sessions"><a href="http://users.eecs.northwestern.edu/~jesse/pubs/haskell-session-types/">simple-sessions</a></h4>
+<p>(Static, Binary)</p>
+
+<p>A library implementation of Haskell session types, using parameterised
+monads and a channel stack.</p>
+
+<h5 id="resources-10">Resources</h5>
+
+<ul>
+  <li><a href="http://users.eecs.northwestern.edu/~jesse/pubs/haskell-session-types/session08.pdf">Haskell Session Types with (Almost) No Class</a> by Riccardo Pucella and Jesse A. Tov. In proceedings of Haskell’08.</li>
+</ul>
+
+<h4 id="sessions"><a href="https://hackage.haskell.org/package/sessions">sessions</a></h4>
+<p>(Static, Binary)</p>
+
+<p>An alternative embedding of session types in Haskell.</p>
+
+<h5 id="resources-11">Resources</h5>
+<ul>
+  <li><a href="http://pubs.doc.ic.ac.uk/session-types-in-haskell/">Session Types in Haskell: Updating Message Passing for the 21st Century</a>, by Matthew Sackman and Susan Eisenbach.</li>
+</ul>
+
+<h4 id="gvinhs"><a href="https://github.com/jgbm/gvinhs/">GVInHS</a></h4>
+<p>(Static, Binary)</p>
+
+<p>An embedding of session types in Haskell which (by virtue of a finally-tagless encoding) allows channels to be treated as first-class. Builds on Polakow’s embedding of a Linear Lambda-Calculus in Haskell.</p>
+
+<h5 id="resources-12">Resources</h5>
+<ul>
+  <li>
+    <p><a href="http://homepages.inf.ed.ac.uk/slindley/papers/gvhs.pdf">Embedding Session Types in Haskell</a>, by Sam Lindley and J. Garrett Morris. In proceedings of Haskell’16.</p>
+  </li>
+  <li>
+    <p><a href="http://functorial.com/Embedding-a-Full-Linear-Lambda-Calculus-in-Haskell/linearlam.pdf">Embedding a Full Linear Lambda-Calculus in Haskell</a>, by Jeff Polakow.
+In proceedings of Haskell ‘15.</p>
+  </li>
+</ul>
+
+<h3 id="java">Java</h3>
+
+<h4 id="co2-middleware"><a href="http://co2.unica.it/">CO2 Middleware</a></h4>
+<p>(Dynamic, Binary, Timed)</p>
+
+<p>Middleware for Java applications, based on the theory of timed session
+types. Supports dynamic monitoring of conformance to timing constraints.</p>
+
+<h5 id="resources-13">Resources</h5>
+<ul>
+  <li><a href="http://tcs.unica.it/papers/co2-middleware.pdf">A contract-oriented middleware</a>, by Massimo Baroletti et al. In proceedings of FACS’15.</li>
+  <li><a href="http://tcs.unica.it/papers/timed-session-types.pdf">Compliance and subtyping in timed session types</a>, by Massimo Bartoletti et al. In proceedings of FORTE’15.</li>
+</ul>
+
+<h4 id="eventful-session-java"><a href="https://www.doc.ic.ac.uk/~rhu/sessionj.html">(Eventful) Session Java</a></h4>
+<p>(Static, Binary, supports event-driven programming)</p>
+
+<p>A frontend and runtime library for Java, supporting binary session
+types. The tool also supports event-driven programming.</p>
+
+<h5 id="resources-14">Resources</h5>
+<ul>
+  <li><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.5184&amp;rep=rep1&amp;type=pdf">Session-based distributed programming in Java</a> by Raymond Hu,
+Nobuko Yoshida, and Kohei Honda. In proceedings of ECOOP’08.</li>
+  <li><a href="http://eprints.gla.ac.uk/101380/8/101380.pdf">Type-Safe Eventful Sessions in Java</a> by Raymond Hu et al. In proceedings of ECOOP’10.</li>
+</ul>
+
+<h4 id="mungo--stmungo"><a href="http://www.dcs.gla.ac.uk/research/mungo/index.html">Mungo / StMungo</a></h4>
+<p>(External, Multiparty)</p>
+
+<p>Mungo is a tool which checks Java programs for conformance to typestate
+specifications, providing typestate inference. StMungo is a tool which
+translates Scribble protocols into typestate specifications.</p>
+
+<h5 id="resources-15">Resources</h5>
+<ul>
+  <li><a href="http://www.dcs.gla.ac.uk/research/mungo/papers/mungo.pdf">Mungo: Typechecking Protocols</a>, by Dimitrios Kouzapas et al. In proceedings of PPDP’16.</li>
+  <li><a href="http://www.dcs.gla.ac.uk/~simon/publications/TR-2010-308.pdf">Modular Session Types for Distributed Object-Oriented Programming</a>, by Simon J. Gay et al. In proceedings of POPL’10.</li>
+</ul>
+
+<h4 id="scribble-endpoint-generation"><a href="https://www.doc.ic.ac.uk/~rhu/scribble/index.html">Scribble Endpoint Generation</a></h4>
+<p>(Hybrid, Multiparty)</p>
+
+<p>A tool which can generate endpoint APIs from Scribble protocols. The
+generated Java stubs allow message ordering to be checked statically,
+with linearity checked dynamically.</p>
+
+<h5 id="resources-16">Resources</h5>
+<ul>
+  <li><a href="Hybrid session verification through Endpoint API generation">https://www.doc.ic.ac.uk/~rhu/scribble/fase16.pdf</a>, by Raymond Hu and Nobuko Yoshida. In proceedings of FASE’16.</li>
+</ul>
+
+<h3 id="ocaml">OCaml</h3>
+
+<h4 id="fuse"><a href="http://www.di.unito.it/~padovani/Software/FuSe/FuSe.html">FuSe</a></h4>
+<p>(Hybrid, Binary)</p>
+
+<p>A <em>very</em> lightweight implementation of binary session types in OCaml,
+verifying message ordering statically and linearity violations
+dynamically.</p>
+
+<h5 id="resources-17">Resources</h5>
+<ul>
+  <li><a href="http://www.di.unito.it/~padovani/Papers/FuSe.pdf">A Simple Library Implementation of Binary Sessions</a> by Luca Padovani.</li>
+</ul>
+
+<h3 id="python">Python</h3>
+
+<h4 id="spy"><a href="https://www.doc.ic.ac.uk/~rn710/spy/">SPY</a></h4>
+<p>(Dynamic, Multiparty)</p>
+
+<p>An implementation of multiparty session types in Python, using runtime
+monitoring.</p>
+
+<h5 id="resources-18">Resources</h5>
+<ul>
+  <li><a href="http://mrg.doc.ic.ac.uk/publications/session-types-go-dynamic-or-how-to-verify-your-python-conversations/main.pdf">Session types go dynamic, or how to verify your Python conversations</a>, by Rumyana Neykova. In PLACES’13.</li>
+  <li><a href="https://www.doc.ic.ac.uk/~rn710/spy/main.pdf">SPY: Local Verification of Global Protocols</a>, by Rumyana Neykova, Nobuko Yoshida, and Raymond Hu. In RV’13.</li>
+  <li><a href="https://www.doc.ic.ac.uk/~rdemange/Recherche/interrupt.pdf">Practical Interruptible Conversations: Distributed Dynamic Verification with Session Types and Python</a>, by Raymond Hu et al. In RV’13.</li>
+</ul>
+
+<h4 id="session-actor"><a href="https://www.doc.ic.ac.uk/~rn710/sactor/">Session Actor</a></h4>
+<p>(Dynamic, Multiparty, Actor-based)</p>
+
+<p>A conceptual framework and Python implementation for extending session types to the actor model of
+programming. Each actor may be involved in multiple roles in multiple
+sessions. Communication is checked dynamically via compilation of
+Scribble protocols into CFSMs.</p>
+
+<h5 id="resources-19">Resources</h5>
+<ul>
+  <li><a href="http://mrg.doc.ic.ac.uk/publications/multiparty-session-actors/msa.pdf">Multiparty Session Actors</a>, by Rumyana Neykova and Nobuko Yoshida. In COORDINATION ‘14.</li>
+</ul>
+
+<h3 id="rust">Rust</h3>
+
+<h4 id="session-types"><a href="https://github.com/Munksgaard/session-types">session-types</a></h4>
+<p>(Static, Binary)</p>
+
+<p>An implementation of binary session types in Mozilla’s Rust language, making use of Rust’s
+affine typing system.</p>
+
+<h5 id="resources-20">Resources</h5>
+<ul>
+  <li><a href="http://munksgaard.me/laumann-munksgaard-larsen.pdf">Session Types for Rust</a> by Thomas Bracht Laumann Jespersen, Philip Munksgaard, and Ken Friis Larsen. In proceedings of WGP’15.</li>
+</ul>
+
+<h3 id="scala">Scala</h3>
+
+<h4 id="lchannels"><a href="http://alcestes.github.io/lchannels/">lchannels</a></h4>
+<p>(Hybrid, Binary)</p>
+
+<p>An implementation of binary session types in Scala. The library uses the
+continuation-passing approach of Kobayashi, and Dardha et al. Message
+ordering is checked statically, and linearity is checked dynamically.</p>
+
+<h5 id="resources-21">Resources</h5>
+<ul>
+  <li><a href="http://mrg.doc.ic.ac.uk/publications/lightweight-session-programming-in-scala/paper.pdf">Lightweight Session Programming in Scala</a> by Alceste Scalas and Nobuko Yoshida. In proceedings of ECOOP’16.</li>
+</ul>
+
+
+  </div>
+  <!-- FOOTER -->
+
+  <hr>
+  <footer>
+    <p class="pull-right"><a href="#">Back to top</a></p>
+  </footer>
+
+</div><!-- /.container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>
