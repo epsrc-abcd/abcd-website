@@ -89,17 +89,17 @@
 <tr><td width="12%">12:30-13:30</td><td><i>Lunch</i></td></tr>
 <tr><td></td><td></td></tr>
 <tr><td>13:30-14:00</td><td>Status Reports</td></tr>
-<tr><td>14:00-14:30</td><td>Simon Fowler (Edinburgh) -- Session Types without Tiers</td></tr>
-<tr><td>14:30-15:00</td><td>Dimitris Kouzapas (Cyprus) and Laura Voinea (Glasgow) -- A session type system for asynchronous unreliable broadcast communication</td></tr>
+<tr><td>14:00-14:30</td><td>Simon Fowler (Edinburgh) -- <a href="#fowler">Session Types without Tiers</a></td></tr>
+<tr><td>14:30-15:00</td><td>Dimitris Kouzapas (Cyprus) and Laura Voinea (Glasgow) -- <a href="#kouzapas-voinea">A session type system for asynchronous unreliable broadcast communication</a></td></tr>
 <tr><td></td><td></td></tr>
 <tr><td>15:00-15:30</td><td><i>Coffee Break</i></td></tr>
 <tr><td></td><td></td></tr>
-<tr><td>15:30-16:00</td><td>Laura Bocchi (Kent) -- From time-sensitive models to time-sensitive programs</td></tr>
+<tr><td>15:30-16:00</td><td>Laura Bocchi (Kent) -- <a href="#bocchi">From time-sensitive models to time-sensitive programs</a></td></tr>
 <tr><td>16:00-16:30</td><td>Alceste Scalas (Imperial) -- Multiparty session types, beyond duality</td></tr>
 <tr><td></td><td></td></tr>
 <tr><td>16:30-17:00</td><td><i>Coffee Break</i></td></tr>
 <tr><td></td><td></td></tr>
-<tr><td>17:00-17:30</td><td>Ornela Dardha (Glasgow) -- A new linear logic for deadlock-free session-typed processes</td></tr>
+<tr><td>17:00-17:30</td><td>Ornela Dardha (Glasgow) -- <a href="#dardha">A new linear logic for deadlock-free session-typed processes</a></td></tr>
 <tr><td>17:30-18:00</td><td>Wen Kokke (Edinburgh) -- TBA</td></tr>
 <tr><td></td><td></td></tr>
 <tr><td>19:00-</td><td><i>Dinner,</i> <a href="http://roti-edinburgh.co.uk/">Roti</a></td></tr>
@@ -111,7 +111,7 @@
 <tr><td width="12%">12:00-13:00</td><td><i>Lunch</i></td></tr>
 <tr><td></td><td></td></tr>
 <tr><td>09:00-09:30</td><td>Frank Pfenning (Carnegie Mellon) -- TBA</td></tr>
-<tr><td>09:30-10:00</td><td>Vasco Vasconcelos (Lisbon) -- Specifying and testing REST application interfaces</td></tr>
+<tr><td>09:30-10:00</td><td>Vasco Vasconcelos (Lisbon) -- <a href="#vasconcelos">Specifying and testing REST application interfaces</a></td></tr>
 <tr><td></td><td></td></tr>
 <tr><td>10:00-10:30</td><td><i>Coffee Break</i></td></tr>
 <tr><td></td><td></td></tr>
@@ -120,7 +120,7 @@
 <tr><td></td><td></td></tr>
 <tr><td>11:30-12:00</td><td><i>Coffee Break</i></td></tr>
 <tr><td></td><td></td></tr>
-<tr><td>12:00-12:30</td><td>Gary Brown (Red Hat) -- Scribble in an agile cloud native world</td></tr>
+<tr><td>12:00-12:30</td><td>Gary Brown (Red Hat) -- <a href="#brown">Scribble in an agile cloud native world</a></td></tr>
 <tr><td></td><td></td></tr>
 <tr><td>12:30-13:30</td><td><i>Lunch</i></td></tr>
 <tr><td></td><td></td></tr>
@@ -129,8 +129,121 @@
 <tr><td>14:30-16:00</td><td>Advisory Board Meeting</td></tr>
 </table>
 
+<h2>Talk Abstracts</h2>
 
-  </div>
+<a name="bocchi"></a>
+<h3>Laura Bocchi: <i>From time-sensitive models to time-sensitive programs</i></h3>
+
+<p>I will present recent and ongoing work, based on automata and session
+types, towards supporting the verification of real-world
+time-sensitive programs. The talk will centre on a theory of
+refinements for timed asynchronous systems, in the formal setting of
+Communicating Timed Automata. I will introduce three notions of
+(compositional and decidable) refinement, serving as a formal
+counter-part of concrete implementations with time-sensitive
+programming primitives. I will then establish conditions under which
+the given refinements preserve the behaviour of systems and their
+progress properties. All our results build upon new semantics of CTAs,
+that are needed to faithfully model the behaviour of real-time
+primitives of mainstream programming languages.</p>
+
+
+<a name="brown"></a>
+<h3>Gary Brown: <i>Scribble in an Agile Cloud Native World</i></h3>
+
+<p>This talk (and demo) will review how technology has changed
+through the life of the ABCD project and will discuss how Scribble
+could be used in the future.</p>
+
+<a name="dardha"></a>
+<h3>Ornela Dardha: <i>A new linear logic for deadlock-free session-typed processes</i></h3>
+
+<p>The &pi;-calculus, viewed as a core concurrent programming
+language, has been used as the target of much research on type systems
+for concurrency. We propose a new type system for deadlock-free
+session- typed &pi;-calculus processes, by integrating two separate lines
+of work. The first is the propositions-as-types approach by Caires and
+Pfenning, which provides a linear logic foundation for session types
+and guarantees deadlock-freedom by forbidding cyclic process
+connections. The second is Kobayashi's approach in which types are
+annotated with priorities so that the type system can check whether or
+not processes contain genuine cyclic dependencies between
+communication operations. We combine these two techniques for the
+first time, and define a new and more expressive variant of classical
+linear logic with a proof assignment that gives a session type system
+with Kobayashi-style priorities. This can be seen in three ways: (i)
+as a new linear logic in which cyclic structures can be derived and a
+cycle-elimination theorem generalises cut-elimination; (ii) as a
+logically- based session type system, which is more expressive than
+Caires and Pfenning's; (iii) as a logical foundation for Kobayashi's
+system, bringing it into the sphere of the propositions-as-types
+paradigm.</p>
+
+<a name="fowler"></a>
+<h3>Simon Fowler: <i>Session Types without Tiers</i></h3>
+
+<p>
+Session types statically guarantee that concurrent communication
+complies with a protocol. However, most accounts of session typing do
+not handle failure, which means they are of limited use in distributed
+settings where failure is pervasive.</p>
+
+<p>We give the first formal account of session typing with failure
+handling in a functional programming language. We define a core
+calculus which satisfies preservation and progress properties, is
+deadlock free, data-race free, and terminating.</p>
+
+<p>We provide the first implementation of session typing with failure
+handling for a fully fledged functional programming language, by
+extending the Links web programming language. Our implementation draws
+on existing work on algebraic effects and effect handlers. We
+illustrate our implementation through a chat server application for
+the web, in which all communication occurs over session typed channels
+and disconnections are handled gracefully.</p>
+
+<a name="kouzapas-voinea"></a>
+<h3>Dimitrios Kouzapas and Laura Voinea: <i>A session type system for asynchronous unreliable broadcast communication</i></h3>
+
+<p>Communication patterns arising in concurrent programming can
+benefit from being formally specified. Session types are such formal
+specifications, that guarantee desired communication
+behaviour. However, up to now, session type systems have assumed that
+communication is reliable, without message loss. This excludes a wide
+class of distributed systems, where unreliable communication is
+common, such as ad-hoc networks or wireless sensor networks. To
+address this, we introduce a process calculus with unreliable
+broadcast communication, equipped with a sound session type
+system. Broadcast and gather operations, common in such networks, are
+captured by our asynchronous semantics, in the presence of message
+loss. Message loss may lead to unsynchronised session endpoints. To
+further account for unreliability we propose a recovery mechanism that
+corresponds to real time conditions. Our type system ensures safety
+between all synchronised endpoints within a session. We show that
+dropping session endpoints, when internal conditions are met, is
+safe. We demonstrate the expressiveness of our framework by
+implementing Paxos, the textbook protocol for reaching consensus in an
+unreliable, asynchronous network.</p>
+
+<a name="vasconcelos"></a>
+<h3>Vasco Vasconcelos: <i>Specifying and testing REST application interfaces</i></h3>
+
+<p>REST APIs are nowadays a popular tool to program web
+services. The correct development of server and client code requires
+well documented interfaces.  Despite initiatives such as the Open API
+Specification, the support for the description of such interfaces is
+currently quite limited, focusing essentially on syntactic aspects.
+We present HeadREST, a language intended to describe the semantic
+aspects of REST APIs. We show a testing technique aiming at verifying
+the compliance of a REST API against its HeadREST spec. [Joint work
+with F&aacute;bio Ferreira, Telmo Santos, Francisco Martins, and Ant&oacute;nia
+Lopes]</p>
+
+
+
+</div>
+
+
+
   <!-- /END THE FEATURETTES -->
 
 
