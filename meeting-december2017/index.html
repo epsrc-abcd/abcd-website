@@ -88,7 +88,7 @@
 <table class="table table-bordered">
 <tr><td width="12%">12:30-13:30</td><td><i>Lunch</i></td></tr>
 <tr><td></td><td></td></tr>
-<tr><td>13:30-14:00</td><td>Philip Wadler (Edinburgh) -- Gradual session types</td></tr>
+<tr><td>13:30-14:00</td><td>Philip Wadler (Edinburgh) -- <a href="#wadler">Gradual session types</a></td></tr>
 <tr><td>14:00-14:30</td><td>Dimitris Kouzapas (Cyprus) and Laura Voinea (Glasgow) -- <a href="#kouzapas-voinea">A session type system for asynchronous unreliable broadcast communication</a></td></tr>
 <tr><td>14:30-15:00</td><td>Simon Fowler (Edinburgh) -- <a href="#fowler">Session types without tiers</a></td></tr>
 <tr><td></td><td></td></tr>
@@ -126,6 +126,10 @@
 <tr><td>14:00-14:30</td><td>Status reports</td></tr>
 <tr><td>14:30-16:00</td><td>Advisory board meeting</td></tr>
 </table>
+
+<h2>Progress Report</h2>
+
+A progress report detailing the ABCD team's progress against the original work packages in 2017 can be found <a href="abcd-report-2017.pdf">here</a>.
 
 <h2>Talk Abstracts</h2>
 
@@ -235,6 +239,23 @@ aspects of REST APIs. We show a testing technique aiming at verifying
 the compliance of a REST API against its HeadREST spec. [Joint work
 with F&aacute;bio Ferreira, Telmo Santos, Francisco Martins, and Ant&oacute;nia
 Lopes]</p>
+
+
+<a name="wadler"></a>
+<h3>Philip Wadler: <i>Gradual Session Types</i></h3>
+
+Session types are a rich type discipline, based on linear types, that lift the
+sort of safety claims that come with type systems to communications. However,
+web-based applications and micro services are often written in a mix of
+languages, with type disciplines in a spectrum between static and dynamic
+typing. Gradual session types address this mixed setting by providing a
+framework which grants seamless transition between statically typed handling of
+sessions and any required degree of dynamic typing. We propose GradualGV as an
+extension of the functional session type system GV with dynamic types and
+casts. We demonstrate type and communication safety as well as blame safety,
+thus extending previous results to functional languages with session-based
+communication. The interplay of linearity and dynamic types requires a novel
+approach to specifying the dynamics of the language.
 
 
 
