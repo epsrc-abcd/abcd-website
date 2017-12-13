@@ -95,7 +95,7 @@
 <tr><td>15:00-15:30</td><td><i>Coffee break</i></td></tr>
 <tr><td></td><td></td></tr>
 <tr><td>15:30-16:00</td><td>Laura Bocchi (Kent) -- <a href="#bocchi">From time-sensitive models to time-sensitive programs</a></td></tr>
-<tr><td>16:00-16:30</td><td>Alceste Scalas (Imperial) -- Multiparty session types, beyond duality</td></tr>
+<tr><td>16:00-16:30</td><td>Alceste Scalas (Imperial) -- <a href="#scalas">Multiparty session types, beyond duality</a></td></tr>
 <tr><td></td><td></td></tr>
 <tr><td>16:30-17:00</td><td><i>Coffee break</i></td></tr>
 <tr><td></td><td></td></tr>
@@ -113,7 +113,7 @@
 <tr><td></td><td></td></tr>
 <tr><td>10:00-10:30</td><td><i>Coffee break</i></td></tr>
 <tr><td></td><td></td></tr>
-<tr><td>10:30-11:00</td><td>Rumyana Neykova (Imperial) -- Let it recover: multiparty protocol-induced recovery</td></tr>
+<tr><td>10:30-11:00</td><td>Rumyana Neykova (Imperial) -- <a href="#neykova">Let it recover: multiparty protocol-induced recovery</a></td></tr>
 <tr><td>11:00-11:30</td><td>Steve Ross-Talbot (Estafet) -- Why microservices fail and how Scribble can by used to mitigate those failures</td></tr>
 <tr><td></td><td></td></tr>
 <tr><td>11:30-12:00</td><td><i>Coffee break</i></td></tr>
@@ -225,6 +225,43 @@ dropping session endpoints, when internal conditions are met, is
 safe. We demonstrate the expressiveness of our framework by
 implementing Paxos, the textbook protocol for reaching consensus in an
 unreliable, asynchronous network.</p>
+
+<a name="#neykova"></a>
+<h3>Rumyana Neykova: <i>Let it recover: multiparty protocol-induced recovery</i></h3>
+
+<p>
+Fault-tolerant communication systems rely on recovery strategies which are
+often error-prone (e.g. a programmer manually specifies recovery strategies) or
+inefficient (e.g. the whole system is restarted from the beginning). In this
+talk, we will present an algorithm to efficiently compute a  safe global state
+from which a system of interacting processes should be recovered. We statically
+analyse the communication flow of a program, given as a multiparty protocol, to
+extract the causal dependencies between processes and to localise failures. We
+formalise our recovery algorithm and prove its safety. A recovered
+communication system is free from deadlocks, orphan messages, and reception
+errors. Our recovery algorithm incurs less communication cost (only affected
+processes are notified) and overall execution time (only required states are
+repeated). On top of our analysis, we design and implement a runtime framework
+in Erlang where failed processes and their dependencies are soundly restarted
+from a computed safe state. We evaluate our recovery framework on
+message-passing benchmarks and a use case for crawling web pages. The
+experimental results indicate our framework outperforms a built-in static
+recovery strategy in Erlang when a part of the protocol can be safely
+recovered.  </p>
+
+<a name="#scalas"></a>
+<h3>Alceste Scalas: <i>Multiparty session types, beyond duality</i></h3>
+
+<p>Multiparty Session Types (MPST) are a typing discipline for message-passing
+programs: given a session protocol S involving two or more parties, MPST
+checking ensures that a program implements S without errors.</p>
+
+<p>In this talk, I'll demonstrate that the MPST subject reduction property is
+surprisingly restrictive: there are very simple protocols for which no
+implementation can be proven type-safe.  I will show that such restrictions are
+subtly related to binary duality; then, I will present a revised MPST theory
+that removes such limitations.</p>
+
 
 <a name="vasconcelos"></a>
 <h3>Vasco Vasconcelos: <i>Specifying and testing REST application interfaces</i></h3>
