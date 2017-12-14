@@ -108,7 +108,7 @@
 <h3>Tuesday 19th December</h3>
 
 <table class="table table-bordered">
-<tr><td>09:00-09:30</td><td>Frank Pfenning (Carnegie Mellon) -- TBA</td></tr>
+<tr><td>09:00-09:30</td><td>Frank Pfenning (Carnegie Mellon) -- <a href="#pfenning">Adjoint logic and its concurrent semantics</a></td></tr>
 <tr><td>09:30-10:00</td><td>Vasco Vasconcelos (Lisbon) -- <a href="#vasconcelos">Specifying and testing REST application interfaces</a></td></tr>
 <tr><td></td><td></td></tr>
 <tr><td>10:00-10:30</td><td><i>Coffee break</i></td></tr>
@@ -203,6 +203,8 @@ illustrate our implementation through a chat server application for
 the web, in which all communication occurs over session typed channels
 and disconnections are handled gracefully.</p>
 
+<p>(Joint work with Sam Lindley, J. Garrett Morris, and Sara Decova)</p>
+
 <a name="kouzapas-voinea"></a>
 <h3>Dimitrios Kouzapas and Laura Voinea: <i>A session type system for asynchronous unreliable broadcast communication</i></h3>
 
@@ -226,7 +228,23 @@ safe. We demonstrate the expressiveness of our framework by
 implementing Paxos, the textbook protocol for reaching consensus in an
 unreliable, asynchronous network.</p>
 
-<a name="#neykova"></a>
+<a name="pfenning"></a>
+<h3>Frank Pfenning: <i>Adjoint logic and its concurrent semantics</i></h3>
+
+<p>
+We present adjoint logic as a framework to combine multiple logics
+with varying structural properties through adjoint modal operators.
+We then endow its sequent calculus with process expressions and a
+uniform operational semantics, which specializes to asynchronous
+session-typed communication for modes that do not allow contraction.
+On modes with contraction we obtain multicast communication,
+copy-on-receive, and distributed garbage collection, all of which
+arise in a natural way from the logical foundations.</p>
+
+<p>[joint work with Klaas Pruiksma and William Chargin]</p>
+
+
+<a name="neykova"></a>
 <h3>Rumyana Neykova: <i>Let it recover: multiparty protocol-induced recovery</i></h3>
 
 <p>
@@ -249,7 +267,7 @@ experimental results indicate our framework outperforms a built-in static
 recovery strategy in Erlang when a part of the protocol can be safely
 recovered.  </p>
 
-<a name="#scalas"></a>
+<a name="scalas"></a>
 <h3>Alceste Scalas: <i>Multiparty session types, beyond duality</i></h3>
 
 <p>Multiparty Session Types (MPST) are a typing discipline for message-passing
