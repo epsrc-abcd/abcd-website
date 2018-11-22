@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>From Data Types to Session Types: A Basis for Concurrency and Distribution</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+  <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300italic,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Kotta+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="../abcd.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+
+<!-- Navbar -->
+<div class="navbar-wrapper">
+  <div class="container">
+    <div id="navbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">ABCD</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Meetings <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="../meeting-january2014/index.html">January, 2014</a>
+                <li><a href="../meeting-september2014">September, 2014</a>
+                <li><a href="../meeting-april2015/index.html">April, 2015</a>
+                <li><a href="../meeting-september2015/index.html">September, 2015</a>
+                <li><a href="../meeting-january2016/index.html">January, 2016</a>
+                <li><a href="../meeting-january2017/index.html">January, 2017</a>
+                <li><a href="../meeting-december2017/index.html">December, 2017</a>
+                <li><a href="#">December 2018</a>
+              </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>December 2018 Meeting</h1>
+  </div>
+</div>
+
+
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+  <div class="row featurette">
+    <h3>Dates</h3>
+      <p>17&ndash;18 December, 2018
+
+    <h3>Location</h3>
+      <p>LT 308, <a href="https://goo.gl/maps/SFAjvX1WWNs">Huxley Building, Department of Computing, Imperial College London</a>
+
+    <h2>Transport</h2>
+
+    Huxley building is within walking distance of South Kensington and
+    Gloucester Road Underground stations.
+    See <a href="http://www.imperial.ac.uk/computing/about/getting-here/">Travel
+      information</a> for details.
+
+<h2>Tentative Schedule</h2>
+
+<h3>Monday 17th December</h3>
+<table class="table table-bordered">
+  <tr><td width='12%'><i>10:00-10:30</i></td><td>Vasco Vasconcelos - <a href='#vasconcelos'>Label Dependent Session Types</a></td></tr>
+  <tr><td><i>10:30-11:00</i></td><td>Francisco Ferreira - <a href='#ferreira'>Engineering the Meta-Theory of Session Types</a></td></tr>
+
+  <tr><td></td><td></td></tr>
+  <tr><td><i>11:00-11:30</i></td><td><i>Coffee break</i></td></tr>
+  <tr><td></td><td></td></tr>
+
+  <tr><td><i>11:30-12:00</i></td><td>Mariangiola Dezani - <a href='#dezani'>Global Types with Internal Delegation</a></td></tr>
+  <tr><td><i>12:00-12:30</i></td><td>Laura Bocchi - <a href='#bocchi'>Time-sensitive protocols design and implementation</a></td></tr>
+
+  <tr><td></td><td></td></tr>
+  <tr><td><i>12:30-13:30</i></td><td><i>Lunch</i></td></tr>
+  <tr><td></td><td></td></tr>
+
+  <tr><td><i>13:30-14:00</i></td><td>Simon Castellan - <a href='#castellan'>Two sides of the same coin: Session Types and Game Semantics</a></td></tr>
+  <tr><td><i>14:00-14:30</i></td><td>Nobuko Yoshida - <a href='#yoshida'>On Polymorphic Sessions and Functions</a></td></tr>
+  <tr><td><i>14:30-15:00</i></td><td>Wen Kokke - <a href='#kokke'>Something to do with Rust</a></td></tr>
+
+  <tr><td></td><td></td></tr>
+  <tr><td><i>15:00-15:30</i></td><td><i>Coffee break</i></td></tr>
+  <tr><td></td><td></td></tr>
+  <tr><td><i>15:30-16:00</i></td><td>David Castro - <a href='#castro'>Algebraic Multiparty Protocol Programming</a></td></tr>
+  <tr><td><i>16:00-16:30</i></td><td>Dominic Orchard - <a href='#orchard'>Expressive Session Types via Graded Modal Types</a></td></tr>
+  <tr><td><i>16:30-17:00</i></td><td>Nicholas Ng - <a href='#ng'>Type-safe interactive web services generation from Scribble</a></td></tr>
+</table>
+
+<h3>Tuesday 18th December</h3>
+<table class="table table-bordered">
+  <tr><td width='12%'><i>10:00-10:30</i></td><td>Alceste Scalas - <a href='#scalas'>Effpi: concurrent programming with dependent behavioural types</a></td></tr></tr>
+  <tr><td><i>10:30-11:00</i></td><td>Rumyana Neykova - <a href='#neykova'>A Session Type Provider: Compile-time API Generation for Distributed Protocols with Interaction Refinements in F#</a></td></tr>
+
+  <tr><td></td><td></td></tr>
+  <tr><td><i>11:00-11:30</i></td><td><i>Coffee break</i></td></tr>
+  <tr><td></td><td></td></tr>
+
+  <tr><td><i>11:30-12:00</i></td><td>Julien Lange - <a href='#lange'>An empirical study of message passing concurrency in Go projects</a></td></tr>
+  <tr><td><i>12:00-12:30</i></td><td>Sung-Shik Jongmans - <a href='#jongmans'>Distributed Programming using Role-Parametric Session Types in Go</a></td></tr>
+
+  <tr><td></td><td></td></tr>
+  <tr><td><i>12:30-13:30</i></td><td><i>Lunch</i></td></tr>
+  <tr><td></td><td></td></tr>
+
+  <tr><td><i>13:30-14:00</i></td><td>Status report</td></tr>
+  <tr><td><i>14:00-14:30</i></td><td>Steve Ross-Talbot - <a href='#ross-talbot'>If session types could talk what would they say</a></td></tr>
+  <tr><td><i>14:30-16:00</i></td><td>Advisory board meeting (only industry partners and advisory board members)</td></tr>
+</table>
+</div>
+
+  <!-- /END THE FEATURETTES -->
+
+  <h2>Abstracts</h2>
+
+  <h3 id='vasconcelos'>Vasco Vasconcelos: <i>Label Dependent Session Types</i></h3>
+  <p>
+    Session types have emerged as a typing discipline for communication
+    protocols.  Existing calculi with session types come with many different
+    communication primitives that combine communication with the introduction or
+    elimination of the transmitted value. We present a foundational session type
+    calculus with a lightweight operational semantics. It fully decouples
+    communication from the introduction and elimination of data and thus comes
+    with a single communication reduction, namely the rendezvous between send
+    and receive.  We achieve this decoupling by introducing label dependent
+    session types, a minimalist dependent session type system. The system is
+    sufficiently powerful to simulate existing functional session type systems.
+    The new calculus also enables the construction of a more flexible gradual
+    session type system. It improves over previous work by enabling the less
+    precisely typed side to rely solely on the send and receive communication
+    primitives.
+  </p>
+  <p>
+    [Joint work with Peter Thiemann]
+  </p>
+  <h3 id='ferreira'>Francisco Ferreira: <i>Engineering the Meta-Theory of Session Types</i></h3>
+  <p>
+    Formal proofs of the meta-theory of programming calculi are
+    important tools to develop a trust-worthy theoretical base. The
+    meta-theory of systems with session types is delicate and error
+    prone. I will talk about an approach to mechanise such proofs in
+    the Coq proof assistant. In particular, I want to discuss some
+    subtle aspects around the adequacy around a particular choice of
+    representation.
+  </p>
+  <h3 id='dezani'>Mariangiola Dezani: <i>Global Types with Internal Delegation</i></h3>
+  <p>
+    This paper investigates a new form of delegation for multiparty session
+    calculi. Usually, delegation allows a session participant to appoint a
+    participant in another session to act on her behalf.This means that
+    delegation is inherently an inter-session mechanism, which requires session
+    interleaving. Hence delegation falls outside the descriptive power of global
+    types, which specify single sessions. As a consequence, properties such as
+    deadlock-freedom or lock-freedom are difficult to ensure in the presence of
+    delegation. Here we adopt a different view of delegation, by allowing
+    participants to delegate tasks to each other within the same multiparty
+    session. This way, delegation occurs within a single session (internal
+    delegation) and may be captured by its global type. To increase flexibility
+    in the use of delegation, our calculus uses connecting communications, which
+    allow optional participants in the branches of choices. By these means, we
+    are able to express conditional delegation.  We present a session type
+    system based on global types with internal delegation, and show that it
+    ensures the usual safety properties of multiparty sessions, together with a
+    progress property.
+  </p>
+  <h3 id='bocchi'>Laura Bocchi: <i>Time-sensitive protocols design and implementation</i></h3>
+  <p>
+    Existing work on timed session types leaves a number of open problems. On
+    the practical side, they are based on simple abstractions, and do not
+    capture : (a) primitives used in the real world, like blocking receive
+    primitives (with and without timeout), or (b) realistic abstractions for
+    time consuming actions with variable, yet bound, durations. On the
+    theoretical side, a notion of duality for  in asynchronous timed interaction
+    is missing. Duality would provide an answer to the question: “Given a timed
+    asynchronous protocol for an endpoint, what is its natural counter-part?”.
+    As I will show, this is a non-trivial question, and a naive extension of
+    duality with asynchrony and time does not ensure the usual desirable
+    properties of well-typed programs. I will present foundations of timed
+    asynchronous duality, and provide a theory of timed asynchronous session
+    types for a realistic calculus that caters for (a) and (b). Well-typedness
+    guarantees communication safety and punctuality.
+  </p>
+  <h3 id='castellan'>Simon Castellan: <i>Two sides of the same coin: Session types and Game Semantics</i></h3>
+  <p>
+    Game semantics and session types are two formalisations of the same
+    concept: message-passing open programs following certain protocols. Game
+    semantics represents protocols as games, and programs as strategies; while
+    session types specify protocols, and well-typed π-calculus processes model
+    programs. Giving faithful models of the π-calculus and giving a precise
+    description of strategies as a programming language are two difficult
+    problems. In this paper, we show how these two problems can be tackled at
+    the same time by building an accurate game semantics model of the session
+    π-calculus.
+  </p>
+  <h3 id='yoshida'>Nobuko Yoshida: <i>On Polymorphic Sessions and Functions</i></h3>
+  <p>
+    This work exploits the logical foundation of session types to determine what
+    kind of type discipline for the π-calculus can exactly capture, and is
+    captured by, λ-calculus behaviours. Leveraging the proof theoretic content
+    of the soundness and completeness of sequent calculus and natural deduction
+    presentations of linear logic, we develop the first mutually inverse and
+    fully abstract processes-as-functions and functions-as-processes encodings
+    between a polymorphic session π-calculus and a linear formulation of System
+    F. We are then able to derive results of the session calculus from the
+    theory of the λ-calculus: (1) we obtain a characterisation of inductive and
+    coinductive session types via their algebraic representations in System F;
+    and (2) we extend our results to account for value and process passing,
+    entailing strong normalisation.
+  </p>
+  <p>
+    Our main contribution is to fill a semantic gap between the synchrony of the
+    (session) π -calculus and the asynchrony of game semantics, by developing an
+    event-structure based game semantics for synchronous concurrent computation.
+    This model supports the first truly concurrent fully abstract (for barbed
+    congruence) interpretation of the synchronous (session) π-calculus. We
+    further strengthen this correspondence, establishing finite definability of
+    asynchronous strategies by the internal session π-calculus. As an
+    application of these results, we propose a faithful encoding of synchronous
+    strategies into asynchronous strategies by call-return protocols, which
+    induces automatically an encoding at the level of processes. Our results
+    bring session types and game semantics into the same picture, proposing the
+    session calculus as a programming language for strategies, and strategies as
+    a very accurate model of the session calculus. We implement a prototype
+    which computes the interpretation of session processes as synchronous
+    strategies.
+  </p>
+  <h3 id='kokke'>Wen Kokke: <i>Something to do with Rust</i></h3>
+  <p>
+    TODO
+  </p>
+  <h3 id='castro'>David Castro: <i>Algebraic Multiparty Protocol Programming</i></h3>
+  <p>
+    Algebraic techniques for programming, i.e. constructive algorithmics or
+    program calculation techniques, contributed significantly to diverse fields,
+    such as datatype generic programming, program optimisation or parallel
+    computing. Two major advantages of these techniques are their compositional
+    nature and their rich equational theory for proving program equivalences.
+    In the field of concurrent and distributed computing, the theory of
+    multiparty session types (MPST) is used to specify the communication
+    structure of message-passing systems, ensuring deadlock-freedom and protocol
+    compliance.  In this paper, we propose a novel algebraic view of protocol
+    specification that offers several benefits: 1) a high-level algebraic
+    specification can be interpreted both as a function and as a protocol; 2)
+    the extensionality of protocols can be defined and used to prove when two
+    protocols support equivalent computations; and, 3) the extracted protocol is
+    deadlock-free by construction, and any code transformation is guaranteed to
+    preserve deadlock-freedom by the MPST theory.  We define an MPST-based
+    coordination language, ParAlg, that can be used as an intermediate
+    representation for compiling high-level specifications to low-level
+    (parallel) code. This coordination language provides a global view of a
+    concurrent/distributed system, that we use to explore the possible mappings
+    of computations to specific participants (e.g. processes). We implement a
+    prototype in Haskell, where we define the type of protocol generators and
+    their combinators.  This new framework enables exploring possible ways to
+    parallelise functions. To illustrate this, we feed the generated protocols
+    to an existing tool for generating parallel C code using the Message Passing
+    Interface (MPI).
+  </p>
+  <h3 id='orchard'>Dominic Orchard: <i>Expressive Session Types via Graded Modal Types</i></h3>
+  <p>
+    Graded Modal Type Theory (GMTT) is a linear-by-default type theory with
+    indexed families of modal types which can be used to track quantitative
+    properties of programs. Using the usual technique of representing session
+    types in linear types, GMTT can express session types but with much more
+    expressive power than usual. I'll show two main examples (1) precisely
+    bounded recursive session types (2) privacy tracking across communication. I
+    will show these examples via real programs in Granule, a typed functional
+    language in the style of ML/Haskell but with a graded modal type system.
+  </p>
+  <h3 id='ng'>Nicholas Ng: <i>Type-safe interactive web services generation from Scribble</i></h3>
+  <p>
+    I will present a recent student project where we used Scribble and the
+    functional programming language PureScript targetting
+    WebSocket/Javascript-based interactive web services.
+  </p>
+  <h3 id='scalas'>Alceste Scalas: <i>Effpi: concurrent programming with dependent behavioural types</i></h3>
+  <p>
+    Concurrent and distributed programming is notoriously hard. Many languages
+    and software toolkits address the challenge by offering high-level
+    abstractions, such as message-passing processes and actors; they allow for
+    intuitive reasoning, but do not formally ensure that a program implements a
+    given specification.
+  </p>
+  <p>
+    I will talk about Effpi, a toolkit for strongly-typed concurrent programming
+    in Dotty (a.k.a. Scala 3). Effpi allows to specify the intended behaviour of a
+    message-passing application using types: i.e., if a program type-checks and
+    compiles, then it will run and communicate as prescribed by its types.
+  </p>
+  <p>
+    The foundation of Effpi is a concurrent functional language with a novel blend
+    of behavioural types (from the π-calculus theory), and a form of dependent
+    types, extending to higher-order interaction (i.e., sending/receiving program
+    thunks). This design has three main advantages. First, it allows to verify
+    programs through a combination of type checking and model checking techniques.
+    Second, it is directly implemented (via deep embedding) in Dotty, including a
+    simplified API for strongly-typed actor-based programming. And third, its
+    functional nature allows for an efficient runtime system, supporting highly
+    concurrent programs with millions of interacting processes/actors.
+  </p>
+  <h3 id='neykova'>Rumyana Neykova: <i>A Session Type Provider: Compile-time API Generation for Distributed Protocols with Interaction Refinements in F#</i></h3>
+  <p>
+    We present a library for the specification and implementation of distributed
+    protocols in native F# (and other .NET languages) based on multiparty
+    session types (MPST). There are two main contributions. Our library is the
+    first practical development of MPST to support what we refer to as
+    interaction refinements: a collection of features related to the refinement
+    of protocols, such as message-type refinements (value constraints) and value
+    dependent control flow. A well-typed endpoint program using our library is
+    guaranteed to perform only compliant session I/O actions w.r.t. to the
+    refined protocol, up to premature termination.
+  </p>
+  <p>
+    Second, our library is developed as a session type provider, that performs
+    on-demand compile-time protocol validation and generation of
+    protocol-specific .NET types for users writing the distributed endpoint
+    programs. It is implemented by extending and integrating Scribble (a
+    toolchain for MPST) with an SMT solver into the type providers framework.
+    The safety guarantees are achieved by a combination of static type checking
+    of the generated types for messages and I/O operations, correctness by
+    construction from code generation, and automated inlining of assertions.
+  </p>
+  <p>
+    We evaluate our library based on several well-known protocols and algorithms.
+    Our experience shows that our type-driven approach considerably simplifies the
+    development of protocols, with negligible increase in compilation times.
+  </p>
+  <h3 id='lange'>Julien Lange: <i>An empirical study of message passing concurrency in Go projects</i></h3>
+  <p>
+    Go is a popular programming language renowned for its good support for
+    system programming and its channel message passing concurrency mechanism.
+    These strengths have made it the language of choice of many platform
+    software such as Docker and Kubernetes. In this talk, we present a study
+    where we analysed 865 GitHub projects whose main language is Go in order to
+    understand how message passing concurrency is used in publicly available
+    code. Our results include the following findings: (1) message passing
+    primitives are used frequently and intensively, (2) concurrency-related
+    features are generally clustered in specific parts of a Go project, (3) most
+    projects use synchronous communication channels over asynchronous ones, and
+    (4) most Go projects use simple concurrent thread topologies, which are
+    however unsupported by state-of-the-art static analyses.
+  </p>
+  <h3 id='jongmans'>Sung-Shik Jongmans: <i>Distributed Programming using Role-Parametric Session Types in Go</i></h3>
+  <p>
+    This paper presents a framework for the static specification and safe
+    programming of message passing protocols where the number and kinds of
+    participants are dynamically instantiated. We develop the first theory of
+    distributed multiparty session types (MPST) to support parameterised
+    protocols with indexed roles—our framework statically infers the different
+    kinds of participants induced by a protocol definition as role variants, and
+    produces decoupled endpoint projections of the protocol onto each variant.
+    This enables safe MPST-based programming of the parameterised endpoints in
+    distributed settings: each endpoint can be implemented separately by
+    different programmers, using different techniques (or languages). We prove
+    the decidability of role variant inference and well-formedness checking, and
+    the correctness of projection.
+  </p>
+  <p>
+    We implement our theory as a toolchain for programming such role-parametric MPST
+    protocols in Go. Our approach is to generate API families of lightweight,
+    protocol- and variant-specific type wrappers for I/O. The APIs ensure a
+    well-typed Go endpoint program (by native Go type checking) will perform only
+    compliant I/O actions w.r.t. the source protocol. We leverage the abstractions
+    of MPST to support the specification and implementation of Go applications
+    involving multiple channels, possibly over mixed transports (e.g., Go channels,
+    TCP), and channel passing via a unified programming interface. We evaluate the
+    applicability and run-time performance of our generated APIs using
+    microbenchmarks and real-world applications.
+  </p>
+  <h3 id='ross-talbot'>Steve-Ross Talbot: <i>If session types could talk what would they say</i></h3>
+  <p>
+    Looking at potential real world uses of session types to describe the
+    protocols that exist between and among microservices gives us pause to
+    consider what they might be able to tell us from the perspective of the
+    running system as compared to it's description using multi-party session
+    types.
+  </p>
+
+
+  <!-- FOOTER -->
+
+  <hr>
+  <footer>
+    <p class="pull-right"><a href="#">Back to top</a></p>
+  </footer>
+
+</div><!-- /.container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>
