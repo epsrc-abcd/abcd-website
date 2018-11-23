@@ -110,13 +110,14 @@
   <tr><td></td><td></td></tr>
   <tr><td><i>15:30-16:00</i></td><td>David Castro - <a href='#castro'>Algebraic Multiparty Protocol Programming</a></td></tr>
   <tr><td><i>16:00-16:30</i></td><td>Dominic Orchard - <a href='#orchard'>Expressive Session Types via Graded Modal Types</a></td></tr>
-  <tr><td><i>16:30-17:00</i></td><td>Nicholas Ng - <a href='#ng'>Type-safe interactive web services generation from Scribble</a></td></tr>
+  <tr><td><i>16:30-16:50</i></td><td>Simon Gay - <a href='#gay'>Multiparty Session Types for Safe Runtime Adaptation in an Actor Language</a></td></tr>
 </table>
 
 <h3>Tuesday 18th December</h3>
 <table class="table table-bordered">
-  <tr><td width='12%'><i>10:00-10:30</i></td><td>Alceste Scalas - <a href='#scalas'>Effpi: concurrent programming with dependent behavioural types</a></td></tr></tr>
-  <tr><td><i>10:30-11:00</i></td><td>Rumyana Neykova - <a href='#neykova'>A Session Type Provider: Compile-time API Generation for Distributed Protocols with Interaction Refinements in F#</a></td></tr>
+  <tr><td width='12%'><i>9:45-10:15</i></td><td>Alceste Scalas - <a href='#scalas'>Effpi: concurrent programming with dependent behavioural types</a></td></tr></tr>
+  <tr><td><i>10:15-10:45</i></td><td>Rumyana Neykova - <a href='#neykova'>A Session Type Provider: Compile-time API Generation for Distributed Protocols with Interaction Refinements in F#</a></td></tr>
+  <tr><td><i>10:45-11:00</i></td><td>Nicholas Ng - <a href='#ng'>Type-safe interactive web services generation from Scribble</a></td></tr>
 
   <tr><td></td><td></td></tr>
   <tr><td><i>11:00-11:30</i></td><td><i>Coffee break</i></td></tr>
@@ -292,6 +293,33 @@
     bounded recursive session types (2) privacy tracking across communication. I
     will show these examples via real programs in Granule, a typed functional
     language in the style of ML/Haskell but with a graded modal type system.
+  </p>
+  <h3 id='gay'>Simon Gay: <i>Multiparty Session Types for Safe Runtime Adaptation in an Actor Language</i></h3>
+  <p><small>Authors: Paul Harvey, Simon Fowler, Ornela Dardha, Simon Gay</small></p>
+  <p>
+    Pervasive computing touches a wide range of applications, including
+    sensor networks, Internet of Things, and artificial intelligence, and is
+    an essential part of everyday life. At the heart of pervasive computing
+    is adaptation: the ability of a software component to sense and respond
+    to its operating environment, by discovering, replacing, and
+    communicating with other software components that are not part of the
+    original system design. Unfortunately, current programming languages do
+    not allow for adaptive software to be specified in a way that enforces
+    the safety guarantees associated with strongly-typed programming. For
+    example, if a new component is discovered at runtime, there is no
+    guarantee that existing components can communicate with it correctly.
+  </p>
+  <p>
+    We finally solve this problem by using session types, a type formalism used
+    to model communication protocols. By associating session types with software
+    components, the discovery process can check protocol compatibility, and when
+    required, correctly replace such components. Moreover, the use of session
+    types throughout the software system design guarantees the correctness of
+    all communication, whether or not it is adaptive. We present the design and
+    implementation of EnsembleS, the first actor-based language with adaptive
+    features and a static session type system. We apply it to a case study based
+    on an adaptive domain name server (DNS). Finally, we formalise the type
+    system of EnsembleS and prove the runtime safety of well-typed programs.
   </p>
   <h3 id='ng'>Nicholas Ng: <i>Type-safe interactive web services generation from Scribble</i></h3>
   <p>
