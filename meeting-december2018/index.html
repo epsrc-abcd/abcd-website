@@ -327,9 +327,22 @@
     on an adaptive domain name server (DNS). Finally, we formalise the type
     system of EnsembleS and prove the runtime safety of well-typed programs.
   </p>
-  <h3 id='lande'>Stefano Lande: <i>Design and verification of Bitcoin smart contracts with BitML</i></h3>
+  <h3 id='lande'>Stefano Lande: <i>Design and verification of Bitcoin smart
+      contracts with Bitml</i></h3>
   <p>
-    TBC
+    Besides simple transfers of currency, Bitcoin also enables various forms of
+    smart contracts, i.e. protocols where users interact within pre-agreed rules,
+    which determine how currency is eventually distributed. I will introduce you to
+    Bitcoin smart contracts using Bitml, a DSL that abstracts from transactions and
+    the underlying computational model of Bitcoin. Then, I will show you how to
+    verify  a landmark security property of smart contracts, liquidity. In a
+    non-liquid contract, it may happen that some funds remain frozen. The relevance
+    of this issue is witnessed by a recent liquidity attack to the Ethereum Parity
+    Wallet, which has frozen ∼160M USD within the contract, making this sum
+    unredeemable by any user.  The computational soundness of the BitML compiler
+    allows to lift this result from the symbolic to the computational level: if our
+    decision procedure establishes that a contract is liquid, then it will be such
+    also under a computational adversary, and vice versa.
   </p>
   <h3 id='scalas'>Alceste Scalas: <i>Effpi: concurrent programming with dependent behavioural types</i></h3>
   <p>
