@@ -102,7 +102,7 @@
   <tr><td></td><td></td></tr>
 
   <tr><td><i>13:30-14:00</i></td><td>Simon Castellan - <a href='#castellan'>Two sides of the same coin: Session Types and Game Semantics</a></td></tr>
-  <tr><td><i>14:00-14:30</i></td><td>Wen Kokke - <a href='#kokke'>Something to do with Rust</a></td></tr>
+  <tr><td><i>14:00-14:30</i></td><td>Wen Kokke - <a href='#kokke'>Rusty Variation: Deadlock-free sessions with failure in Rust</a></td></tr>
   <tr><td><i>14:30-15:00</i></td><td>Nobuko Yoshida - <a href='#yoshida'>On Polymorphic Sessions and Functions</a></td></tr>
 
   <tr><td></td><td></td></tr>
@@ -242,9 +242,19 @@
     which computes the interpretation of session processes as synchronous
     strategies.
   </p>
-  <h3 id='kokke'>Wen Kokke: <i>Something to do with Rust</i></h3>
+  <h3 id='kokke'>Wen Kokke: <i>Rusty Variation: Deadlock-free sessions with failure in Rust</i></h3>
   <p>
-    TODO
+      This talk presents an implementation of deadlock-free sessions with failure
+      in Rust, based on Exceptional GV by Fowler et al.
+      We claim that it is a faithful implementation, which preserves much of
+      EGVs metatheory.
+      However, we depart from EGV in two major ways:
+      First, EGV relies upon exceptions and handlers. Rust, however, has rejected
+      exceptions in favour of monadic errors i.e., wrapping possibly failing results
+      in error types such as <tt>Option&lt;T&gt;</tt> and <tt>Result&lt;T,E&gt;</tt>.
+      Second, the core language of EGV does not include general recursion. Rust
+      does. In the presence of non-termination, we cannot guarantee session
+      fidelity, livelock freedom, or&mdash;well&mdash;termination.
   </p>
   <h3 id='yoshida'>Nobuko Yoshida: <i>On Polymorphic Sessions and Functions</i></h3>
   <p>
