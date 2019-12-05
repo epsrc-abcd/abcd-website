@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>From Data Types to Session Types: A Basis for Concurrency and Distribution</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+  <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300italic,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Kotta+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="../abcd.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+
+<!-- Navbar -->
+<div class="navbar-wrapper">
+  <div class="container">
+    <div id="navbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">ABCD</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Meetings <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="../meeting-january2014/index.html">January, 2014</a>
+                <li><a href="../meeting-september2014">September, 2014</a>
+                <li><a href="../meeting-april2015/index.html">April, 2015</a>
+                <li><a href="../meeting-september2015/index.html">September, 2015</a>
+                <li><a href="../meeting-january2016/index.html">January, 2016</a>
+                <li><a href="../meeting-january2017/index.html">January, 2017</a>
+                <li><a href="../meeting-december2017/index.html">December, 2017</a>
+                  <li><a href="../meeting-december2018/index.html">December, 2018</a>
+                <li><a href="#">December, 2019</a>
+              </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>December 2019 Meeting</h1>
+  </div>
+</div>
+
+
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+  <div class="row featurette">
+    <h3>Dates</h3>
+      <p>Thursday 19th&ndash;Friday 20th December, 2019</p>
+
+    <h3>Location</h3>
+      <p><a href="https://www.loch-lomond.co.uk">Lodge on Loch Lomond, Luss</a></p>
+
+    <h3>Transport</h3>
+      <p>If you are starting from Glasgow on Thursday morning, we have a bus which will leave at 9.00am from the 
+          <a href="https://www3.hilton.com/en/hotels/united-kingdom/hilton-glasgow-grosvenor-GLAGRHN/maps-directions/index.html">Hilton Glasgow Grosvenor Hotel</a>. This is also the hotel in which most of the non-Glasgow people are staying on Wednesday night.</p>
+    
+      <p>If you are arriving at Glasgow Airport on Thursday morning, take a taxi to Lodge on Loch Lomond.</p>
+
+      <p>If you are arriving in Glasgow by train on Wednesday evening, the hotel is close to Hillhead subway station. You can take the subway from St Enoch station, which is close to Glasgow Central station.</p>
+    
+      <p>We will return to Glasgow by bus on Friday afternoon. If you are flying on Friday evening, you can take a taxi from Lodge on Loch Lomond directly to Glasgow airport.</p>
+    
+    <h3>Accommodation</h3>
+      <p>If you have asked for accommodation in Glasgow on Wednesday night, then this is at the 
+            <a href="https://www3.hilton.com/en/hotels/united-kingdom/hilton-glasgow-grosvenor-GLAGRHN/maps-directions/index.html">Hilton Glasgow Grosvenor Hotel</a>.</p>
+
+    <h3>Dinner on Wednesday evening</h3>
+        <p>We have a reservation at <a href="https://www.cafeandaluz.com/restaurants/glasgow-west-end">Cafe Andaluz West End</a>, Cresswell Lane, at 7.30pm. This is very close to the Hilton Glasgow Grosvenor Hotel.</p>
+
+<h2>Schedule</h2>
+
+<h3>Thursday 19th December</h3>
+<table class="table table-bordered">
+  <tr><td width='12%'><i>9:00-10:15</i></td><td>Travel to Lodge on Loch Lomond</td></tr>
+
+  <tr><td></td><td></td></tr>
+  <tr><td><i>10:15-11:00</i></td><td><i>Coffee on arrival</i></td></tr>
+  <tr><td></td><td></td></tr>
+
+  <tr><td width='12%'><i>11:00-11:20</i></td><td>Vasco Vasconcelos - <a href='#vasconcelos'>Mixed Sessions</a></td></tr>
+  <tr><td><i>11:20-11:40</i></td><td>Julia Gabet - <a href='#gabet'>Static Detection of Communication Errors and Data Races in Go Programs</a></td></tr>
+  <tr><td><i>11:40-12:00</i></td><td>Antonio Ravara - <a href='#ravara'>Behavioural Types for Memory and Method Safety in Java</a></td></tr>
+  <tr><td><i>12:00-12:20</i></td><td>Domenico Ruoppolo - <a href='#ruoppolo'>Dependent Session Types for the Higher-Order pi-calculus</a></td></tr>
+
+  <tr><td></td><td></td></tr>
+  <tr><td><i>12:30-14:00</i></td><td><i>Lunch</i></td></tr>
+  <tr><td></td><td></td></tr>
+
+  <tr><td><i>14:00-14:20</i></td><td>Laura Voinea - <a href='#voinea'>Resource Sharing via Capability-Based Multiparty Session Types</a></td></tr>
+  <tr><td><i>14:20-14:40</i></td><td>Assel Altayeva - <a href='#altayeva'>Service Equivalence via Multiparty Session Type Isomorphisms</a></td></tr>
+  <tr><td><i>14:40-15:00</i></td><td>Francisco Ferreira - <a href='#ferreira'>Mechanising Session Types - Onwards and upwards</a></td></tr>
+  <tr><td><i>15:00-15:20</i></td><td>David Castro-Perez - <a href='#castroperez'>Cost-Aware Multiparty Session Protocols</a></td></tr>
+
+  <tr><td></td><td></td></tr>
+  <tr><td><i>15:30-16:00</i></td><td><i>Coffee break</i></td></tr>
+  <tr><td></td><td></td></tr>
+
+  <tr><td><i>16:00-16:20</i></td><td>Simon Fowler - <a href='#fowler'>Model-View-Update-Communicate: Session Types meet the Elm Architecture</a></td></tr>
+  <tr><td><i>16:20-16:40</i></td><td>Fangyi Zhou - <a href='#zhou'>Verifying Refined Multiparty Protocols Statically in F*</a></td></tr>
+  <tr><td><i>16:40-17:00</i></td><td>Alceste Scalas - <a href='#scalas'>Effpi: Verified Message-Passing Programs in Dotty</a></td></tr>
+  <tr><td><i>17:00-17:20</i></td><td>Nicolas Lagaillardie - <a href='#lagaillardie'>Implementation of Multiparty Session Types in Rust</a></td></tr>
+  <tr><td><i>17:20-17:40</i></td><td>Philip Wadler - <a href='#wadler'>Featherweight Go</a></td></tr>
+
+  <tr><td></td><td></td></tr>
+  <tr><td><i>Evening</i></td><td><i>Dinner</i></td></tr>
+  <tr><td></td><td></td></tr>
+</table>
+
+<h3>Friday 20th December</h3>
+<table class="table table-bordered">
+  <tr><td width='12%'><i>9:30-10:30</i></td><td>Steve Ross-Talbot - <a href='#rosstalbot'>TBC</a></td></tr></tr>
+
+  <tr><td></td><td></td></tr>
+  <tr><td><i>10:30-11:00</i></td><td><i>Coffee break</i></td></tr>
+  <tr><td></td><td></td></tr>
+
+  <tr><td><i>11:00-12:00</i></td><td>Nobuko Yoshida, Simon Gay, Philip Wadler - <a href='#report'>ABCD: A Retrospective</a></td></tr>
+  <tr><td><i>12:00-12:30</i></td><td>Discussion of the achievements of ABCD</td></tr>
+
+  <tr><td></td><td></td></tr>
+  <tr><td><i>12:30-13:30</i></td><td><i>Lunch</i></td></tr>
+  <tr><td></td><td></td></tr>
+
+  <tr><td><i>13:30-14:30</i></td><td>Everyone - Lightning talks, 2 minutes each with 1 slide</td></tr>
+  <tr><td><i>14:30-15:00</i></td><td>Discussion about how to maintain the session types community in the future</td></tr>
+
+  <tr><td></td><td></td></tr>
+  <tr><td><i>15:00-15:30</i></td><td><i>Coffee break</i></td></tr>
+  <tr><td></td><td></td></tr>
+
+  <tr><td></td><td></td></tr>
+  <tr><td><i>15:30</i></td><td><i>Departure. The bus to Glasgow leaves at 15.30.</i></td></tr>
+  <tr><td></td><td></td></tr>
+</table>
+</div>
+
+  <!-- /END THE FEATURETTES -->
+
+  <h2>Abstracts</h2>
+
+  <h3 id='vasconcelos'>Vasco Vasconcelos: <i>Mixed Sessions</i></h3>
+  <p>
+      Session types describe patterns of interaction on communicating
+      channels in concurrent programs. Traditional session types include a
+      form of choice whereby servers offer a collection of options, of
+      which each client picks exactly one. This sort of choice constitute
+      a particular case of separated choice: offering on one side,
+      selecting on the other.
+      We introduce mixed choices in the context of session types and argue
+      that they increase the flexibility of program development at the
+      same time that they reduce the number of synchronisation primitives
+      to exactly one.
+      We present a type system incorporating subtyping and prove
+      preservation and absence of runtime errors for well-typed
+      processes. We further show that classical (conventional) sessions
+      can be faithfully and tightly embedded in mixed choices. Finally, we
+      discuss algorithmic type checking and a runtime system built on top
+      of a conventional (choice-less) message-passing architecture.
+  </p>
+  <p>
+      [Joint work with Filipe Casal, Bernardo Almeida, and Andreia Mordido]
+  </p>
+  <h3 id='gabet'>Julia Gabet: <i>Static Detection of Communication Errors and Data Races in Go Programs</i></h3>
+  <p>
+      Go is a popular concurrent programming language thanks to
+      its ability to efficiently combine concurrency and systems programming.
+      In Go programs, a number of concurrency bugs can be caused by a mixture of data races and communication problems. In this work, we develop
+      a theory based on behavioural types to statically detect data races and
+      deadlocks in Go programs. We first specify mutex safety/liveness and
+      data race properties over a Go program model, using the happens-before
+      relation defined in the Go memory model. We then represent these properties of programs in a μ-calculus model of types, and validate them using
+      type-level model-checking. This is, to the best of our knowledge, the first
+      static verification framework of this kind for the Go language, uniformly
+      analysing concurrency errors caused by a mix of shared memory accesses
+      and asynchronous message-passing communications.      
+  </p>
+  <h3 id='ravara'>Antonio Ravara: <i>Behavioural Types for Memory and Method Safety in Java</i></h3>
+  <p>
+    This paper investigates a new form of delegation for multiparty session
+    calculi. Usually, delegation allows a session participant to appoint a
+    participant in another session to act on her behalf.This means that
+    delegation is inherently an inter-session mechanism, which requires session
+    interleaving. Hence delegation falls outside the descriptive power of global
+    types, which specify single sessions. As a consequence, properties such as
+    deadlock-freedom or lock-freedom are difficult to ensure in the presence of
+    delegation. Here we adopt a different view of delegation, by allowing
+    participants to delegate tasks to each other within the same multiparty
+    session. This way, delegation occurs within a single session (internal
+    delegation) and may be captured by its global type. To increase flexibility
+    in the use of delegation, our calculus uses connecting communications, which
+    allow optional participants in the branches of choices. By these means, we
+    are able to express conditional delegation.  We present a session type
+    system based on global types with internal delegation, and show that it
+    ensures the usual safety properties of multiparty sessions, together with a
+    progress property.
+  </p>
+  <h3 id='ruoppolo'>Domenico Ruoppolo: <i>Dependent Session Types for the Higher-Order pi-calculus</i></h3>
+  <p>
+      In this talk I will discuss some issues that arise when defining a binary session type system for the 
+      higher order pi-calculus that also allows for dependent types. I will present a possible solution that 
+      avoids an explicit quantitative labelling. 
+  </p>
+  <p>
+      [Ongoing work with Francisco Ferreira  and Nobuko Yoshida]
+  </p>
+  <h3 id='voinea'>Laura Voinea: <i>Resource Sharing via Capability-Based Multiparty Session Types</i></h3>
+  <p>
+      Multiparty Session Types (MPST) are a type formalism used to model communication protocols among components in distributed systems, 
+      by specifying type and direction of data transmitted. It is standard for multiparty session type systems to use access control based 
+      on linear or affine types. While useful in offering strong guarantees of communication safety and session fidelity, linearity 
+      (resp. affinity) run into the well-known problem of inflexible programming, excluding scenarios that make use of shared channels 
+      or need to store channels into shared data structures.</p>
+<p>
+      In this paper, we develop capability-based access control for multiparty session types. In this setting, channels are split into 
+      two entities, the channel itself and the capability of using it. This gives rise to a more flexible session type system, 
+      which allows channel references to be shared and stored in persistent data structures. We prove that the resulting language 
+      retains session fidelity and illustrate it through a producer-consumer example.</p>
+<p>
+      [Joint work with Ornela Dardha and Simon Gay]
+  </p>
+  <h3 id='altayeva'>Assel Altayeva: <i>Service Equivalence via Multiparty Session Type Isomorphisms</i></h3>
+  <p>
+      This work addresses a problem found in the construction of Service Oriented Architecture: the adaptation of service protocols with 
+      respect to functional redundancy and heterogeneity of global communication patterns. We intend to utilise the theory of Multiparty 
+      Session Types (MPST). Our approach is based upon a notion of a multiparty session type isomorphism that provides a constructive 
+      realisation of service adapter code when establishing equivalence. We achieve this by employing trace semantics over a collection 
+      of local types and introducing meta abstractions over the syntax of global types. We develop a corresponding equational theory 
+      for Multiparty Session type isomorphisms. The main motivation for this line of work is to define the type isomorphism that would 
+      allow to assess whether two components/services are substitutable modulo adaptation code, given component specification is 
+      considered to be a session type.
+  </p>
+  <h3 id='ferreira'>Francisco Ferreira: <i>Mechanising Session Types -- Onwards and upwards</i></h3>
+  <p>
+      In the last year, we have mechanised the proof of subject
+      reduction for binary session types. Along the way, we learned things
+      about the presentation of type systems, alpha-equivalence in process
+      types and developed a library that implements multiple name scopes,
+      and a versatile representation for environments. In this talk we will
+      summarise that, and present our ongoing effort to extend this work to
+      multiparty session types and our plans to build upon the mechanisation
+      to build a library of certified code for multiparty session types.
+  </p>
+  <h3 id='castroperez'>David Castro-Perez: <i>Cost-Aware Multiparty Session Protocols</i></h3>
+  <p>
+      This talk presents a new static performance analysis framework for message-passing concurrent 
+      and distributed systems, based on the theory of multiparty session types (MPST). Understanding 
+      the run-time performance of concurrent and distributed systems is of great importance for the 
+      identification of bottlenecks and optimisation opportunities. In the message-passing setting, 
+      these bottlenecks are generally communication overheads and synchronisation times. Despite its 
+      importance, reasoning about these intensional properties of software, such as performance, has 
+      received little attention, compared to verifying extensional properties, such as correctness. 
+      Session Types, as behavioural protocol specifications, capture not only extensional, but also 
+      intensional properties of concurrent and distributed systems. Our approach augments MPST with
+      communication latency and local computation cost information, that we use to extract cost 
+      equations from protocol descriptions. We apply our tool to different existing benchmarks in the 
+      literature of multiparty session types, implemented in C, MPI-C, Go and OCaml. We show that we 
+      can predict a tight upper-bound on the real execution costs.
+  </p>
+  <h3 id='fowler'>Simon Fowler: <i>Model-View-Update-Communicate: Session Types meet the Elm Architecture</i></h3>
+  <p>
+      The Elm programming language pioneers the Model-View-Update (MVU) architecture for writing web applications 
+      in a functional style. Although popular amongst developers, MVU has not been studied formally; it is therefore 
+      difficult to reason about any extensions, and each implementer must re-discover the essence of the architecture.
+  </p>
+  <p>
+      We introduce lambda-mvu, a formal description of the MVU architecture as a concurrent lambda-calculus, 
+      and prove its correctness. We modularly extend lambda-mvu with subscriptions and commands as found in 
+      the Elm programming language. We then further extend the calculus with linearity and model transitions, 
+      which are sufficient to allow us to provide the first formal integration of session-typed communication 
+      in a GUI framework. We implement our approach in the Links tierless web programming language, and show 
+      examples including a two-factor authentication workflow and multi-room chat server.
+  </p>
+  <h3 id='zhou'>Fangyi Zhou: <i>Verifying Refined Multiparty Protocols Statically in F*</i></h3>
+  <p>
+      We present a toolchain for static verification of event-driven distributed programs.
+      First, we implement a new verification methodology for multiparty protocols
+      with data refinements.
+      Our toolchain verifies protocols with recursive invariants on protocol states
+      and utilises bounded model checking to ensure protocol correctness.
+      Our tool is an extension of the protocol description language Scribble, and is
+      formally founded on the theory of multiparty session types (MPST).
+      We generate code of event style APIs in F*, a functional programming language 
+      aimed at program verification, from a refined Scribble protocol.
+      Developers implement multiparty protocols as a set of callbacks and use the
+      expressive type system of F* to validate their implementation against
+      refinement types derived from the protocol.
+      Our programming methodology does not require any runtime checks on protocol
+      constraints and our toolchain is the first to achieve fully static
+      verification of MPST-based protocols.
+  </p>
+  <h3 id='scalas'>Alceste Scalas: <i>Effpi: Verified Message-Passing Programs in Dotty</i></h3>
+  <p>
+      I will talk about Effpi: an experimental toolkit for strongly-typed concurrent and distributed 
+      programming in Dotty, a.k.a. Scala version 3.</p>
+
+      <p>Effpi addresses a main challenge in the development of concurrent programs: errors like protocol 
+        violations, deadlocks, and livelocks are often spotted late, at run-time, when applications are tested 
+        or (worse) deployed.  Effpi aims at finding such errors early, when code is written and compiled.
+      </p>
+      <p>
+      Effpi provides: (1) a set of Dotty classes for describing communication protocols as types; (2) an embedded 
+      DSL for concurrent programming (reminiscent of Akka Typed); (3) a Dotty compiler plugin to verify whether p
+      rotocols and programs enjoy desirable properties, such as deadlock-freedom; and (4) an efficient run-time 
+      system for executing Effpi's programs.
+      </p>
+      <p>      The combination of (1) and (2) allows the Dotty compiler to check whether an Effpi program 
+        implements a desired protocol/type; and this, together with (3), means that many concurrent programming 
+        errors are found and reported at compile-time. Further, (4) allows to run highly concurrent Effpi programs 
+        with millions of interacting processes/actors, by scheduling them on a limited number of CPU cores.
+      In this talk, I will give an overview of Effpi, illustrate its design and main features, and discuss 
+      its future.  I will also show how Effpi takes advantages of Dotty's new features.
+  </p>
+  <h3 id='lagaillardie'>Nicolas Lagaillardie: <i>Implementation of Multiparty Session Types in Rust</i></h3>
+  <p>
+      One way to check communication protocols is by using session types. Protocols can be binary, one to one, or multiparty, 
+      many to many, each one with their own set of rules. Session types have already been implemented in various languages 
+      including Python and C. Differently than existing implementations of binary session types in Rust, ours supports 
+      multiparty protocols. As a concrete example, we created a server which interacts with various clients in Rust 
+      communicating through an MQTT broker with protocols that have been checked by our code.
+  </p>
+  <h3 id='wadler'>Philip Wadler: <i>Featherweight Go</i></h3>
+  <p>
+      The Go programming language was released by Google a
+      decade ago, and recently its authors have considered how to
+      extend it with generic types. This paper describes a design
+      for generics in Go founded in the principles of programming
+      languages, inspired by previous work on Featherweight Java
+      by Igarashi, Pierce, and Wadler. We begin by presenting
+      Featherweight Go (FG), a simplified version of the Go language,
+      and Featherweight Generic Go (FGG), an extension
+      of FG to support generic types. For each we show standard
+      preservation and progress results. Finally, we show that FGG
+      can be translated into FG by a process known as monomorphisation,
+      and show that the translation preserves typing and operational semantics.</p>
+      <p>
+        [Joint work with Robert Griesemer, Raymond Hu, Wen Kokke, Julien Lange, Nicholas Ng, Bernardo Toninho, and Nobuko Yoshida]
+  </p>
+  <h3 id='rosstalbot'>Steve Ross-Talbot: <i>TBC</i></h3>
+  <p>
+      TBC
+  </p>
+  <h3 id='report'>Nobuko Yoshida, Simon Gay, Philip Wadler: <i>ABCD: A Retrospective</i></h3>
+  <p>
+      We will summarise and reflect on the progress and achievements of the whole project.
+  </p>
+
+  <!-- FOOTER -->
+
+  <hr>
+  <footer>
+    <p class="pull-right"><a href="#">Back to top</a></p>
+  </footer>
+
+</div><!-- /.container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>
