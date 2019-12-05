@@ -203,23 +203,13 @@
   </p>
   <h3 id='ravara'>Antonio Ravara: <i>Behavioural Types for Memory and Method Safety in Java</i></h3>
   <p>
-    This paper investigates a new form of delegation for multiparty session
-    calculi. Usually, delegation allows a session participant to appoint a
-    participant in another session to act on her behalf.This means that
-    delegation is inherently an inter-session mechanism, which requires session
-    interleaving. Hence delegation falls outside the descriptive power of global
-    types, which specify single sessions. As a consequence, properties such as
-    deadlock-freedom or lock-freedom are difficult to ensure in the presence of
-    delegation. Here we adopt a different view of delegation, by allowing
-    participants to delegate tasks to each other within the same multiparty
-    session. This way, delegation occurs within a single session (internal
-    delegation) and may be captured by its global type. To increase flexibility
-    in the use of delegation, our calculus uses connecting communications, which
-    allow optional participants in the branches of choices. By these means, we
-    are able to express conditional delegation.  We present a session type
-    system based on global types with internal delegation, and show that it
-    ensures the usual safety properties of multiparty sessions, together with a
-    progress property.
+      We present a type-based analysis that ensures memory safety and object protocol completion in the language Mungo, 
+      a non-trivial subset of Java including generics. Objects are annotated with usages, typestates-like specifications 
+      of the admissible sequences of method calls. The analysis combines controlling the order in which methods are called 
+      by usage checking with a static check that determines if references con- tain null values. This interdependence yields 
+      a refined static analysis: type-safety not only ensures the absence of null pointer dereferencing and memory leaks, 
+      a safety property, but also that the intended usage protocol of each object is respected and completed, a liveness 
+      property. The type system is implemented in the form of a typechecker in Haskell. 
   </p>
   <h3 id='ruoppolo'>Domenico Ruoppolo: <i>Dependent Session Types for the Higher-Order pi-calculus</i></h3>
   <p>
