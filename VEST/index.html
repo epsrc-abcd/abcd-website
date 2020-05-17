@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>VEST</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+  <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300italic,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Kotta+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="../abcd.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <![endif]-->
+
+
+  <meta http-equiv="PRAGMA" content="NO-CACHE">
+  <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+
+  <style type="text/css">
+    td { vertical-align: top };
+  </style>
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+
+<!-- Navbar -->
+<div class="navbar-wrapper">
+  <div class="container">
+    <div id="navbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">ABCD</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="../cocopops/index.html">CoCo:PoPS</a>
+                <li><a href="#">VEST</a>
+              </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>VEST</h1>
+    <hr>
+    <p>Verification of Session Types
+  </div>
+</div>
+
+
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+  <div class="row featurette">
+
+
+    <p><font size="5">4-5 June, 2020. Online</font></p>
+
+    <p>At this two-day meeting, we will focus on the verification of
+      session types using various thoerem provers, such as Agda, Coq or any other.
+      We will have several talks to give us a context of what efforts the community has put on verification.
+      We will discuss strengths and weaknesses of
+      existing approaches, potential obstacles and how we can help each other.
+
+    <h2>Format</h2>
+
+    <p> We will have 30 minute talks. The speaker should present for around
+    20 minutes, with discussion taking place at the the end of the presentation.
+    During a talk (and in general if you are not engaging) keep your video off and microphone muted.
+    If you have questions during the talk, then raise your hand and use the chat (bottom left hand of the screen).
+
+    <h2>Program</h2>
+
+    <table>
+      <tr>
+        <td colspan=3><h3>Thursday, 4 June</h3></td>
+      </tr>
+      <tr>
+        <td width="10%">8:30 &ndash; 9:00</td>
+        <td width="15%"></td>
+        <td width="75%"><i>Welcome, Coffee and Chat</i></td>
+      </tr>
+      <tr>
+        <td>9:00 &ndash; 9:30</td>
+        <td>Peter Thiemann</td>
+        <td>
+          <p><i>Mechanized Duality for Recursive Session Types</i>
+
+          <p>We will demonstrate a work-in-progress tool for generating Java endpoint
+          APIs from multiparty session types written in Scribble. The aim is to
+          automatically produce APIs similar to those used in current practices,
+          to minimise restrictions on endpoint implementation or integration with
+          other development facilities, while promoting session type safety via
+          the native type system of the target language. As much of the static
+          session typing constraints for the source protocol is captured in the
+          native Java API as possible, with the remainder of the session safety
+          aspects handled by lightweight run-time checks built into the generated
+          API.
+        </td>
+      </tr>
+      <tr>
+        <td>9:30 &ndash; 10:00</td>
+        <td>Jonas Kastberg Hinrichsen</td>
+        <td>
+          <p><i>Mechanised Semantic Session Types</i>
+          <p>
+            We discuss a type system that extends the linear pi calculus with pairs,
+            disjoint sums, and regular data types. The type system adopts a
+            different approach to linearity: on the one hand, it allows parallel
+            processes to simultaneously access a data structure containing linear
+            values; on the other hand, it provides stronger guarantees on the fact
+            that linear channels are actually used. We demonstrate the type system
+            at work on a series of examples and present a tool that implements the
+            corresponding type reconstruction algorithm.
+        </td>
+        </td>
+      </tr>
+      <tr>
+        <td>10:00 &ndash; 10:30</td>
+        <td colspan=2><i>Coffee break</i></td>
+      </tr>
+      <tr>
+        <td>10:30 &ndash; 11:00</td>
+        <td>Lorenzo Gheri</td>
+        <td>
+          <p><i>Towards Formalising Trace Equivalence for Global and Local Types</i>
+          <p>
+            Links is a functional programming language for <i>n</i>-tier application
+            development.  This talk will demonstrate some recent work on adding
+            session-typed concurrency to Links, and the corresponding changes to
+            Links type system.  I will describe our approach to integrating linear
+            types with an existing functional type system, based on the subkind
+            mechanisms of Mazurak et al (2012).  I will also talk about Links'
+            mechanism for extensible records and variants, based on row typing, and
+            how a similar approach can be applied to session types to capture many of
+            the traditional uses of subtyping in type system based on parametric
+            polymorphism.
+        </td>
+      </tr>
+      <tr>
+        <td>11:00 &ndash; 11:30</td>
+        <td>Francisco Ferreira</td>
+        <td>
+          <p><i>It Takes a Village: Reasoning About Concurrent Processes</i></p>
+          <p>
+            Links is a functional programming language for <i>n</i>-tier application
+            development.  This talk will demonstrate some recent work on adding
+            session-typed concurrency to Links, and the corresponding changes to
+            Links 
+        </td>
+      </tr>
+      <tr>
+        <td>11:30 &ndash; 13:00</td>
+        <td colspan=2><i>Lunch</i></td>
+      </tr>
+      <tr>
+        <td>13:00 &ndash; 13:30</td>
+        <td>Robbert Krebbers</td>
+        <td>
+          <p><i>Verifying functional correctness of message-passing programs in Coq</i>
+          <p>Sending and receiving in session types resonate with the dependently
+          typed notions of Sigma and Pi types, respectively. However, when we try
+          to build a higher-order notion of session type from Sigma and Pi, we
+          find we must take care upon what exactly dependent session types can
+          depend. What gets substituted for the bound variables when we
+          instantiate the range of such a type? I argue that the correct answer to
+          this question is not the session *participant*, but the session
+          *traffic*. I show how to construct in Agda a universe of session types
+          which enforce dependency only on traffic, and I offer some
+          interpretations of these types as sets of participating processes.
+        </td>
+      </tr>
+      <tr>
+        <td>13:30 &ndash; 14:00</td>
+        <td>Robbert Krebbers</td>
+        <td>
+          <p><i>Verifying functional correctness of message-passing programs in Coq</i>
+          <p>Sending and receiving in session types resonate with the dependently
+          typed notions of Sigma and Pi types, respectively. However, when we try
+          to build a higher-order notion of session type from Sigma and Pi, we
+          find we must take care upon what exactly dependent session types can
+          depend. What gets substituted for the bound variables when we
+          instantiate the range of such a type? I argue that the correct answer to
+          this question is not the session *participant*, but the session
+          *traffic*. I show how to construct in Agda a universe of session types
+          which enforce dependency only on traffic, and I offer some
+          interpretations of these types as sets of participating processes.
+        </td>
+      </tr>
+      <tr>
+        <td>14:00 &ndash; 14:30</td>
+        <td>Petros Papapanagiotou</td>
+        <td>
+          <p><i>WorkflowFM: Correct-by-construction processes in practice</i>
+          <p>
+            This talk will provide an overview of the language SILL, a session typed
+            language currently under development at UIUC and CMU. SILL provides
+            monadic process expressions, branching subtyping, both affine and linear
+            types, and an integration of both synchronous and asynchronous
+            communication. After an overview of the language, we will work through
+            some examples demonstrating how these features play out in practice.
+
+        </td>
+      </tr>
+      <tr>
+        <td>14:30 &ndash; 15:00</td>
+        <td colspan=2><i>Coffee break</i></td>
+      </tr>
+      <tr>
+        <td>15:00 &ndash; 16:00</td>
+        <td><i>Discussion</i></td>
+        <td>
+          <p><i>Blah Blah</i>
+        </td>
+      </tr>
+      <tr>
+        <td colspan=3><h3>Tuesday, 9 June</h3></td>
+      </tr>
+      <tr>
+        <td>9:00 &ndash; 9:30</td>
+        <td>Marco Carbone</td>
+        <td>
+          <p><i>Blah</i>
+          <p>
+            In this talk I will present a code generation framework for type-safe
+            and deadlock-free Message Passing Interface (MPI) programs. The code
+            generation process starts with the definition of a global topology using
+            Pabble, a protocol specification language based on parameterised
+            multiparty session types (MPST). An MPI parallel program backbone is
+            automatically generated from the global specification. The backbone code
+            can then be merged with the sequential code describing the application
+            behaviour, resulting in a complete MPI program. This merging process is
+            fully automated through the use of an aspect-oriented compilation
+            approach. In this way, programmers only need to supply the intended
+            communication protocol and provide sequential code to automatically
+            obtain parallelised programs that are guaranteed free from communication
+            mismatch, type errors or deadlocks.
+        </td>
+      </tr>
+      <tr>
+        <td>9:30 &ndash; 10:00</td>
+        <td>Kirstin Peters</td>
+        <td>
+          <p><i>Automatising Proofs for Multiparty Session Types</i><br>
+
+          <p>Developing distributed applications typically requires to integrate new
+          code with preexisting third-party services, e.g., e-commerce facilities,
+          maps, etc. These services cannot always be assumed to smoothly
+          collaborate with each other; rather, they live in a "wild" environment
+          where they must compete for resources, and possibly diverge from the
+          intended behaviour in case they find it convenient to do so.
+
+          <p>To overcome this issue, some recent works have proposed to discipline
+          the interaction of mutually distrusting services through behavioural
+          contracts. The idea is a bottom-up composition, where only those
+          services with compliant contracts can establish sessions through which
+          they interact. We exploit a theory of timed behavioural contracts to
+          design and implement a message-oriented middleware where distributed
+          services can be dynamically composed, and their communications monitored
+          so to guarantee safe interactions.
+        </td>
+      </tr>
+      <tr>
+        <td>10:00 &ndash; 10:30</td>
+        <td colspan=2><i>Coffee break</i></td>
+      </tr>
+      <tr>
+        <td>10:30 &ndash; 11:00</td>
+        <td>Luca Ciccone</td>
+        <td>
+          <p><i>Hosting a Dependently Typed Linear Pi Calculus in Agda</i>
+          <p>
+            Just as data types encode the data used in applications, session types encode
+            communication patterns, providing guarantees that protocols are safe and
+            that programs conform to their prescribed protocols. Traditionally, session
+            types have been checked statically at compile time.
+          <p>
+            An alternative approach is to use session types as a tool for lightweight
+            runtime verification. This is especially useful in languages with
+            dynamically-checked types, and in languages where session participants
+            cannot always be assumed to be available.
+          <p>
+            In this talk, I'll explain my work on adding dynamic monitoring of session
+            types to distributed Erlang/OTP server applications. Building on the work
+            on Multiparty Session Actors by Neykova and Yoshida, I'll talk about how
+            session types fit into standard OTP design patterns such as supervision
+            trees, how to detect and handle failures, and demonstrate some larger
+            case studies such as a DNS server.
+        </td>
+      </tr>
+      <tr>
+        <td>11:00 &ndash; 11:30</td>
+        <td>James Wood</td>
+        <td>
+          <p><i>Towards a Universe of Linear Syntaxes with Binding</i>
+          <p>
+            Just as data types encode the data used in applications, session types encode
+            communication patterns, providing guarantees that protocols are safe and
+            that programs conform to their prescribed protocols. Traditionally, session
+            types have been checked statically at compile time
+        </td>
+      </tr>
+      <tr>
+        <td>11:30 &ndash; 13:00</td>
+        <td colspan=2><i>Lunch</i></td>
+      </tr>
+      <tr>
+        <td>13:00 &ndash; 13:30</td>
+        <td>Enrico Tassi</td>
+        <td>
+          <p><i>A linear Pi calculus in Coq (wip)</i>
+          <p>
+            This talk will demonstrate the current status of Mungo. Mungo is a tool developed to
+            statically check/enforce typestate on Java objects. Based on a small subset of Java 1.4
+            without inheritance, Mungo can statically track the linear usage of fields, variables
+            and parameters of a Java program according to a predeclared typestate. Our demonstration
+            examples include the connection between statically enforced typestate and session types
+            by using the Scribble tool to write session protocols and translate them into Mungo
+            protocols.
+        </td>
+      </tr>
+      <tr>
+        <td>13:30 &ndash; 14:00</td>
+        <td>Jules Jacobs</td>
+        <td>
+          <p><i>Type-driven Development for Games and Protocols</i>
+          <p>
+            <a href="http://idris-lang.org/">Idris</a> is a general purpose pure functional
+            programming language with dependent types. In Idris, types are a first
+            class language construct, meaning that they can be manipulated and
+            computed like any other language construct. It encourages a type-driven
+            style of development, in which programmers give types first and use
+            interactive editing tools to derive programs. Introductory examples
+            typically involve length preserving operations on lists, or ordering
+            invariants on sorting
+        </td>
+      </tr>
+      <tr>
+        <td>14:00 &ndash; 15:00</td>
+        <td colspan=2><i>Discussion</i></td>
+      </tr>
+      <tr>
+        <td>15:00 &ndash; 15:30</td>
+        <td colspan=2>Coffee and Conclusion</td>
+      </tr>
+    </table>
+
+
+    <h2>Contact</h2>
+
+   <p>VEST is organised by Ornela Dardha (hosting), and Lorenzo Gheri.
+    If you are interested in attending or presenting, please email Ornela (ornela.dardha@glasgow.ac.uk).
+
+  </div>
+  <!-- /END THE FEATURETTES -->
+
+
+  <!-- FOOTER -->
+
+  <hr>
+  <footer>
+    <p class="pull-right"><a href="#">Back to top</a></p>
+  </footer>
+
+</div><!-- /.container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>
