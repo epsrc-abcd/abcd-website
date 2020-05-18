@@ -100,7 +100,7 @@
       <tr>
         <td width="10%">8:30 &ndash; 9:00</td>
         <td width="15%"></td>
-        <td width="75%"><i>Welcome, Coffee and Chat</i></td>
+        <td width="75%"><i>Welcome and Coffee</i></td>
       </tr>
       <tr>
         <td>9:00 &ndash; 9:30</td>
@@ -108,16 +108,9 @@
         <td>
           <p><i>Mechanized Duality for Recursive Session Types</i>
 
-          <p>We will demonstrate a work-in-progress tool for generating Java endpoint
-          APIs from multiparty session types written in Scribble. The aim is to
-          automatically produce APIs similar to those used in current practices,
-          to minimise restrictions on endpoint implementation or integration with
-          other development facilities, while promoting session type safety via
-          the native type system of the target language. As much of the static
-          session typing constraints for the source protocol is captured in the
-          native Java API as possible, with the remainder of the session safety
-          aspects handled by lightweight run-time checks built into the generated
-          API.
+          <p>We report on our work to mechanize proofs of equivalence for different definitions of duality proposed in the literature.
+            This work is supporting and based on the paper "Duality of Session Types: The Final Cut" at PLACES 2020.
+
         </td>
       </tr>
       <tr>
@@ -126,14 +119,7 @@
         <td>
           <p><i>Mechanised Semantic Session Types</i>
           <p>
-            We discuss a type system that extends the linear pi calculus with pairs,
-            disjoint sums, and regular data types. The type system adopts a
-            different approach to linearity: on the one hand, it allows parallel
-            processes to simultaneously access a data structure containing linear
-            values; on the other hand, it provides stronger guarantees on the fact
-            that linear channels are actually used. We demonstrate the type system
-            at work on a series of examples and present a tool that implements the
-            corresponding type reconstruction algorithm.
+            Session types are a family of type systems for message-passing concurrency, which has been subject to many extensions. Unfortunately, separate soundness proofs are developed for each extension, but these cannot be readily combined. Moreover, soundness proofs are generally not mechanized in a proof assistant, making their correctness less trustworthy. In this paper we overcome these shortcomings with a semantic approach to binary session types using a logical relations model in the Iris framework in Coq. We demonstrate the power of our approach by combining various forms of polymorphism and recursion, asynchronous subtyping, mutable and shared references, and mutexes, with little proof effort. As an additional benefit of the semantic approach we demonstrate how to integrate manual verification of racy but safe programs as part of well-typed programs.
         </td>
         </td>
       </tr>
@@ -147,16 +133,8 @@
         <td>
           <p><i>Towards Formalising Trace Equivalence for Global and Local Types</i>
           <p>
-            Links is a functional programming language for <i>n</i>-tier application
-            development.  This talk will demonstrate some recent work on adding
-            session-typed concurrency to Links, and the corresponding changes to
-            Links type system.  I will describe our approach to integrating linear
-            types with an existing functional type system, based on the subkind
-            mechanisms of Mazurak et al (2012).  I will also talk about Links'
-            mechanism for extensible records and variants, based on row typing, and
-            how a similar approach can be applied to session types to capture many of
-            the traditional uses of subtyping in type system based on parametric
-            polymorphism.
+            A formal correspondence between session types and communicating finite state automata has been studied over the last decade, playing a fundamental role to build session-based systems for, e.g., runtime monitoring and API generation. A labelled transition system (LTS) is given both for global types and local types, thus capturing their semantics. The LTS traces (sequences of performed actions) represent the evolution of a communicating system and the soundness and completeness theorems for session types are proven to show: the traces of the execution of a global type are the same as the ones obtained by the execution of the collection of its local projections.
+            This talk will report on our formalisation experience of such theory in the Coq Proof Assistant. Starting from a straightforward inductive encoding of the syntax of global and local types, we "unroll" each type to a coinductive representation, as a possibly infinite tree. This captures the possibly infinite nature of execution, taking a first step towards semantics. We then define LTSs for global and local types on coinductive trees. Each time we take one step further into semantics---from types to trees, from trees to LTS---projections need to be preserved along the way, thus ensuring that local computation stays faithful to the global discipline.
         </td>
       </tr>
       <tr>
@@ -165,10 +143,7 @@
         <td>
           <p><i>It Takes a Village: Reasoning About Concurrent Processes</i></p>
           <p>
-            Links is a functional programming language for <i>n</i>-tier application
-            development.  This talk will demonstrate some recent work on adding
-            session-typed concurrency to Links, and the corresponding changes to
-            Links 
+            Typing disciplines offer a way to tame programs so they become more approachable and easier to reason about, both formally and by the cognitive load they require from their users. Languages like Haskell and OCaml, proof assistants like Agda and Coq are built on these premises. Session types, and particularly Multiparty Session Types (MPST), offer a typing discipline that aims at showing the safe interaction of distributed processes. In this work we want to use MPST to guide and allow us to reason about processes. Of particular importance is to reason about the trace of actions performed by processes participating in a global choreography (represented by a global type). We propose a reasoning framework in the Coq proof assistant, that necessarily builds on top of a mechanisation of the meta-theory of session types. The mechanisation of a proof is the gold standard to establish its dependability, in this work we want to show, that a mechanisation is also the foundation to build certified tools that enable us to go further.
         </td>
       </tr>
       <tr>
@@ -180,56 +155,32 @@
         <td>Robbert Krebbers</td>
         <td>
           <p><i>Verifying functional correctness of message-passing programs in Coq</i>
-          <p>Sending and receiving in session types resonate with the dependently
-          typed notions of Sigma and Pi types, respectively. However, when we try
-          to build a higher-order notion of session type from Sigma and Pi, we
-          find we must take care upon what exactly dependent session types can
-          depend. What gets substituted for the bound variables when we
-          instantiate the range of such a type? I argue that the correct answer to
-          this question is not the session *participant*, but the session
-          *traffic*. I show how to construct in Agda a universe of session types
-          which enforce dependency only on traffic, and I offer some
-          interpretations of these types as sets of participating processes.
+          <p>During this talk I will give a demo of the use of separation logic for proving
+            functional correctness of message-passing programs in the Coq proof assistant.
+            I will use the Actris framework (Hinrichsen et al., POPL'20), which is built on
+            top of the Iris separation logic, and provides high-level proof principles and
+            Coq tactics for reasoning about message-passing programs.
         </td>
       </tr>
       <tr>
         <td>13:30 &ndash; 14:00</td>
-        <td>Robbert Krebbers</td>
-        <td>
-          <p><i>Verifying functional correctness of message-passing programs in Coq</i>
-          <p>Sending and receiving in session types resonate with the dependently
-          typed notions of Sigma and Pi types, respectively. However, when we try
-          to build a higher-order notion of session type from Sigma and Pi, we
-          find we must take care upon what exactly dependent session types can
-          depend. What gets substituted for the bound variables when we
-          instantiate the range of such a type? I argue that the correct answer to
-          this question is not the session *participant*, but the session
-          *traffic*. I show how to construct in Agda a universe of session types
-          which enforce dependency only on traffic, and I offer some
-          interpretations of these types as sets of participating processes.
-        </td>
-      </tr>
-      <tr>
-        <td>14:00 &ndash; 14:30</td>
         <td>Petros Papapanagiotou</td>
         <td>
           <p><i>WorkflowFM: Correct-by-construction processes in practice</i>
           <p>
-            This talk will provide an overview of the language SILL, a session typed
-            language currently under development at UIUC and CMU. SILL provides
-            monadic process expressions, branching subtyping, both affine and linear
-            types, and an integration of both synchronous and asynchronous
-            communication. After an overview of the language, we will work through
-            some examples demonstrating how these features play out in practice.
+            In the past few years we have developed the process modelling framework WorkflowFM. It relies on the proofs-as-processes paradigm to provide correct-by-construction workflow synthesis, with guarantees of type correctness, deadlock freedom, and rigorous resource accounting. Workflows are composed via proof and extracted as asynchronously executable terms in pi-calculus or session types. The core implementation consists of an embedding of Classical Linear Logic in HOL Light, coupled with a reasoning framework for object-level proofs and associated tactics for proof automation. 
+          <p> WorkflowFM has been used in practice to model and manage patient pathways in healthcare and production flows in manufacturing.
+            This effort has introduced interesting challenges, such as persistent distributed enactment, integration with IoT data, and job-shop scheduling.
+            This has helped form a fruitful connection between theory and practice.
 
         </td>
       </tr>
       <tr>
-        <td>14:30 &ndash; 15:00</td>
+        <td>14:00 &ndash; 14:30</td>
         <td colspan=2><i>Coffee break</i></td>
       </tr>
       <tr>
-        <td>15:00 &ndash; 16:00</td>
+        <td>14:30 &ndash; 16:00</td>
         <td><i>Discussion</i></td>
         <td>
           <p><i>Blah Blah</i>
@@ -240,23 +191,16 @@
       </tr>
       <tr>
         <td>9:00 &ndash; 9:30</td>
-        <td>Marco Carbone</td>
+        <td>Enrico Tassi</td>
         <td>
-          <p><i>Blah</i>
+          <p><i>A linear Pi calculus in Coq (wip)</i>
           <p>
-            In this talk I will present a code generation framework for type-safe
-            and deadlock-free Message Passing Interface (MPI) programs. The code
-            generation process starts with the definition of a global topology using
-            Pabble, a protocol specification language based on parameterised
-            multiparty session types (MPST). An MPI parallel program backbone is
-            automatically generated from the global specification. The backbone code
-            can then be merged with the sequential code describing the application
-            behaviour, resulting in a complete MPI program. This merging process is
-            fully automated through the use of an aspect-oriented compilation
-            approach. In this way, programmers only need to supply the intended
-            communication protocol and provide sequential code to automatically
-            obtain parallelised programs that are guaranteed free from communication
-            mismatch, type errors or deadlocks.
+            Our long term objective is to develop techniques/tools and libraries to lower the cost of verifying with the Coq proof assistant results on process calculi and behavioral types.
+            As a first step towards this objective, in collaboration with Giunti and Ravara in Lisbon and Peters in Darmstdt, we choose to mechanize proofs for a simple typed version of the pi-calculus where we want to guarantee linear usage of the communication channels. We decide to focus on the representation of binders, a well-know difficulty in mechanizing paper proofs.
+            We have identified three different formalization techniques: De Bruijn levels, nominals and identifiers.
+            Our objective is to finalize the description of the calculus and type system in all three techniques and to prove their equivalence.
+            
+           <p>In this talk I will present the (work in progress) formalization based on De Bruijn levels done in Coq using the SSReflect proof language.
         </td>
       </tr>
       <tr>
@@ -265,21 +209,11 @@
         <td>
           <p><i>Automatising Proofs for Multiparty Session Types</i><br>
 
-          <p>Developing distributed applications typically requires to integrate new
-          code with preexisting third-party services, e.g., e-commerce facilities,
-          maps, etc. These services cannot always be assumed to smoothly
-          collaborate with each other; rather, they live in a "wild" environment
-          where they must compete for resources, and possibly diverge from the
-          intended behaviour in case they find it convenient to do so.
-
-          <p>To overcome this issue, some recent works have proposed to discipline
-          the interaction of mutually distrusting services through behavioural
-          contracts. The idea is a bottom-up composition, where only those
-          services with compliant contracts can establish sessions through which
-          they interact. We exploit a theory of timed behavioural contracts to
-          design and implement a message-oriented middleware where distributed
-          services can be dynamically composed, and their communications monitored
-          so to guarantee safe interactions.
+          <p>The formalisation of multiparty session types includes the proofs of their standard properties such as subject reduction.
+            There is a huge number of different variants of multiparty session types but their subject reduction proofs are all very similar and follow the basic structure of preservation proofs of all type systems.
+            Accordingly, it should be possible or even easy to automatise this proof. The standard proof strategy requires some auxiliary results such as the inversion of typing rules and substitution lemmata.
+            Moreover, the proof requires to construct partial proof trees from the typing rules.
+            In the talk I would like to analyse the strategy of a typical subject reduction proof and break it into the parts that need to be automatised in order to derive an automatic proof strategy.
         </td>
       </tr>
       <tr>
@@ -292,22 +226,9 @@
         <td>
           <p><i>Hosting a Dependently Typed Linear Pi Calculus in Agda</i>
           <p>
-            Just as data types encode the data used in applications, session types encode
-            communication patterns, providing guarantees that protocols are safe and
-            that programs conform to their prescribed protocols. Traditionally, session
-            types have been checked statically at compile time.
-          <p>
-            An alternative approach is to use session types as a tool for lightweight
-            runtime verification. This is especially useful in languages with
-            dynamically-checked types, and in languages where session participants
-            cannot always be assumed to be available.
-          <p>
-            In this talk, I'll explain my work on adding dynamic monitoring of session
-            types to distributed Erlang/OTP server applications. Building on the work
-            on Multiparty Session Actors by Neykova and Yoshida, I'll talk about how
-            session types fit into standard OTP design patterns such as supervision
-            trees, how to detect and handle failures, and demonstrate some larger
-            case studies such as a DNS server.
+            In this talk we report on our experience in formalizing a variant of the linear pi calculus in Agda. 
+            We represent pi calculus processes as a DSL that can access all the features of the underlying Agda layer, particularly dependent pairs and dependent pattern matching.
+            This way, we obtain a minimal, unifying process model capable of encoding a broad family of complex session type theories, including dependent and refinement session types.
         </td>
       </tr>
       <tr>
@@ -316,10 +237,9 @@
         <td>
           <p><i>Towards a Universe of Linear Syntaxes with Binding</i>
           <p>
-            Just as data types encode the data used in applications, session types encode
-            communication patterns, providing guarantees that protocols are safe and
-            that programs conform to their prescribed protocols. Traditionally, session
-            types have been checked statically at compile time
+            Recent work by Allais et al has produced a general framework for specifying simply typed programming languages and proving metatheoretic properties about them in Agda. In particular, this framework eliminates the need to do induction over syntax in many cases, which is a big win for languages with many syntactic constructs. All of the syntaxes describable in the framework support renaming and substitution, so these lemmas need not be proven by the user.
+            
+            <p>However, the framework makes two assumptions that are apparently broken by linear type systems, as used in languages for session types. One is that contexts only grow in a typing derivation, and the other is that typing is preserved under such context growths (i.e, weakening is admissible). In this talk, I will discuss how we are refining these assumptions so as to allow for a general form of usage tracking which subsumes intuitionistic linear typing (including !). We hope that the resulting framework will be useful for prototyping session type systems, allowing such systems to be changed quickly without the need to redo boring syntactic proofs.
         </td>
       </tr>
       <tr>
@@ -328,33 +248,20 @@
       </tr>
       <tr>
         <td>13:00 &ndash; 13:30</td>
-        <td>Enrico Tassi</td>
+        <td>Marco Carbone</td>
         <td>
-          <p><i>A linear Pi calculus in Coq (wip)</i>
+          <p><i>Towards Binary Session Types in Isabelle</i>
           <p>
-            This talk will demonstrate the current status of Mungo. Mungo is a tool developed to
-            statically check/enforce typestate on Java objects. Based on a small subset of Java 1.4
-            without inheritance, Mungo can statically track the linear usage of fields, variables
-            and parameters of a Java program according to a predeclared typestate. Our demonstration
-            examples include the connection between statically enforced typestate and session types
-            by using the Scribble tool to write session protocols and translate them into Mungo
-            protocols.
+            One of the major difficulties in mechanically-checking the theory of session types is how to handle binders in the pi-calculus. In this talk, I will discuss our attempt to formalise session types in the Isabelle proof-assistant, through the use of nominal sets. This is a ongoing collaboration with Jesper Bengtson.
         </td>
       </tr>
       <tr>
         <td>13:30 &ndash; 14:00</td>
         <td>Jules Jacobs</td>
         <td>
-          <p><i>Type-driven Development for Games and Protocols</i>
+          <p><i>TBD</i>
           <p>
-            <a href="http://idris-lang.org/">Idris</a> is a general purpose pure functional
-            programming language with dependent types. In Idris, types are a first
-            class language construct, meaning that they can be manipulated and
-            computed like any other language construct. It encourages a type-driven
-            style of development, in which programmers give types first and use
-            interactive editing tools to derive programs. Introductory examples
-            typically involve length preserving operations on lists, or ordering
-            invariants on sorting
+            TBD
         </td>
       </tr>
       <tr>
