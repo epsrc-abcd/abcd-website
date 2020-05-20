@@ -175,7 +175,6 @@
           <p> WorkflowFM has been used in practice to model and manage patient pathways in healthcare and production flows in manufacturing.
             This effort has introduced interesting challenges, such as persistent distributed enactment, integration with IoT data, and job-shop scheduling.
             This has helped form a fruitful connection between theory and practice.
-
         </td>
       </tr>
       <tr>
@@ -208,15 +207,14 @@
       </tr>
       <tr>
         <td>9:30 &ndash; 10:00</td>
-        <td>Kirstin Peters</td>
+        <td>Uma Zalakain</td>
         <td>
-          <p><i>Automatising Proofs for Multiparty Session Types</i><br>
+          <p><i>pi with leftovers: a mechanisation in Agda</i><br>
 
-          <p>The formalisation of multiparty session types includes the proofs of their standard properties such as subject reduction.
-            There is a huge number of different variants of multiparty session types but their subject reduction proofs are all very similar and follow the basic structure of preservation proofs of all type systems.
-            Accordingly, it should be possible or even easy to automatise this proof. The standard proof strategy requires some auxiliary results such as the inversion of typing rules and substitution lemmata.
-            Moreover, the proof requires to construct partial proof trees from the typing rules.
-            In the talk I would like to analyse the strategy of a typical subject reduction proof and break it into the parts that need to be automatised in order to derive an automatic proof strategy.
+          <p>The pi-calculus is a computational model for communication and concurrency. The linear pi-calculus is a typed version of the pi-calculus where channels must be used exactly once. It is an underlying theoretical and practical framework on top of which more advanced types and theories can be built, including session types.
+          
+          <p>We present the first full mechanisation in Agda of a pi-calculus with linear, graded and shared types, all under the same unified framework. While linearity is key for type safety in communication- centric programming, graded and shared types are needed to model real-world software systems.
+          We present the syntax, semantics, type system and corresponding type safety properties. For the first time in the pi-calculus, we use leftover typing to encode our typing rules in a way that propagates linearity constraints into process continuations. We generalise the algebras on multiplicities, allowing the user to choose a mix of linear, graded and shared typing. We provide framing, weakening and strengthening theorems, which can now be stated for the linear pi-calculus and use them to prove subject congruence. We show that the type system is stable under substitution and prove subject reduction. Our formalisation is fully mechanised in Agda at https://github.com/umazalakain/typing-linear-pi.
         </td>
       </tr>
       <tr>
@@ -260,6 +258,19 @@
       </tr>
       <tr>
         <td>13:30 &ndash; 14:00</td>
+        <td>Kirstin Peters</td>
+        <td>
+          <p><i>Automatising Proofs for Multiparty Session Types</i><br>
+
+          <p>The formalisation of multiparty session types includes the proofs of their standard properties such as subject reduction.
+            There is a huge number of different variants of multiparty session types but their subject reduction proofs are all very similar and follow the basic structure of preservation proofs of all type systems.
+            Accordingly, it should be possible or even easy to automatise this proof. The standard proof strategy requires some auxiliary results such as the inversion of typing rules and substitution lemmata.
+            Moreover, the proof requires to construct partial proof trees from the typing rules.
+            In the talk I would like to analyse the strategy of a typical subject reduction proof and break it into the parts that need to be automatised in order to derive an automatic proof strategy.
+        </td>
+      </tr>
+      <tr>
+        <td>14:00 &ndash; 14:30</td>
         <td>Jules Jacobs</td>
         <td>
           <p><i>TBD</i>
@@ -268,12 +279,8 @@
         </td>
       </tr>
       <tr>
-        <td>14:00 &ndash; 15:00</td>
-        <td colspan=2><i>Discussion</i></td>
-      </tr>
-      <tr>
-        <td>15:00 &ndash; 15:30</td>
-        <td colspan=2>Coffee and Conclusion</td>
+        <td>14:30 &ndash; 16:00</td>
+        <td colspan=2><i>Discussion (with Coffee) and Conclusion</i></td>
       </tr>
     </table>
 
