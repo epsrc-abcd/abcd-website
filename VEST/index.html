@@ -207,14 +207,20 @@
       </tr>
       <tr>
         <td>9:30 &ndash; 10:00</td>
-        <td>Uma Zalakain</td>
+        <td>Antonio Ravara</td>
         <td>
-          <p><i>pi with leftovers: a mechanisation in Agda</i><br>
+          <p><i>Pi without alpha</i><br>
 
-          <p>The pi-calculus is a computational model for communication and concurrency. The linear pi-calculus is a typed version of the pi-calculus where channels must be used exactly once. It is an underlying theoretical and practical framework on top of which more advanced types and theories can be built, including session types.
-          
-          <p>We present the first full mechanisation in Agda of a pi-calculus with linear, graded and shared types, all under the same unified framework. While linearity is key for type safety in communication- centric programming, graded and shared types are needed to model real-world software systems.
-          We present the syntax, semantics, type system and corresponding type safety properties. For the first time in the pi-calculus, we use leftover typing to encode our typing rules in a way that propagates linearity constraints into process continuations. We generalise the algebras on multiplicities, allowing the user to choose a mix of linear, graded and shared typing. We provide framing, weakening and strengthening theorems, which can now be stated for the linear pi-calculus and use them to prove subject congruence. We show that the type system is stable under substitution and prove subject reduction. Our formalisation is fully mechanised in Agda at https://github.com/umazalakain/typing-linear-pi.
+          <p>
+            In mobile calculi like the pi-calculus, scoped names are treated as bound and thus not externally referable. Static analyses to detect properties on them, such as those describing locks, are then not able of clearly identifying problematic channels via their names.
+
+          <p>
+            To overcome the situation, we developed a reformulation of the linear π-calculus that does not assume alpha-conversion but automatically book-keeps information regarding name scoping. The semantics is defined in terms of a labelled transition system that also tracks the evolution of linear permissions. Renaming of scoped names to avoid clashes is performed with a total function generating natural numbers not used elsewhere.
+            
+          <p>
+            Since our long term goal is the certification of the implementations of analyses algorithms to check properties on processes (i.e., to have mechanised proofs of soundness of the algorithms), we are guided by a main concern: not to introduce non-determinism unnecessarily. It usually appears in linear mobile calculi both in the semantics (mainly when structural congruence is used), and in the type systems in the type environment split relation. Our labelled transition system not only does not use alpha-conversion, but also avoids using a structural congruence relation. Keeping with existing typing tradition, the type system only uses type-splitting in the parallel composition rule, thus localising non-determinism, showed already in other work to be determinisable.
+          <p>  
+            We show that in our calculus subject reduction and type-safety (a form of race-freedom) hold. The subject reduction proof is mechanised; the type safety one is underway.
         </td>
       </tr>
       <tr>
@@ -249,15 +255,32 @@
       </tr>
       <tr>
         <td>13:00 &ndash; 13:30</td>
-        <td>Marco Carbone</td>
+        <td>Uma Zalakain</td>
         <td>
-          <p><i>Towards Binary Session Types in Isabelle</i>
-          <p>
-            One of the major difficulties in mechanically-checking the theory of session types is how to handle binders in the pi-calculus. In this talk, I will discuss our attempt to formalise session types in the Isabelle proof-assistant, through the use of nominal sets. This is a ongoing collaboration with Jesper Bengtson.
+          <p><i>pi with leftovers: a mechanisation in Agda</i><br>
+
+          <p>The pi-calculus is a computational model for communication and concurrency. The linear pi-calculus is a typed version of the pi-calculus where channels must be used exactly once. It is an underlying theoretical and practical framework on top of which more advanced types and theories can be built, including session types.
+          
+          <p>We present the first full mechanisation in Agda of a pi-calculus with linear, graded and shared types, all under the same unified framework. While linearity is key for type safety in communication- centric programming, graded and shared types are needed to model real-world software systems.
+          We present the syntax, semantics, type system and corresponding type safety properties. For the first time in the pi-calculus, we use leftover typing to encode our typing rules in a way that propagates linearity constraints into process continuations. We generalise the algebras on multiplicities, allowing the user to choose a mix of linear, graded and shared typing. We provide framing, weakening and strengthening theorems, which can now be stated for the linear pi-calculus and use them to prove subject congruence. We show that the type system is stable under substitution and prove subject reduction. Our formalisation is fully mechanised in Agda at https://github.com/umazalakain/typing-linear-pi.
         </td>
       </tr>
       <tr>
         <td>13:30 &ndash; 14:00</td>
+        <td>Jesper Bengtson</td>
+        <td>
+          <p><i>Psi-calculi in Isabelle</i>
+          <p>
+            Psi-calculi are extensions of the pi-calculus, accommodating arbitrary nominal datatypes to represent not only data but also communication channels, assertions and conditions, giving it an expressive power beyond the applied pi-calculus and the concurrent constraint pi-calculus.
+          <p>
+            We have formalised psi-calculi in the interactive theorem prover Isabelle using its nominal datatype package. One distinctive feature is that the framework needs to treat binding sequences, as opposed to single binders, in an efficient way. While different methods for formalising single binder calculi have been proposed over the last decades, representations for such binding sequences are not very well explored.
+
+          <p>
+            The main effort in the formalisation is to keep the machine checked proofs as close to their pen-and-paper counterparts as possible. We discuss two approaches to reasoning about binding sequences along with their strengths and weaknesses. We also cover custom induction rules to remove the bulk of manual alpha-conversions. This is joint work with Joachim Parrow.
+        </td>
+      </tr>
+      <tr>
+        <td>14:00 &ndash; 14:30</td>
         <td>Kirstin Peters</td>
         <td>
           <p><i>Automatising Proofs for Multiparty Session Types</i><br>
@@ -267,15 +290,6 @@
             Accordingly, it should be possible or even easy to automatise this proof. The standard proof strategy requires some auxiliary results such as the inversion of typing rules and substitution lemmata.
             Moreover, the proof requires to construct partial proof trees from the typing rules.
             In the talk I would like to analyse the strategy of a typical subject reduction proof and break it into the parts that need to be automatised in order to derive an automatic proof strategy.
-        </td>
-      </tr>
-      <tr>
-        <td>14:00 &ndash; 14:30</td>
-        <td>Jules Jacobs</td>
-        <td>
-          <p><i>TBD</i>
-          <p>
-            TBD
         </td>
       </tr>
       <tr>
