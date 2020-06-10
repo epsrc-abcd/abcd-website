@@ -116,7 +116,7 @@
         <td>9:00 &ndash; 9:30</td>
         <td>Peter Thiemann</td>
         <td>
-          <p><i>Mechanized Duality for Recursive Session Types</i>
+          <p><i><a href="slides/Thiemann.pdf">Mechanized Duality for Recursive Session Types</a></i>
 
           <p>We report on our work to mechanize proofs of equivalence for different definitions of duality proposed in the literature.
             This work is supporting and based on the paper "Duality of Session Types: The Final Cut" at PLACES 2020.
@@ -127,7 +127,7 @@
         <td>9:30 &ndash; 10:00</td>
         <td>Jonas Kastberg Hinrichsen</td>
         <td>
-          <p><i>Mechanised Semantic Session Types</i>
+          <p><i><a href="slides/Hinrichsen.pdf">Mechanised Semantic Session Types</a></i>
           <p>
             Session types are a family of type systems for message-passing concurrency, which has been subject to many extensions. Unfortunately, separate soundness proofs are developed for each extension, but these cannot be readily combined. Moreover, soundness proofs are generally not mechanized in a proof assistant, making their correctness less trustworthy. In this paper we overcome these shortcomings with a semantic approach to binary session types using a logical relations model in the Iris framework in Coq. We demonstrate the power of our approach by combining various forms of polymorphism and recursion, asynchronous subtyping, mutable and shared references, and mutexes, with little proof effort. As an additional benefit of the semantic approach we demonstrate how to integrate manual verification of racy but safe programs as part of well-typed programs.
         </td>
@@ -145,7 +145,7 @@
         <td>10:30 &ndash; 11:00</td>
         <td>Lorenzo Gheri</td>
         <td>
-          <p><i>Towards Formalising Trace Equivalence for Global and Local Types</i>
+          <p><i><a href="slides/Gheri.pdf">Towards Formalising Trace Equivalence for Global and Local Types</a></i>
           <p>
             A formal correspondence between session types and communicating finite state automata has been studied over the last decade, playing a fundamental role to build session-based systems for, e.g., runtime monitoring and API generation. A labelled transition system (LTS) is given both for global types and local types, thus capturing their semantics. The LTS traces (sequences of performed actions) represent the evolution of a communicating system and the soundness and completeness theorems for session types are proven to show: the traces of the execution of a global type are the same as the ones obtained by the execution of the collection of its local projections.
             This talk will report on our formalisation experience of such theory in the Coq Proof Assistant. Starting from a straightforward inductive encoding of the syntax of global and local types, we "unroll" each type to a coinductive representation, as a possibly infinite tree. This captures the possibly infinite nature of execution, taking a first step towards semantics. We then define LTSs for global and local types on coinductive trees. Each time we take one step further into semantics---from types to trees, from trees to LTS---projections need to be preserved along the way, thus ensuring that local computation stays faithful to the global discipline.
@@ -155,7 +155,7 @@
         <td>11:00 &ndash; 11:30</td>
         <td>Francisco Ferreira</td>
         <td>
-          <p><i>It Takes a Village: Reasoning About Concurrent Processes</i></p>
+          <p><i><a href="slides/Ferreira.pdf">It Takes a Village: Reasoning About Concurrent Processes</a></i></p>
           <p>
             Typing disciplines offer a way to tame programs so they become more approachable and easier to reason about, both formally and by the cognitive load they require from their users. Languages like Haskell and OCaml, proof assistants like Agda and Coq are built on these premises. Session types, and particularly Multiparty Session Types (MPST), offer a typing discipline that aims at showing the safe interaction of distributed processes. In this work we want to use MPST to guide and allow us to reason about processes. Of particular importance is to reason about the trace of actions performed by processes participating in a global choreography (represented by a global type). We propose a reasoning framework in the Coq proof assistant, that necessarily builds on top of a mechanisation of the meta-theory of session types. The mechanisation of a proof is the gold standard to establish its dependability, in this work we want to show, that a mechanisation is also the foundation to build certified tools that enable us to go further.
         </td>
@@ -172,7 +172,7 @@
         <td>13:00 &ndash; 13:30</td>
         <td>Robbert Krebbers</td>
         <td>
-          <p><i>Verifying functional correctness of message-passing programs in Coq</i>
+          <p><i><a href="slides/Krebbers.pdf">Verifying functional correctness of message-passing programs in Coq</a></i>
           <p>During this talk I will give a demo of the use of separation logic for proving
             functional correctness of message-passing programs in the Coq proof assistant.
             I will use the Actris framework (Hinrichsen et al., POPL'20), which is built on
@@ -214,7 +214,7 @@
         <td>9:00 &ndash; 9:30</td>
         <td>Cinzia di Giusto and Enrico Tassi</td>
         <td>
-          <p><i>A linear Pi calculus in Coq (wip)</i>
+          <p><i><a href="slides/Tassi.pdf">A linear Pi calculus in Coq (wip)</a></i>
           <p>
             Our long term objective is to develop techniques/tools and libraries to lower the cost of verifying with the Coq proof assistant results on process calculi and behavioral types.
             As a first step towards this objective, in collaboration with Giunti and Ravara in Lisbon and Peters in Darmstdt, we choose to mechanize proofs for a simple typed version of the pi-calculus where we want to guarantee linear usage of the communication channels. We decide to focus on the representation of binders, a well-know difficulty in mechanizing paper proofs.
@@ -254,7 +254,7 @@
         <td>10:30 &ndash; 11:00</td>
         <td>Luca Ciccone</td>
         <td>
-          <p><i>Hosting a Dependently Typed Linear Pi Calculus in Agda</i>
+          <p><i><a href="slides/Ciccone.pdf">Hosting a Dependently Typed Linear Pi Calculus in Agda</a></i>
           <p>
             In this talk we report on our experience in formalizing a variant of the linear pi calculus in Agda. 
             We represent pi calculus processes as a DSL that can access all the features of the underlying Agda layer, particularly dependent pairs and dependent pattern matching.
@@ -265,7 +265,7 @@
         <td>11:00 &ndash; 11:30</td>
         <td>James Wood</td>
         <td>
-          <p><i>Towards a Universe of Linear Syntaxes with Binding</i>
+          <p><i><a href="slides/Wood.pdf">Towards a Universe of Linear Syntaxes with Binding</a></i>
           <p>
             Recent work by Allais et al has produced a general framework for specifying simply typed programming languages and proving metatheoretic properties about them in Agda. In particular, this framework eliminates the need to do induction over syntax in many cases, which is a big win for languages with many syntactic constructs. All of the syntaxes describable in the framework support renaming and substitution, so these lemmas need not be proven by the user.
             
@@ -284,7 +284,7 @@
         <td>13:00 &ndash; 13:30</td>
         <td>Uma Zalakain</td>
         <td>
-          <p><i>pi with leftovers: a mechanisation in Agda</i><br>
+          <p><i><a href="slides/Zalakain.pdf">pi with leftovers: a mechanisation in Agda</a></i><br>
 
           <p>The pi-calculus is a computational model for communication and concurrency. The linear pi-calculus is a typed version of the pi-calculus where channels must be used exactly once. It is an underlying theoretical and practical framework on top of which more advanced types and theories can be built, including session types.
           
@@ -310,7 +310,7 @@
         <td>14:00 &ndash; 14:30</td>
         <td>Kirstin Peters</td>
         <td>
-          <p><i>Automatising Proofs for Multiparty Session Types</i><br>
+          <p><i><a href="slides/Peters.pdf">Automatising Proofs for Multiparty Session Types</a></i><br>
 
           <p>The formalisation of multiparty session types includes the proofs of their standard properties such as subject reduction.
             There is a huge number of different variants of multiparty session types but their subject reduction proofs are all very similar and follow the basic structure of preservation proofs of all type systems.
