@@ -130,6 +130,8 @@
           <p><i><a href="slides/Hinrichsen.pdf">Mechanised Semantic Session Types</a></i>
           <p>
             Session types are a family of type systems for message-passing concurrency, which has been subject to many extensions. Unfortunately, separate soundness proofs are developed for each extension, but these cannot be readily combined. Moreover, soundness proofs are generally not mechanized in a proof assistant, making their correctness less trustworthy. In this paper we overcome these shortcomings with a semantic approach to binary session types using a logical relations model in the Iris framework in Coq. We demonstrate the power of our approach by combining various forms of polymorphism and recursion, asynchronous subtyping, mutable and shared references, and mutexes, with little proof effort. As an additional benefit of the semantic approach we demonstrate how to integrate manual verification of racy but safe programs as part of well-typed programs.
+          <p><a href="https://iris-project.org/pdfs/2020-actris2-submission.pdf">Paper: Machine-Checked Semantic Session Typing</a></p>
+          <p><a href="https://gitlab.mpi-sws.org/iris/actris">Gitlab Source: Actris</a></p>
         </td>
         </td>
       </tr>
@@ -259,6 +261,7 @@
             In this talk we report on our experience in formalizing a variant of the linear pi calculus in Agda. 
             We represent pi calculus processes as a DSL that can access all the features of the underlying Agda layer, particularly dependent pairs and dependent pattern matching.
             This way, we obtain a minimal, unifying process model capable of encoding a broad family of complex session type theories, including dependent and refinement session types.
+            <p><a href="https://gitlab.di.unito.it/luca.padovani/DependentLinearPi">Gitlab Source: DependentLinearPi</a></p>
         </td>
       </tr>
       <tr>
@@ -270,6 +273,8 @@
             Recent work by Allais et al has produced a general framework for specifying simply typed programming languages and proving metatheoretic properties about them in Agda. In particular, this framework eliminates the need to do induction over syntax in many cases, which is a big win for languages with many syntactic constructs. All of the syntaxes describable in the framework support renaming and substitution, so these lemmas need not be proven by the user.
             
             <p>However, the framework makes two assumptions that are apparently broken by linear type systems, as used in languages for session types. One is that contexts only grow in a typing derivation, and the other is that typing is preserved under such context growths (i.e, weakening is admissible). In this talk, I will discuss how we are refining these assumptions so as to allow for a general form of usage tracking which subsumes intuitionistic linear typing (including !). We hope that the resulting framework will be useful for prototyping session type systems, allowing such systems to be changed quickly without the need to redo boring syntactic proofs.
+            <p><a href="https://arxiv.org/abs/2005.02247">Paper: A Linear Algebra Approach to Linear Metatheory</a></p>
+            <p><a href="https://github.com/laMudri/generic-lr">GitHub Source: generic-lr</a></p>
         </td>
       </tr>
       <tr>
@@ -289,7 +294,9 @@
           <p>The pi-calculus is a computational model for communication and concurrency. The linear pi-calculus is a typed version of the pi-calculus where channels must be used exactly once. It is an underlying theoretical and practical framework on top of which more advanced types and theories can be built, including session types.
           
           <p>We present the first full mechanisation in Agda of a pi-calculus with linear, graded and shared types, all under the same unified framework. While linearity is key for type safety in communication- centric programming, graded and shared types are needed to model real-world software systems.
-          We present the syntax, semantics, type system and corresponding type safety properties. For the first time in the pi-calculus, we use leftover typing to encode our typing rules in a way that propagates linearity constraints into process continuations. We generalise the algebras on multiplicities, allowing the user to choose a mix of linear, graded and shared typing. We provide framing, weakening and strengthening theorems, which can now be stated for the linear pi-calculus and use them to prove subject congruence. We show that the type system is stable under substitution and prove subject reduction. Our formalisation is fully mechanised in Agda at https://github.com/umazalakain/typing-linear-pi.
+          We present the syntax, semantics, type system and corresponding type safety properties. For the first time in the pi-calculus, we use leftover typing to encode our typing rules in a way that propagates linearity constraints into process continuations. We generalise the algebras on multiplicities, allowing the user to choose a mix of linear, graded and shared typing. We provide framing, weakening and strengthening theorems, which can now be stated for the linear pi-calculus and use them to prove subject congruence. We show that the type system is stable under substitution and prove subject reduction. Our formalisation is fully mechanised in Agda.
+          <p><a href="https://arxiv.org/abs/2005.05902">Paper: pi with leftovers: a mechanisation in Agda</a></p>
+          <p><a href="https://github.com/umazalakain/typing-linear-pi">GitHub Source: typing-linear-pi</a></p>
         </td>
       </tr>
       <tr>
@@ -328,7 +335,11 @@
 
     <h2>Further info</h2>
 
-   <p> We are using the following two links to collect the efforts of our community in verification of session types.
+   <p> We are using the following two Google spreadsheet to collect work and efforts within our community on verification of session types. Please, contribute.
+
+  <p><a href="https://docs.google.com/spreadsheets/d/1YJd9_Y161_tbXgclv8rfBseITQciC8v7Gg5lpMtawe8/edit#gid=0">Mechanising Behavioural Types</a></p>
+
+  <p><a href="https://docs.google.com/spreadsheets/d/1iQnVx_rvthyeFuSI0CifCMoC7fXFwqAqNztrvnB3ZZI/edit#gid=0">On binders and linearity</a></p>
 
   </div>
   <!-- /END THE FEATURETTES -->
